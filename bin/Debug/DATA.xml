@@ -1,0 +1,4546 @@
+<?xml version="1.0"?>
+<ArrayOfARKCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ARKCommand>
+    <Name>无敌</Name>
+    <Command>admincheat god</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>飞行模式</Name>
+    <Command>admincheat fly</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>关闭飞行模式</Name>
+    <Command>admincheat walk</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>传送至你当前面对地点</Name>
+    <Command> admincheat teleport</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>穿墙模式</Name>
+    <Command>admincheat ghost</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>强制驯化目标恐龙</Name>
+    <Command>admincheat forcetame</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>玩家获得1000经验值</Name>
+    <Command>admincheat addexperience 1000 0 1</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>状态/弹药不减</Name>
+    <Command>admincheat infinitestats</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>开/关 显示武器、工具、手</Name>
+    <Command>ToggleGun</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>开/关 无限弹药</Name>
+    <Command>admincheat ToggleInfiniteAmmo</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>杀死所有飞人类生物（包括被驯服的动物）</Name>
+    <Command>admincheat destroyallenemies</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>杀死所有野生动物</Name>
+    <Command>admincheat DestroyWildDinos</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>开启所有配方</Name>
+    <Command>admincheat giveengrams</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>手动存档</Name>
+    <Command>admincheat saveworld</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>睡眠</Name>
+    <Command>admincheat ExecSetSleeping true</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>醒来</Name>
+    <Command>admincheat ExecSetSleeping false</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>开启完全隐身（被所有生物忽略）</Name>
+    <Command>admincheat EnemyInvisible true</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>关闭完全隐身（被所有生物忽略）</Name>
+    <Command>admincheat EnemyInvisible false</Command>
+    <Type />
+    <Map>1</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>ACWR</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/ACWR/PrimalItem_WeaponRifle_RWW_ACWR.PrimalItem_WeaponRifle_RWW_ACWR'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>AEK12</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/AEK12/PrimalItem_WeaponRifle_RWW_AEK12.PrimalItem_WeaponRifle_RWW_AEK12'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>AK5C</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/AK5C/PrimalItem_WeaponRifle_RWW_AK5C.PrimalItem_WeaponRifle_RWW_AK5C'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>AK74N</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/AK74/PrimalItem_WeaponRifle_RWW_AK74N.PrimalItem_WeaponRifle_RWW_AK74N'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>AKM</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/AKM/PrimalItem_WeaponRifle_RWW_AKM.PrimalItem_WeaponRifle_RWW_AKM'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>AUG</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/AUG/PrimalItem_WeaponRifle_RWW_AUG.PrimalItem_WeaponRifle_RWW_AUG'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>G36</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/G36/PrimalItem_WeaponRifle_RWW_G36.PrimalItem_WeaponRifle_RWW_G36'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>M16A4</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/M16A4/PrimalItem_WeaponRifle_RWW_M16A4.PrimalItem_WeaponRifle_RWW_M16A4'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>M4A1</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/M4A1/PrimalItem_WeaponRifle_RWW_M4A1.PrimalItem_WeaponRifle_RWW_M4A1'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>SKS</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Snipers/SKS/PrimalItem_WeaponRifle_RWW_SKS.PrimalItem_WeaponRifle_RWW_SKS'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>SCAR-L</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/SCAR/PrimalItem_WeaponRifle_RWW_SCAR-L.PrimalItem_WeaponRifle_RWW_SCAR-L'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>AS-VAL</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Snipers/ASVAL/PrimalItem_WeaponRifle_RWW_ASVAL.PrimalItem_WeaponRifle_RWW_ASVAL'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>MK14-EBR</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Snipers/MK14EBR/PrimalItem_WeaponRifle_RWW_EBR.PrimalItem_WeaponRifle_RWW_EBR'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>44 Magnum</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/Revolver/PrimalItem_WeaponRevolver_RWW.PrimalItem_WeaponRevolver_RWW'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>USP45</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/USP/PrimalItem_WeaponHKUSP_RWW.PrimalItem_WeaponHKUSP_RWW'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>M1911</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/1911/PrimalItem_Weapon1911_RWW.PrimalItem_Weapon1911_RWW'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK制造器</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekReplicator.PrimalItemStructure_TekReplicator'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK数据传送器</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK元素</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK霸王龙鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RexSaddle_Tek.PrimalItemArmor_RexSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK巨齿鲨鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK古神翼龙鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK岩龙鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Dinos/RockDrake/PrimalItemArmor_RockDrakeSaddle_Tek.PrimalItemArmor_RockDrakeSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK沧龙鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Tek.PrimalItemArmor_MosaSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK步枪</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekRifle.PrimalItem_TekRifle" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK炮塔</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretTek.PrimalItemStructure_TurretTek" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK剑</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTekSword.PrimalItem_WeaponTekSword'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK盾</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_ShieldTek.PrimalItemArmor_ShieldTek'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK狙击枪</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/WeaponTekSniper/PrimalItem_TekSniper.PrimalItem_TekSniper'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK手榴弹</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekGrenade.PrimalItem_TekGrenade'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK头盔</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekHelmet.PrimalItemArmor_TekHelmet" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK铠甲</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekShirt.PrimalItemArmor_TekShirt" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK手套</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekGloves.PrimalItemArmor_TekGloves" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK裤子</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekPants.PrimalItemArmor_TekPants" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK鞋</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekBoots.PrimalItemArmor_TekBoots" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK套索</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponLasso.PrimalItem_WeaponLasso'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK汽车</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/Vehicles/VH_Buggy/Blueprint/PrimalItemVHBuggy.PrimalItemVHBuggy'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK饲料槽</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTrough.PrimalItemStructure_TekTrough'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK发电机</Name>
+    <Command>Giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekGenerator.PrimalItemStructure_TekGenerator'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK发电机油</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ElementShard.PrimalItemResource_ElementShard'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK灯</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekLight.PrimalItemStructure_TekLight'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK睡眠舱</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Tek.PrimalItemStructure_Bed_Tek'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK携带版方舟</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK传送器</Name>
+    <Command>Giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTeleporter.PrimalItemStructure_TekTeleporter'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK护盾</Name>
+    <Command>Giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekShield.PrimalItemStructure_TekShield'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK克隆室</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_TekCloningChamber.PrimalItemStructure_TekCloningChamber" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK栈桥</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCatwalk.PrimalItemStructure_TekCatwalk" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK天花板</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeiling.PrimalItemStructure_TekCeiling" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK天窗</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeilingWithTrapdoor.PrimalItemStructure_TekCeilingWithTrapdoor" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK门</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekDoor.PrimalItemStructure_TekDoor" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK栏杆地基</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekFenceFoundation.PrimalItemStructure_TekFenceFoundation" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK地基</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekFloor.PrimalItemStructure_TekFloor" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK恐龙门</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate.PrimalItemStructure_TekGate" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK恐龙门框</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe.PrimalItemStructure_TekGateframe" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK巨兽门框</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe_Large.PrimalItemStructure_TekGateframe_Large" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK巨兽门</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGate_Large.PrimalItemStructure_TekGate_Large" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK梯子</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekLadder.PrimalItemStructure_TekLadder" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK柱子</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekPillar.PrimalItemStructure_TekPillar" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK栏杆</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekRailing.PrimalItemStructure_TekRailing" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK斜坡</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekRamp.PrimalItemStructure_TekRamp" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK斜屋顶</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekRoof.PrimalItemStructure_TekRoof" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK旋转楼梯</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekStairs.PrimalItemStructure_TekStairs" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK天窗门</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekTrapdoor.PrimalItemStructure_TekTrapdoor" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK墙</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWall.PrimalItemStructure_TekWall" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK门框</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallWithDoor.PrimalItemStructure_TekWallWithDoor" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK窗框</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallWithWindow.PrimalItemStructure_TekWallWithWindow" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK左斜墙</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWall_Sloped_Left.PrimalItemStructure_TekWall_Sloped_Left" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK右斜墙</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWall_Sloped_Right.PrimalItemStructure_TekWall_Sloped_Right" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK窗</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWindow.PrimalItemStructure_TekWindow" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK水下建筑带门</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_UnderwaterBase_Moonpool.PrimalItemStructure_UnderwaterBase_Moonpool'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK水下建筑不带门</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_UnderwaterBase.PrimalItemStructure_UnderwaterBase'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK方舟</Name>
+    <Command>AdminCheat GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TekTransmitter.PrimalItemStructure_TekTransmitter'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK电路板</Name>
+    <Command>AdminCheat GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>giveitemnum</Name>
+    <Command>giveitemnum 1 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>giveitemnum</Name>
+    <Command>giveitemnum 2 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>giveitemnum</Name>
+    <Command>giveitemnum 3 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>简单子弹</Name>
+    <Command>giveitemnum 4 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>弓</Name>
+    <Command>giveitemnum 5 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>手榴弹</Name>
+    <Command>giveitemnum 6 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木材</Name>
+    <Command>giveitemnum 7 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石头</Name>
+    <Command>giveitemnum 8 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属</Name>
+    <Command>giveitemnum 9 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>兽皮</Name>
+    <Command>giveitemnum 10 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲壳</Name>
+    <Command>giveitemnum 11 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>生肉</Name>
+    <Command>giveitemnum 12 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>腐肉</Name>
+    <Command>giveitemnum 13 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>熟肉</Name>
+    <Command>giveitemnum 14 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水瓶</Name>
+    <Command>giveitemnum 15 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水瓶（满）</Name>
+    <Command>giveitemnum 16 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>布裤</Name>
+    <Command>giveitemnum 17 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>布衬衫</Name>
+    <Command>giveitemnum 18 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>布帽</Name>
+    <Command>giveitemnum 19 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>布鞋</Name>
+    <Command>giveitemnum 20 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>布手套</Name>
+    <Command>giveitemnum 21 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>皮裤</Name>
+    <Command>giveitemnum 22 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>皮衬衫</Name>
+    <Command>giveitemnum 23 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>皮帽</Name>
+    <Command>giveitemnum 24 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>皮靴</Name>
+    <Command>giveitemnum 25 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>皮手套</Name>
+    <Command>giveitemnum 26 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲壳护腿</Name>
+    <Command>giveitemnum 27 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲壳胸甲</Name>
+    <Command>giveitemnum 28 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲壳头盔</Name>
+    <Command>giveitemnum 29 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲壳靴</Name>
+    <Command>giveitemnum 30 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲壳护手</Name>
+    <Command>giveitemnum 31 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石箭</Name>
+    <Command>giveitemnum 32 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石镐</Name>
+    <Command>giveitemnum 33 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石斧</Name>
+    <Command>giveitemnum 34 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>铁镐</Name>
+    <Command>giveitemnum 35 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>铁斧</Name>
+    <Command>giveitemnum 36 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火把</Name>
+    <Command>giveitemnum 37 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>漆刷</Name>
+    <Command>giveitemnum 38 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>篝火</Name>
+    <Command>giveitemnum 39 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>立式火把</Name>
+    <Command>giveitemnum 40 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>睡袋</Name>
+    <Command>giveitemnum 41 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>遥控雷管</Name>
+    <Command>giveitemnum 42 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>C4控制器</Name>
+    <Command>giveitemnum 43 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>采血器</Name>
+    <Command>giveitemnum 44 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>血包</Name>
+    <Command>giveitemnum 45 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>简易爆炸装置</Name>
+    <Command>giveitemnum 46 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水袋</Name>
+    <Command>giveitemnum 47 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水袋（满）</Name>
+    <Command>giveitemnum 48 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>浆果种子</Name>
+    <Command>giveitemnum 49 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>肥料</Name>
+    <Command>giveitemnum 50 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>医疗药水</Name>
+    <Command>giveitemnum 52 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>能量药水</Name>
+    <Command>giveitemnum 53 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恐龙粪便</Name>
+    <Command>giveitemnum 54 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>人类粪便</Name>
+    <Command>giveitemnum 55 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>剑龙蛋</Name>
+    <Command>giveitemnum 56 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>长矛</Name>
+    <Command>giveitemnum 57 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>红色染料</Name>
+    <Command>giveitemnum 58 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>绿色染料</Name>
+    <Command>giveitemnum 59 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蓝色染料</Name>
+    <Command>giveitemnum 60 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黄色染料</Name>
+    <Command>giveitemnum 61 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>紫色染料</Name>
+    <Command>giveitemnum 62 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>橙色染料</Name>
+    <Command>giveitemnum 63 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑色染料</Name>
+    <Command>giveitemnum 64 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白色染料</Name>
+    <Command>giveitemnum 65 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>褐色染料</Name>
+    <Command>giveitemnum 66 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>青色染料</Name>
+    <Command>giveitemnum 67 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>紫色染料</Name>
+    <Command>giveitemnum 68 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>暴龙鞍</Name>
+    <Command>giveitemnum 69 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>麻醉箭</Name>
+    <Command>giveitemnum 70 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>GPS全球定位系统</Name>
+    <Command>giveitemnum 72 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>燧石</Name>
+    <Command>giveitemnum 73 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属锭</Name>
+    <Command>giveitemnum 74 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>茅草</Name>
+    <Command>giveitemnum 75 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>纤维</Name>
+    <Command>giveitemnum 76 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木炭</Name>
+    <Command>giveitemnum 77 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水晶</Name>
+    <Command>giveitemnum 78 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>茅草屋顶</Name>
+    <Command>giveitemnum 79 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>茅草门</Name>
+    <Command>giveitemnum 80 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>茅草地基</Name>
+    <Command>giveitemnum 81 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>茅草墙</Name>
+    <Command>giveitemnum 82 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>茅草门框</Name>
+    <Command>giveitemnum 83 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制小道</Name>
+    <Command>giveitemnum 84 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制天花板</Name>
+    <Command>giveitemnum 85 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制天窗门框</Name>
+    <Command>giveitemnum 86 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木门</Name>
+    <Command>giveitemnum 87 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木地基</Name>
+    <Command>giveitemnum 88 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木梯</Name>
+    <Command>giveitemnum 89 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木支柱</Name>
+    <Command>giveitemnum 90 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木坡道</Name>
+    <Command>giveitemnum 91 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制天窗活动门</Name>
+    <Command>giveitemnum 92 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木墙</Name>
+    <Command>giveitemnum 93 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制门框</Name>
+    <Command>giveitemnum 94 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制窗框</Name>
+    <Command>giveitemnum 95 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木窗</Name>
+    <Command>giveitemnum 96 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制指示牌</Name>
+    <Command>giveitemnum 97 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>柠檬</Name>
+    <Command>giveitemnum 99 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>副栉龙鞍</Name>
+    <Command>giveitemnum 100 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>迅猛龙鞍</Name>
+    <Command>giveitemnum 101 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>剑龙鞍</Name>
+    <Command>giveitemnum 102 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>三角龙鞍</Name>
+    <Command>giveitemnum 103 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>帝王蝎鞍</Name>
+    <Command>giveitemnum 104 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>小存储箱</Name>
+    <Command>giveitemnum 105 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大储物箱</Name>
+    <Command>giveitemnum 106 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>研磨器皿</Name>
+    <Command>giveitemnum 107 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火花粉</Name>
+    <Command>giveitemnum 108 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火药</Name>
+    <Command>giveitemnum 109 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石灌溉管道入水管</Name>
+    <Command>giveitemnum 110 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石灌溉管道直管</Name>
+    <Command>giveitemnum 111 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石灌溉管道斜切面管</Name>
+    <Command>giveitemnum 112 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石灌溉管道十字管</Name>
+    <Command>giveitemnum 113 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石灌溉管道垂直管</Name>
+    <Command>giveitemnum 114 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石灌溉管道出水龙头</Name>
+    <Command>giveitemnum 115 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黄色浆果种子</Name>
+    <Command>giveitemnum 116 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黄色浆果</Name>
+    <Command>giveitemnum 117 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蓝色浆果</Name>
+    <Command>giveitemnum 118 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>红色浆果</Name>
+    <Command>giveitemnum 119 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>紫色浆果</Name>
+    <Command>giveitemnum 120 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑色浆果</Name>
+    <Command>giveitemnum 121 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白色浆果</Name>
+    <Command>giveitemnum 122 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>麻醉剂</Name>
+    <Command>giveitemnum 123 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>兴奋剂</Name>
+    <Command>giveitemnum 124 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精炼炉</Name>
+    <Command>giveitemnum 125 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>工作台</Name>
+    <Command>giveitemnum 126 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>堆肥箱</Name>
+    <Command>giveitemnum 127 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>烹调锅</Name>
+    <Command>giveitemnum 128 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>简易床</Name>
+    <Command>giveitemnum 129 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>小型种植地</Name>
+    <Command>giveitemnum 130 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>无齿翼龙鞍</Name>
+    <Command>giveitemnum 131 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>长管步枪</Name>
+    <Command>giveitemnum 132 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>柠檬种子</Name>
+    <Command>giveitemnum 133 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雷龙鞍</Name>
+    <Command>giveitemnum 135 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木篱笆</Name>
+    <Command>giveitemnum 136 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>指南针</Name>
+    <Command>giveitemnum 137 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>瞄准镜</Name>
+    <Command>giveitemnum 138 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>弹弓</Name>
+    <Command>giveitemnum 139 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>铁矛</Name>
+    <Command>giveitemnum 140 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>无线电</Name>
+    <Command>giveitemnum 141 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑曜石</Name>
+    <Command>giveitemnum 142 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制中型恐龙门框</Name>
+    <Command>giveitemnum 143 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>简易步枪子弹</Name>
+    <Command>giveitemnum 144 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水泥</Name>
+    <Command>giveitemnum 146 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制中型恐龙大门</Name>
+    <Command>giveitemnum 147 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>猎手</Name>
+    <Command>giveitemnum 148 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>团结</Name>
+    <Command>giveitemnum 149 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>稳重</Name>
+    <Command>giveitemnum 150 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>狡诈</Name>
+    <Command>giveitemnum 151 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>智慧</Name>
+    <Command>giveitemnum 152 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>天主</Name>
+    <Command>giveitemnum 153 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>吞噬</Name>
+    <Command>giveitemnum 154 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>免疫</Name>
+    <Command>giveitemnum 155 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>强壮</Name>
+    <Command>giveitemnum 156 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Flamekeeper</Name>
+    <Command>giveitemnum 157 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>阿根廷巨鹰的爪</Name>
+    <Command>giveitemnum 158 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨齿鲨的牙齿</Name>
+    <Command>giveitemnum 159 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>暴龙的爪</Name>
+    <Command>giveitemnum 160 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雷龙的脊椎</Name>
+    <Command>giveitemnum 161 {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石油</Name>
+    <Command>giveitemnum 162 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>珍珠</Name>
+    <Command>giveitemnum 163 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>汽油</Name>
+    <Command>giveitemnum 164 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>电路板</Name>
+    <Command>giveitemnum 165 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>聚合物</Name>
+    <Command>giveitemnum 166 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属小道</Name>
+    <Command>giveitemnum 167 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属天花板</Name>
+    <Command>giveitemnum 168 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属天窗框</Name>
+    <Command>giveitemnum 169 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属门</Name>
+    <Command>giveitemnum 170 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属围栏</Name>
+    <Command>giveitemnum 171 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属地基</Name>
+    <Command>giveitemnum 172 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属巨型恐龙大门</Name>
+    <Command>giveitemnum 173 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属巨型恐龙大门门框</Name>
+    <Command>giveitemnum 174 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属梯子</Name>
+    <Command>giveitemnum 175 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属柱子</Name>
+    <Command>giveitemnum 176 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属斜坡</Name>
+    <Command>giveitemnum 177 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属天窗活动门</Name>
+    <Command>giveitemnum 178 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属墙</Name>
+    <Command>giveitemnum 179 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属门框</Name>
+    <Command>giveitemnum 180 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属窗框</Name>
+    <Command>giveitemnum 181 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属窗</Name>
+    <Command>giveitemnum 182 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>超级实验肉（一个立即驯服）</Name>
+    <Command>giveitemnum 183 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>信号枪</Name>
+    <Command>giveitemnum 184 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>制作间</Name>
+    <Command>giveitemnum 185 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>储水池</Name>
+    <Command>giveitemnum 186 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>降落伞</Name>
+    <Command>giveitemnum 187 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>空调</Name>
+    <Command>giveitemnum 188 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>发电机</Name>
+    <Command>giveitemnum 189 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>电源插座</Name>
+    <Command>giveitemnum 190 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>斜电缆</Name>
+    <Command>giveitemnum 191 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>十字电缆</Name>
+    <Command>giveitemnum 192 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>电缆</Name>
+    <Command>giveitemnum 193 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>垂直电缆</Name>
+    <Command>giveitemnum 194 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>灯柱</Name>
+    <Command>giveitemnum 195 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>冰箱</Name>
+    <Command>giveitemnum 196 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>自动炮塔</Name>
+    <Command>giveitemnum 197 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>远程遥控面板</Name>
+    <Command>giveitemnum 198 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>斜切面金属管道</Name>
+    <Command>giveitemnum 199 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属水龙头</Name>
+    <Command>giveitemnum 200 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>十字金属管道</Name>
+    <Command>giveitemnum 201 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属直管</Name>
+    <Command>giveitemnum 202 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属水龙头</Name>
+    <Command>giveitemnum 203 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>垂直金属管道</Name>
+    <Command>giveitemnum 204 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>手电筒挂件</Name>
+    <Command>giveitemnum 205 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>消音器</Name>
+    <Command>giveitemnum 206 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>淡水碳龟鞍</Name>
+    <Command>giveitemnum 207 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>帝鳄鞍</Name>
+    <Command>giveitemnum 208 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲龙鞍</Name>
+    <Command>giveitemnum 209 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>猛犸象鞍</Name>
+    <Command>giveitemnum 210 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨齿鲨鞍</Name>
+    <Command>giveitemnum 211 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>剑齿虎鞍</Name>
+    <Command>giveitemnum 212 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>牛龙鞍</Name>
+    <Command>giveitemnum 213 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>阿根廷巨鹰鞍</Name>
+    <Command>giveitemnum 214 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蛇颈龙鞍</Name>
+    <Command>giveitemnum 215 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>角质素</Name>
+    <Command>giveitemnum 216 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>角蛋白</Name>
+    <Command>giveitemnum 217 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属指示牌</Name>
+    <Command>giveitemnum 218 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>全息瞄准镜</Name>
+    <Command>giveitemnum 219 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>激光瞄准镜</Name>
+    <Command>giveitemnum 220 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制告示牌</Name>
+    <Command>giveitemnum 221 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防弹护腿</Name>
+    <Command>giveitemnum 222 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防弹衣</Name>
+    <Command>giveitemnum 223 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防弹头盔</Name>
+    <Command>giveitemnum 224 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防弹靴</Name>
+    <Command>giveitemnum 225 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防弹护手</Name>
+    <Command>giveitemnum 226 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>耐力炖汤</Name>
+    <Command>giveitemnum 227 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>拉撒路杂烩</Name>
+    <Command>giveitemnum 228 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>卡里安清心汤</Name>
+    <Command>giveitemnum 229 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>弗里亚咖喱</Name>
+    <Command>giveitemnum 230 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>聚神辣椒</Name>
+    <Command>giveitemnum 231 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>土豆</Name>
+    <Command>giveitemnum 232 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>玉米</Name>
+    <Command>giveitemnum 233 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>胡萝卜</Name>
+    <Command>giveitemnum 234 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蓝色浆果种子</Name>
+    <Command>giveitemnum 235 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>红色浆果种子</Name>
+    <Command>giveitemnum 236 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>紫色浆果种子</Name>
+    <Command>giveitemnum 237 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑色浆果种子</Name>
+    <Command>giveitemnum 238 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白色浆果种子</Name>
+    <Command>giveitemnum 239 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>土豆种子</Name>
+    <Command>giveitemnum 240 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>玉米种子</Name>
+    <Command>giveitemnum 241 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>胡萝卜种子</Name>
+    <Command>giveitemnum 242 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属告示牌</Name>
+    <Command>giveitemnum 243 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>制式手枪</Name>
+    <Command>giveitemnum 244 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>高级子弹</Name>
+    <Command>giveitemnum 245 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>高级步枪子弹</Name>
+    <Command>giveitemnum 246 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火箭弹</Name>
+    <Command>giveitemnum 247 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>中型种植田</Name>
+    <Command>giveitemnum 248 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大型种植田</Name>
+    <Command>giveitemnum 249 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>稀有花朵</Name>
+    <Command>giveitemnum 250 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>稀有蘑菇</Name>
+    <Command>giveitemnum 251 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>生大腿肉</Name>
+    <Command>giveitemnum 252 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>熟大腿肉</Name>
+    <Command>giveitemnum 253 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>战斗神丸</Name>
+    <Command>giveitemnum 254 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>暗影煎牛排</Name>
+    <Command>giveitemnum 255 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>罗克韦尔食谱：耐力炖汤</Name>
+    <Command>giveitemnum 256 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>罗克韦尔食谱：拉撒路杂烩</Name>
+    <Command>giveitemnum 257 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>罗克韦尔食谱：卡里安清新汤</Name>
+    <Command>giveitemnum 258 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>罗克韦尔食谱：弗里亚咖喱</Name>
+    <Command>giveitemnum 259 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>罗克韦尔食谱：聚神辣椒</Name>
+    <Command>giveitemnum 260 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>罗克韦尔食谱：战斗神丸</Name>
+    <Command>giveitemnum 261 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>罗克韦尔食谱：暗影煎牛排</Name>
+    <Command>giveitemnum 262 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>罗克韦尔食谱说明书</Name>
+    <Command>giveitemnum 263 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制墙标</Name>
+    <Command>giveitemnum 264 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属恐龙大门门框</Name>
+    <Command>giveitemnum 265 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属恐龙大门</Name>
+    <Command>giveitemnum 266 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>霰弹枪</Name>
+    <Command>giveitemnum 267 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>简易霰弹</Name>
+    <Command>giveitemnum 268 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属墙标</Name>
+    <Command>giveitemnum 269 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黄色浆果种子</Name>
+    <Command>giveitemnum 270 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蓝色浆果种子</Name>
+    <Command>giveitemnum 271 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>红色浆果种子</Name>
+    <Command>giveitemnum 272 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑色浆果种子</Name>
+    <Command>giveitemnum 273 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白色浆果种子</Name>
+    <Command>giveitemnum 274 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>紫色浆果种子</Name>
+    <Command>giveitemnum 275 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>柠檬种子</Name>
+    <Command>giveitemnum 276 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>土豆种子</Name>
+    <Command>giveitemnum 277 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>玉米种子</Name>
+    <Command>giveitemnum 278 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>胡萝卜种子</Name>
+    <Command>giveitemnum 279 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>旗帜</Name>
+    <Command>giveitemnum 280 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>猎人皮帽子</Name>
+    <Command>giveitemnum 281 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>暴龙眼镜鞍</Name>
+    <Command>giveitemnum 282 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>望远镜</Name>
+    <Command>giveitemnum 283 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蜘蛛旗帜</Name>
+    <Command>giveitemnum 284 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渐新象鞍</Name>
+    <Command>giveitemnum 285 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>中型恐龙粪便</Name>
+    <Command>giveitemnum 286 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型恐龙粪便</Name>
+    <Command>giveitemnum 287 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雷龙蛋</Name>
+    <Command>giveitemnum 288 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>副栉龙蛋</Name>
+    <Command>giveitemnum 289 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>迅猛龙蛋</Name>
+    <Command>giveitemnum 290 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>暴龙蛋</Name>
+    <Command>giveitemnum 291 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>三角龙蛋</Name>
+    <Command>giveitemnum 292 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渡渡鸟蛋</Name>
+    <Command>giveitemnum 294 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>烘干箱</Name>
+    <Command>giveitemnum 295 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>铁刺</Name>
+    <Command>giveitemnum 296 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>肉干</Name>
+    <Command>giveitemnum 297 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>腿肉干</Name>
+    <Command>giveitemnum 298 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>霸王龙头盔</Name>
+    <Command>giveitemnum 299 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>菜谱medicalbrew</Name>
+    <Command>giveitemnum 301 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>菜谱medicalbrew</Name>
+    <Command>giveitemnum 302 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>菜谱medicalbrew</Name>
+    <Command>giveitemnum 304 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>菜谱medicalbrew</Name>
+    <Command>giveitemnum 305 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>保险柜</Name>
+    <Command>giveitemnum 306 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木刺</Name>
+    <Command>giveitemnum 307 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恐龙老花镜</Name>
+    <Command>giveitemnum 308 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蓝图柜</Name>
+    <Command>giveitemnum 309 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石围墙地基</Name>
+    <Command>giveitemnum 310 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石墙</Name>
+    <Command>giveitemnum 311 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>铁水箱</Name>
+    <Command>giveitemnum 312 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蛇颈龙鞍</Name>
+    <Command>giveitemnum 313 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>海豚鞍</Name>
+    <Command>giveitemnum 314 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石屋顶</Name>
+    <Command>giveitemnum 315 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石狗洞顶</Name>
+    <Command>giveitemnum 316 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石门</Name>
+    <Command>giveitemnum 317 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石地基</Name>
+    <Command>giveitemnum 318 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石龙门</Name>
+    <Command>giveitemnum 319 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石龙门框</Name>
+    <Command>giveitemnum 320 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石柱</Name>
+    <Command>giveitemnum 321 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石门框</Name>
+    <Command>giveitemnum 322 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石窗框</Name>
+    <Command>giveitemnum 323 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>独立日烟花</Name>
+    <Command>giveitemnum 324 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毒气陷阱</Name>
+    <Command>giveitemnum 325 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>警报器</Name>
+    <Command>giveitemnum 326 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>kibble(ankyloegg)</Name>
+    <Command>giveitemnum 327 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>kibble(argentavisegg)</Name>
+    <Command>giveitemnum 328 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>kibble(titanboaegg)</Name>
+    <Command>giveitemnum 329 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>kibble(carnoegg)</Name>
+    <Command>giveitemnum 330 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>kibble(diloegg)</Name>
+    <Command>giveitemnum 331 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>kibble(dodoegg)</Name>
+    <Command>giveitemnum 332 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>kibble(parasauregg)</Name>
+    <Command>giveitemnum 333 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>kibble(pteranodonegg)</Name>
+    <Command>giveitemnum 334 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>(rapatoregg)</Name>
+    <Command>giveitemnum 335 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>(rexegg)</Name>
+    <Command>giveitemnum 336 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>sarcoegg</Name>
+    <Command>giveitemnum 337 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>brontoegg</Name>
+    <Command>giveitemnum 338 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝎卵</Name>
+    <Command>giveitemnum 339 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>araneoegg</Name>
+    <Command>giveitemnum 340 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>spinoegg</Name>
+    <Command>giveitemnum 341 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>stegoegg</Name>
+    <Command>giveitemnum 342 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>trikeegg</Name>
+    <Command>giveitemnum 343 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>龟蛋</Name>
+    <Command>giveitemnum 344 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>ankyloegg</Name>
+    <Command>giveitemnum 345 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>argentavisegg</Name>
+    <Command>giveitemnum 346 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>titanboaegg</Name>
+    <Command>giveitemnum 347 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>carnoegg</Name>
+    <Command>giveitemnum 348 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>diloegg</Name>
+    <Command>giveitemnum 349 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>pteranodonegg</Name>
+    <Command>giveitemnum 350 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>sarcoegg</Name>
+    <Command>giveitemnum 351 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝎卵</Name>
+    <Command>giveitemnum 352 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>araneoegg</Name>
+    <Command>giveitemnum 353 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>spinoegg</Name>
+    <Command>giveitemnum 354 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>turtleegg</Name>
+    <Command>giveitemnum 355 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石窗</Name>
+    <Command>giveitemnum 357 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石狗洞顶门</Name>
+    <Command>giveitemnum 358 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>多向路灯</Name>
+    <Command>giveitemnum 359 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大烤炉</Name>
+    <Command>giveitemnum 360 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>连发霰弹</Name>
+    <Command>giveitemnum 361 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>弩</Name>
+    <Command>giveitemnum 362 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>绿色染料</Name>
+    <Command>giveitemnum 363 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>微黄染料</Name>
+    <Command>giveitemnum 364 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>粉色染料</Name>
+    <Command>giveitemnum 365 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>紫色染料</Name>
+    <Command>giveitemnum 366 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白色染料</Name>
+    <Command>giveitemnum 367 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>淡蓝染料</Name>
+    <Command>giveitemnum 368 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>淡黄染料</Name>
+    <Command>giveitemnum 369 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>深黄染料</Name>
+    <Command>giveitemnum 370 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>彩色蛋挞</Name>
+    <Command>giveitemnum 371 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恐龙定位</Name>
+    <Command>giveitemnum 372 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恐龙GPS</Name>
+    <Command>giveitemnum 373 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白旗</Name>
+    <Command>giveitemnum 374 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料槽</Name>
+    <Command>giveitemnum 375 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name />
+    <Command>giveitemnum 376 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>铁弓</Name>
+    <Command>giveitemnum 376 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>铁箭</Name>
+    <Command>giveitemnum 377 {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水壶</Name>
+    <Command>giveitemnum 378 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水壶（满）</Name>
+    <Command>giveitemnum 379 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>镰刀</Name>
+    <Command>giveitemnum 380 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石巨兽门框</Name>
+    <Command>giveitemnum 381 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石巨兽门</Name>
+    <Command>giveitemnum 382 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>捕兽夹</Name>
+    <Command>giveitemnum 383 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大捕兽夹</Name>
+    <Command>giveitemnum 384 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>三角龙头骨</Name>
+    <Command>giveitemnum 385 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>稀有肥料</Name>
+    <Command>giveitemnum 386 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>氧气瓶</Name>
+    <Command>giveitemnum 387 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>潜水眼镜</Name>
+    <Command>giveitemnum 388 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>潜水脚蹼</Name>
+    <Command>giveitemnum 389 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>X物种子</Name>
+    <Command>giveitemnum 390 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>X物种子</Name>
+    <Command>giveitemnum 391 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>喷漆枪</Name>
+    <Command>giveitemnum 392 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>星尾兽鞍</Name>
+    <Command>giveitemnum 393 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>斜茅草屋顶</Name>
+    <Command>giveitemnum 394 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>茅草左墙</Name>
+    <Command>giveitemnum 395 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>茅草右墙</Name>
+    <Command>giveitemnum 396 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>斜木屋顶</Name>
+    <Command>giveitemnum 397 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木左墙</Name>
+    <Command>giveitemnum 398 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木右墙</Name>
+    <Command>giveitemnum 399 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>斜石屋顶</Name>
+    <Command>giveitemnum 400 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石左墙</Name>
+    <Command>giveitemnum 401 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石右墙</Name>
+    <Command>giveitemnum 402 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>斜金属屋顶</Name>
+    <Command>giveitemnum 403 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属左墙</Name>
+    <Command>giveitemnum 404 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属右墙</Name>
+    <Command>giveitemnum 405 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 406 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 407 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 408 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 409 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 410 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 411 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 412 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>洗点水</Name>
+    <Command>giveitemnum 413 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木筏</Name>
+    <Command>giveitemnum 414 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雷龙平台鞍</Name>
+    <Command>giveitemnum 415 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>肿头龙鞍</Name>
+    <Command>giveitemnum 417 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>肿头龙蛋</Name>
+    <Command>giveitemnum 418 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>肿头龙蛋饲料配方</Name>
+    <Command>giveitemnum 419 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>洗点水配方</Name>
+    <Command>giveitemnum 420 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>油画画布</Name>
+    <Command>giveitemnum 421 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨蜥鞍</Name>
+    <Command>giveitemnum 422 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨蜥鞍平台</Name>
+    <Command>giveitemnum 423 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毛皮</Name>
+    <Command>giveitemnum 424 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>dimorphegg</Name>
+    <Command>giveitemnum 425 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双齿翼龙饲料</Name>
+    <Command>giveitemnum 427 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>御寒裤</Name>
+    <Command>giveitemnum 429 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>御寒胸甲</Name>
+    <Command>giveitemnum 430 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>御寒帽子</Name>
+    <Command>giveitemnum 431 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>御寒鞋</Name>
+    <Command>giveitemnum 432 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>御寒手套</Name>
+    <Command>giveitemnum 433 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制球棒</Name>
+    <Command>giveitemnum 434 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毒气手榴弹</Name>
+    <Command>giveitemnum 435 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>半自动步枪（狙击枪）</Name>
+    <Command>giveitemnum 436 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防爆服</Name>
+    <Command>giveitemnum 446 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防爆服</Name>
+    <Command>giveitemnum 447 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防爆服</Name>
+    <Command>giveitemnum 448 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防爆服</Name>
+    <Command>giveitemnum 449 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防爆服</Name>
+    <Command>giveitemnum 450 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>电击棒</Name>
+    <Command>giveitemnum 451 {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>手铐</Name>
+    <Command>giveitemnum 452 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>启蒙肉汤</Name>
+    <Command>giveitemnum 453 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>风神翼龙蛋饲料</Name>
+    <Command>giveitemnum 465 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>风神翼龙蛋</Name>
+    <Command>giveitemnum 464 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>南方巨兽蛋</Name>
+    <Command>giveitemnum 493 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室建筑</Name>
+    <Command>giveitemnum 438 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室建筑</Name>
+    <Command>giveitemnum 439 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室建筑</Name>
+    <Command>giveitemnum 440 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室建筑</Name>
+    <Command>giveitemnum 441 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室建筑</Name>
+    <Command>giveitemnum 442 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室建筑</Name>
+    <Command>giveitemnum 443 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室建筑</Name>
+    <Command>giveitemnum 444 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室建筑</Name>
+    <Command>giveitemnum 445 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>高级狙击枪子弹</Name>
+    <Command>Giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedSniperBullet.PrimalItemAmmo_AdvancedSniperBullet" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>麻醉飞镖</Name>
+    <Command>Giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqDart.PrimalItemAmmo_TranqDart" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>防暴盾牌</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_TransparentRiotShield.PrimalItemArmor_TransparentRiotShield" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>单手剑</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponSword.PrimalItem_WeaponSword" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型石制天窗框</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingWithTrapdoorGiant.PrimalItemStructure_StoneCeilingWithTrapdoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型加固天窗门</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingDoorGiant.PrimalItemStructure_StoneCeilingDoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型金属天窗框</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeilingWithTrapdoorGiant.PrimalItemStructure_MetalCeilingWithTrapdoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型金属天窗门</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalTrapdoorGiant.PrimalItemStructure_MetalTrapdoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火箭</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowFlame.PrimalItemAmmo_ArrowFlame'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>电锯</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponChainsaw/PrimalItem_ChainSaw.PrimalItem_ChainSaw'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火焰喷射器</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponFlamethrower/PrimalItem_WeapFlamethrower.PrimalItem_WeapFlamethrower'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>回旋飞镖</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponBoomerang/PrimalItem_WeaponBoomerang.PrimalItem_WeaponBoomerang'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>破片手榴弹</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponClusterGrenade/PrimalItem_WeaponClusterGrenade.PrimalItem_WeaponClusterGrenade'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>油罐</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponOilJar/PrimalItem_WeaponOilJar.PrimalItem_WeaponOilJar'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火焰喷射器弹药</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponFlamethrower/PrimalItemAmmo_Flamethrower.PrimalItemAmmo_Flamethrower'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火箭制导导弹</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponHomingMissile/PrimalItemAmmo_RocketHomingMissile.PrimalItemAmmo_RocketHomingMissile'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>驼峰兽鞍</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemArmor_CamelsaurusSaddle.PrimalItemArmor_CamelsaurusSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙漠布靴</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothBoots.PrimalItemArmor_DesertClothBoots'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙漠布手套</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothGloves.PrimalItemArmor_DesertClothGloves'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙漠眼镜和帽子</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothGogglesHelmet.PrimalItemArmor_DesertClothGogglesHelmet'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙漠布裤</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothPants.PrimalItemArmor_DesertClothPants'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙漠布衬衫</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Outfits/PrimalItemArmor_DesertClothShirt.PrimalItemArmor_DesertClothShirt'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>螳螂鞍</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毒蛾鞍</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemArmor_MothSaddle.PrimalItemArmor_MothSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>岩石傀儡鞍</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/RockGolem/PrimalItemArmor_RockGolemSaddle.PrimalItemArmor_RockGolemSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>棘手龙鞍时装</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardPromoSaddle.PrimalItemArmor_SpineyLizardPromoSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>棘手龙鞍</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemArmor_SpineyLizardSaddle.PrimalItemArmor_SpineyLizardSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>仙人掌汁液</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Consumables/PrimalItemConsumable_CactusSap.PrimalItemConsumable_CactusSap'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>骆驼蛋</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Egg_Camelsaurus.PrimalItemConsumable_Egg_Camelsaurus'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>螳螂蛋</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemConsumable_Egg_Mantis.PrimalItemConsumable_Egg_Mantis'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毒蛾蛋</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Egg_Moth.PrimalItemConsumable_Egg_Moth'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>棘手龙蛋</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemConsumable_Egg_SpineyLizard.PrimalItemConsumable_Egg_SpineyLizard'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>秃鹰蛋</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Vulture/PrimalItemConsumable_Egg_Vulture.PrimalItemConsumable_Egg_Vulture'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料(骆驼蛋)</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/PrimalItemConsumable_Kibble_Camelsaurus.PrimalItemConsumable_Kibble_Camelsaurus'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料(螳螂蛋)</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemConsumable_Kibble_Mantis.PrimalItemConsumable_Kibble_Mantis'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料(毒蛾蛋)</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Kibble_Moth.PrimalItemConsumable_Kibble_Moth'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料(棘手龙蛋)</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/PrimalItemConsumable_Kibble_SpineyLizard.PrimalItemConsumable_Kibble_SpineyLizard'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料(秃鹰蛋)</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Vulture/PrimalItemConsumable_Kibble_Vulture.PrimalItemConsumable_Kibble_Vulture'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>粘土</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Clay.PrimalItemResource_Clay'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>死亡蠕虫刺</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Deathworm/PrimalItemResource_KeratinSpike.PrimalItemResource_KeratinSpike'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>存盐皿</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_PreservingSalt.PrimalItemResource_PreservingSalt'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>推进燃料</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Propellant.PrimalItemResource_Propellant'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>原料盐</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_RawSalt.PrimalItemResource_RawSalt'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sand.PrimalItemResource_Sand'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蚕丝</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>硫黄</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制天花板</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeiling.PrimalItemStructure_AdobeCeiling'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型砖制活板门</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingDoorGiant.PrimalItemStructure_AdobeCeilingDoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型砖制天窗</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingWithDoorWay_Giant.PrimalItemStructure_AdobeCeilingWithDoorWay_Giant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制天窗</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeCeilingWithTrapdoor.PrimalItemStructure_AdobeCeilingWithTrapdoor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制门</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeDoor.PrimalItemStructure_AdobeDoor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制围墙地基</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFenceFoundation.PrimalItemStructure_AdobeFenceFoundation'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制地基</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFloor.PrimalItemStructure_AdobeFloor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制恐龙门框</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFrameGate.PrimalItemStructure_AdobeFrameGate'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制恐龙门</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateDoor.PrimalItemStructure_AdobeGateDoor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型砖制的恐龙门</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateDoor_Large.PrimalItemStructure_AdobeGateDoor_Large'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型砖制恐龙门框</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateframe_Large.PrimalItemStructure_AdobeGateframe_Large'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制梯子</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeLader.PrimalItemStructure_AdobeLader'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制支柱</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobePillar.PrimalItemStructure_AdobePillar'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制栏杆</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRailing.PrimalItemStructure_AdobeRailing'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制斜坡</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRamp.PrimalItemStructure_AdobeRamp'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制倾斜屋顶</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRoof.PrimalItemStructure_AdobeRoof'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制楼梯</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeStaircase.PrimalItemStructure_AdobeStaircase'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制天窗门</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeTrapdoor.PrimalItemStructure_AdobeTrapdoor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制墙</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall.PrimalItemStructure_AdobeWall'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制倾斜墙左</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall_Sloped_Left.PrimalItemStructure_AdobeWall_Sloped_Left'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制倾斜墙右</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWall_Sloped_Right.PrimalItemStructure_AdobeWall_Sloped_Right'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制门框</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWallWithDoor.PrimalItemStructure_AdobeWallWithDoor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制窗框</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWallWithWindow.PrimalItemStructure_AdobeWallWithWindow'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制窗门</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWindow.PrimalItemStructure_AdobeWindow'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝎狮旗帜</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/ManticoreFlag/PrimalItemStructure_Flag_Manticore.PrimalItemStructure_Flag_Manticore'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>镜子</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/DesertFurnitureSet/Mirror/PrimalItemStructure_Mirror.PrimalItemStructure_Mirror'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>油泵井</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/OilPump/PrimalItemStructure_oilPump.PrimalItemStructure_oilPump'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>帐篷</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Tent/PrimalItemStructure_Tent.PrimalItemStructure_Tent'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>容器</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/DesertFurnitureSet/Vessel/PrimalItemStructure_Vessel.PrimalItemStructure_Vessel'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水井</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/WaterWell/PrimalItemStructure_WaterWell.PrimalItemStructure_WaterWell'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>风力涡轮机</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/WindTurbine/PrimalItemStructure_WindTurbine.PrimalItemStructure_WindTurbine'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝎狮奖杯</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore.PrimalItemTrophy_Manticore'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝎狮帽时装</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreHelmet.PrimalItemSkin_ManticoreHelmet'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝎狮皮盾时装</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ManticoreShield.PrimalItemSkin_ManticoreShield'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双足飞龙皮手套时装</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_WyvernGloves.PrimalItemSkin_WyvernGloves'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>焦土矛时装</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_ScorchedSpear.PrimalItemSkin_ScorchedSpear'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>焦土剑时装</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_ScorchedSword.PrimalItemSkin_ScorchedSword'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>焦土火炬时装</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Leather/PrimalItemSkin_TorchScorched.PrimalItemSkin_TorchScorched'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双足飞龙奶</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双足飞龙蛋(火)</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire.PrimalItemConsumable_Egg_Wyvern_Fertilized_Fire'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双足飞龙蛋(电)</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning.PrimalItemConsumable_Egg_Wyvern_Fertilized_Lightning'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双足飞龙蛋(毒)</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison.PrimalItemConsumable_Egg_Wyvern_Fertilized_Poison'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火爪</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>电爪</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毒爪</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>旅行帽时装</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/PrimalItemSkin_ExplorerHat.PrimalItemSkin_ExplorerHat'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>守门人神器</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_01.PrimalItemArtifactSE_01'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨岩怪神器</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_02.PrimalItemArtifactSE_02'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毁灭者神器</Name>
+    <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_03.PrimalItemArtifactSE_03'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英死亡蠕虫</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>死亡蠕虫</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/DeathWorm/DeathWorm_Character_BP.DeathWorm_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>跳鼠</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Jerboa_Character_BP.Jerboa_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>小虫</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/JugBug_Character_BaseBP.JugBug_Character_BaseBP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>储油壶里小虫</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Oil_Character_BP.Jugbug_Oil_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水壶里小虫</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Jugbug/Jugbug_Water_Character_BP.Jugbug_Water_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毒蛾</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝎狮</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP.Manticore_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>螳螂</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>驼峰兽</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/camelsaurus_Character_BP.camelsaurus_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>岩石元素</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>废墟傀儡</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RubbleGolem_Character_BP.RubbleGolem_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>棘手龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/SpineyLizard_Character_BP.SpineyLizard_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>秃鹫</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/Vulture_Character_BP.Vulture_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双足飞龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火双足飞龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英双足飞龙(火)</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/MegaWyvern_Character_BP_Fire.MegaWyvern_Character_BP_Fire'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>电双足飞龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毒双足飞龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+</ArrayOfARKCommand>

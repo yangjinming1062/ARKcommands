@@ -1,0 +1,62 @@
+﻿<Window x:Class="ARKcommands.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ARKcommands"
+        mc:Ignorable="d"
+        Title="添加" Height="160" Width="400" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="    名称：" Grid.Row="0" Grid.Column="0"/>
+        <TextBox x:Name="txtName" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="5"/>
+        <Label Content="    指令：" Grid.Row="1" Grid.Column="0"/>
+        <TextBox x:Name="txtCommand" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5"/>
+        <Label Content="    类型：" Grid.Row="2" Grid.Column="0"/>
+        <ComboBox Grid.Row="2" Grid.Column="1" x:Name="cmbType">
+            <TextBlock Text=""/>
+            <TextBlock Text="龙鞍"/>
+            <TextBlock Text="武器"/>
+            <TextBlock Text="装备"/>
+            <TextBlock Text="弹药"/>
+            <TextBlock Text="资源"/>
+            <TextBlock Text="建筑"/>
+            <TextBlock Text="恐龙"/>
+            <TextBlock Text="神器"/>
+            <TextBlock Text="其他"/>
+        </ComboBox>
+        <Label Content="    地图：" Grid.Row="2" Grid.Column="2"/>
+        <ComboBox Grid.Row="2" Grid.Column="3" x:Name="cmbMap">
+            <TextBlock Text="通用"/>
+            <TextBlock Text="孤岛"/>
+            <TextBlock Text="中心岛"/>
+            <TextBlock Text="焦土"/>
+            <TextBlock Text="畸变"/>
+            <TextBlock Text="仙境"/>
+            <TextBlock Text="灭绝"/>
+            <TextBlock Text="瓦尔盖罗"/>
+        </ComboBox>
+        <Label Content="    特殊：" Grid.Row="2" Grid.Column="4"/>
+        <ComboBox Grid.Row="2" Grid.Column="5" x:Name="cmbSP">
+            <TextBlock Text=""/>
+            <TextBlock Text="Mod"/>
+            <TextBlock Text="功能"/>
+            <TextBlock Text="自定义"/>
+        </ComboBox>
+        <Button Content="添加" Grid.Row="3" Grid.ColumnSpan="3" Margin="50,15" Click="Add_Click"/>
+        <Button Content="完成" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3"  Margin="50,15" Click="Done_Click"/>
+    </Grid>
+</Window>
