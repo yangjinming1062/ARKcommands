@@ -67,6 +67,6 @@
                 </Button>
             </DockPanel>
         </GroupBox>
-        <ListBox x:Name="lsCommandsUI" ItemsSource="{Binding lsCommands}" DisplayMemberPath="Name" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" SelectionChanged="lsCommandsUI_SelectionChanged"/>
+        <ListBox x:Name="lsCommandsUI" ItemsSource="{Binding lsCommands}" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" SelectionChanged="lsCommandsUI_SelectionChanged"/>
     </Grid>
 </Window>

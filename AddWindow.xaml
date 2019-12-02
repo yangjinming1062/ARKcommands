@@ -56,7 +56,7 @@
             <TextBlock Text="功能"/>
             <TextBlock Text="自定义"/>
         </ComboBox>
-        <Button Content="添加" Grid.Row="3" Grid.ColumnSpan="3" Margin="50,15" Click="Add_Click"/>
-        <Button Content="完成" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3"  Margin="50,15" Click="Done_Click"/>
+        <Button Content="添加" Grid.Row="3" Grid.ColumnSpan="3" Margin="50,10" Click="Add_Click"/>
+        <Button Content="完成" Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="3"  Margin="50,10" Click="Done_Click"/>
     </Grid>
 </Window>

@@ -4543,4 +4543,1467 @@
     <Map>3</Map>
     <Special />
   </ARKCommand>
+  <ARKCommand>
+    <Name>5.56 NATO</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/PrimalItemAmmo_AssualtRifleBullet_Base_556.PrimalItemAmmo_AssualtRifleBullet_Base_556'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>7.62x39</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/PrimalItemAmmo_AssualtRifleBullet_Base_762x39.PrimalItemAmmo_AssualtRifleBullet_Base_762x39'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>5.45x39</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/PrimalItemAmmo_AssualtRifleBullet_BaseRWW_545x39.PrimalItemAmmo_AssualtRifleBullet_BaseRWW_545x39'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>44 Magnum</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/Revolver/PrimalItemAmmo_Bullet_44Mag_RWW.PrimalItemAmmo_Bullet_44Mag_RWW'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>45ACP</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/USP/PrimalItemAmmo_Bullet_45ACP_RWW.PrimalItemAmmo_Bullet_45ACP_RWW'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>9x19</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/M9/PrimalItemAmmo_AssualtRifleBullet_BaseRWW_9x19.PrimalItemAmmo_AssualtRifleBullet_BaseRWW_9x19'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>9x39</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Snipers/ASVAL/PrimalItemAmmo_AssualtRifleBullet_BaseRWW_9x39.PrimalItemAmmo_AssualtRifleBullet_BaseRWW_9x39'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>7.62x51</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Snipers/MK14EBR/PrimalItemAmmo_AssualtRifleBullet_BaseRWW_762x51.PrimalItemAmmo_AssualtRifleBullet_BaseRWW_762x51'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>MegalodonTEK鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/QualityTekSaddles/PrimalItemArmor_QTSMegalodonSaddle_Tek.PrimalItemArmor_QTSMegalodonSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Mosa TEK鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/QualityTekSaddles/PrimalItemArmor_QTSMosaSaddle_Tek.PrimalItemArmor_QTSMosaSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Rex TEX鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/QualityTekSaddles/PrimalItemArmor_QTSRexSaddle_Tek.PrimalItemArmor_QTSRexSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Rock Drake TEK鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/QualityTekSaddles/PrimalItemArmor_QTSRockDrakeSaddle_Tek.PrimalItemArmor_QTSRockDrakeSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Tapejara TEK鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Mods/QualityTekSaddles/PrimalItemArmor_QTSTapejaraSaddle_Tek.PrimalItemArmor_QTSTapejaraSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>猎手</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_01.PrimalItemArtifact_01'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>团结</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_02.PrimalItemArtifact_02'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>稳重</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_03.PrimalItemArtifact_03'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>狡诈</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_04.PrimalItemArtifact_04'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>智慧</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_05.PrimalItemArtifact_05'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>天主</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_06.PrimalItemArtifact_06'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>吞噬</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_07.PrimalItemArtifact_07'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>免疫</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_08.PrimalItemArtifact_08'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>强壮</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_09.PrimalItemArtifact_09'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>残暴</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_11.PrimalItemArtifact_11'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>狡诈</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_12.PrimalItemArtifact_12'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>1</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>卫士</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_01.PrimalItemArtifactSE_01'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>岩壁</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_02.PrimalItemArtifactSE_02'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>灭世</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_03.PrimalItemArtifactSE_03'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>暗影</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_2.PrimalItemArtifactAB_2'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>潜行</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_3.PrimalItemArtifactAB_3'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>深渊</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB.PrimalItemArtifactAB'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>失落</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB_4.PrimalItemArtifactAB_4'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英牛龙手臂</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英巨齿鲨鱼翅</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMegalodon.PrimalItemResource_ApexDrop_AlphaMegalodon'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英沧龙牙</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaMosasaur.PrimalItemResource_ApexDrop_AlphaMosasaur'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英迅猛龙爪</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRaptor.PrimalItemResource_ApexDrop_AlphaRaptor'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英霸王龙牙</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英鱿鱼眼睛</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaTuso.PrimalItemResource_ApexDrop_AlphaTuso'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>异特龙大脑</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>南巨心脏</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Giga.PrimalItemResource_ApexDrop_Giga'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>羽暴龙肺</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Yuty.PrimalItemResource_ApexDrop_Yuty'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>镰刀龙爪</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Theriz.PrimalItemResource_ApexDrop_Theriz'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>古巨蜥毒素</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>帝王鳄皮</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>脊背龙脊背</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>带狮勾爪</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>泰坦巨蟒毒液</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>龙王鲸脂肪</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨鱿触角</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型螃蟹爪</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蛇怪毒牙</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蜥蝎鳞片</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>岩龙羽毛</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>死神国王倒钩</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>高级狙击枪子弹</Name>
+    <Command>Giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_AdvancedSniperBullet.PrimalItemAmmo_AdvancedSniperBullet" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>麻醉飞镖</Name>
+    <Command>Giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqDart.PrimalItemAmmo_TranqDart" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>机枪炮塔</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretMinigun.PrimalItemStructure_TurretMinigun'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑珍珠</Name>
+    <Command>cheat giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl_C'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>异齿蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimetroEgg.PrimalItemConsumable_Kibble_DimetroEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水龙蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LystroEgg.PrimalItemConsumable_Kibble_LystroEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>骇鸟蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TerrorBirdEgg.PrimalItemConsumable_Kibble_TerrorBirdEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>似鸡龙蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_GalliEgg.PrimalItemConsumable_Kibble_GalliEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>副栉龙蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ParaEgg.PrimalItemConsumable_Kibble_ParaEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>剑龙蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_StegoEgg.PrimalItemConsumable_Kibble_StegoEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲龙蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_AnkyloEgg.PrimalItemConsumable_Kibble_AnkyloEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渡渡鸟蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DodoEgg.PrimalItemConsumable_Kibble_DodoEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>甲龙</Name>
+    <Command>admincheat SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>爪蝠</Name>
+    <Command>admincheat SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Bat/Bat_Character_BP.Bat_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>阿根廷巨鹰</Name>
+    <Command>admincheat SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雷龙</Name>
+    <Command>admincheat SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨猿</Name>
+    <Command>admincheat SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>碳龟</Name>
+    <Command>admincheat SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>牛龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沧龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>猛犸象</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>美颌龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>星尾兽</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>异齿龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP.Dimetro_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>似鸡龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Gallimimus/Galli_Character_BP.Galli_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渡渡鸟暴龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/DodoRex/DodoRex_Character_BP.DodoRex_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨犀</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>邓氏鱼</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>风神翼龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>肿头龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Pachy/Pachy_Character_BP.Pachy_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨河狸</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>中猴</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双脊龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dilo/Dilo_Character_BP.Dilo_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双型齿翼龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP.Dimorph_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渡渡鸟</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>鱼龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨齿鲨</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>副栉龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>窃蛋龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Oviraptor/Oviraptor_Character_BP.Oviraptor_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渐新象</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Phiomia/Phiomia_Character_BP.Phiomia_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蛇颈龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>无齿翼龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>迅猛龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恐狼</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>剑齿虎</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>屎壳郎</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨蝎</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蜘蛛</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>南方巨兽龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>剑龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>泰坦巨蟒</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/BoaFrill/BoaFrill_Character_BP.BoaFrill_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>三角龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>托斯特巨鱿</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>魔鬼蛙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>重爪龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水龙兽</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP.Lystro_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>玛瑙螺</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>骇鸟</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>异特龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>猪鳄</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大角鹿</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>镰刀龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>广翅鲎</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Eurypterid/Euryp_Character.Euryp_Character'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>古马陆</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>远古企鹅</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝠鲼</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Manta/Manta_Character_BP.Manta_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>强颌龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Pegomastax/Pegomastax_Character_BP.Pegomastax_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>鮟鱇鱼</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>厚鼻龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>远古水母</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP.Cnidaria_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>盗首螈</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP.Diplocaulus_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型短面袋鼠</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>梁龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恐熊</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>伤齿龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Troodon/Troodon_Character_BP.Troodon_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>披毛犀</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>始祖鸟</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>霸王龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>帝鳄</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>棘背龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>斑龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>泰坦巨龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砂犷兽</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大马哈鱼</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>龙王鲸</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>麝足兽</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP.Moschops_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>兽头龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP.Purlovia_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>伪齿鸟</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Pelagornis/Pela_Character_BP.Pela_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>古神翼龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>绵羊</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP.Sheep_Character_BP'" 500 0 0 1</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>庞马</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP.Equus_Character_BP'" 150 1 1 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>利兹鱼</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Leedsichthys_Character_BP.Leedsichthys_Character_BP'" 150 1 1 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>鱼鸟</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Ichthyornis/Ichthyornis_Character_BP.Ichthyornis_Character_BP'" 150 1 1 1</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>独角兽</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Unicorn.Equus_Character_BP_Unicorn'" 1 1 1 150</Command>
+    <Type>恐龙</Type>
+    <Map>2</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英利兹鱼</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Alpha_Leedsichthys_Character_BP.Alpha_Leedsichthys_Character_BP'" 150 1 1 1</Command>
+    <Type>恐龙</Type>
+    <Map>2</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英霸王龙</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP'" 1 1 1 120</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>菊石</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Ammonite/Ammonite_Character.Ammonite_Character'" 1 1 1 120</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>电鳗</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Eel/Eel_Character_BP.Eel_Character_BP'" 1 1 1 120</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>袋狮</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'" 1 1 1 120</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>喷火龙</Name>
+    <Command>cheat summon dragon_character_bp_c</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>气囊</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_GasBag.PrimalItemResource_ApexDrop_GasBag'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>废金属</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetalPrimalItemResource_ScrapMetal'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>废金属锭</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetalIngot.PrimalItemResource_ScrapMetalIngot'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>堕落之心</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_RareDrop_CorruptHeart.PrimalItemResource_RareDrop_CorruptHeart'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>不稳定元素碎片</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ShardRefined.PrimalItemResource_ShardRefined'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>不稳定元素</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementRefined.PrimalItemResource_ElementRefined'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>元素粉尘</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>红色结晶SAP</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_RedSap.PrimalItemResource_RedSap'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蓝色结晶SAP</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_BlueSap.PrimalItemResource_BlueSap'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>硅酸盐</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_Silicate.PrimalItemResource_Silicate'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>真菌木材</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedWood.PrimalItemResource_CorruptedWood'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>腐败结核</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedPolymer.PrimalItemResource_CorruptedPolymer'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>冷凝气体</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CondensedGas.PrimalItemResource_CondensedGas'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>管理闪烁步枪</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Weapon_AdminBlinkRifle/PrimalItem_WeaponAdminBlinkRifle.PrimalItem_WeaponAdminBlinkRifle'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>标本检查工具</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponTaxidermyTool.PrimalItem_WeaponTaxidermyTool'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>M.R.L.M</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekBackpack_MissilePod.PrimalItemArmor_MekBackpack_MissilePod'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>M.D.S.M</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekBackpack_Shield.PrimalItemArmor_MekBackpack_Shield'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>M.S.C.M</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekBackpack_SiegeCannon.PrimalItemArmor_MekBackpack_SiegeCannon'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>M.O.M.I</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_MekTransformer.PrimalItemArmor_MekTransformer'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>空球式低温潜水器</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>重力手榴弹</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponTekGravityGrenade.PrimalItem_WeaponTekGravityGrenade'" {0} {1} {2}</Command>
+    <Type>武器</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火箭吊舱</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_RocketPod.PrimalItemAmmo_RocketPod'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>加农炮弹</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_CannonShell.PrimalItemAmmo_CannonShell'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>未组装的MEK</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItem_Spawner_Mek.PrimalItem_Spawner_Mek'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>森林巨人奖杯</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Forest.PrimalItemTrophy_Kaiju_Forest'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙漠巨人奖杯</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>冰巨人奖杯</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Ice.PrimalItemTrophy_Kaiju_Ice'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>(Gamma) 钛金奖杯</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Gamma.PrimalItemTrophy_Kaiju_King_Gamma'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>(Beta) 泰坦国王奖杯</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Beta.PrimalItemTrophy_Kaiju_King_Beta'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>(Alpha) 泰坦国王奖杯</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Alpha.PrimalItemTrophy_Kaiju_King_Alpha'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>泰坦国王旗</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaiju.PrimalItemStructure_Flag_KingKaiju'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>(Mecha) 国王的旗帜</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaijuMecha.PrimalItemStructure_Flag_KingKaijuMecha'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恐龙皮带</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Structures/DinoLeash/PrimalItemStructure_DinoLeash.PrimalItemStructure_DinoLeash'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>小型草药基地</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItemStructure_TaxidermyBase_Small.PrimalItemStructure_TaxidermyBase_Small'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>中草药基地</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItemStructure_TaxidermyBase_Medium.PrimalItemStructure_TaxidermyBase_Medium'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大型草药基地</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItemStructure_TaxidermyBase_Large.PrimalItemStructure_TaxidermyBase_Large'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>投递箱</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Structures/ItemBalloon/PrimalItemStructure_StorageBox_Balloon.PrimalItemStructure_StorageBox_Balloon'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>冷冻脊</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Structures/Cryofridge/CryoFridge.CryoFridge'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>泰克桥</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Structures/TekBridge/PrimalItemStructure_TekBridge.PrimalItemStructure_TekBridge'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>嘎查鞍(像浣熊的那个)</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GachaSaddle.PrimalItemArmor_GachaSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>气囊鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_GasBagsSaddle.PrimalItemArmor_GasBagsSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>马蜥鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_SpindlesSaddle.PrimalItemArmor_SpindlesSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雪鸮鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_OwlSaddle.PrimalItemArmor_OwlSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>管理鞍座</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>扩充桶</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special_EX.PrimalItemConsumable_Kibble_Base_Special_EX'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>例外扩充桶</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge_EX.PrimalItemConsumable_Kibble_Base_XLarge_EX'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>强化桶</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large_EX.PrimalItemConsumable_Kibble_Base_Large_EX'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>增强桶</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium_EX.PrimalItemConsumable_Kibble_Base_Medium_EX'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雪鸮丸</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/Pellet/PrimalItemConsumable_OwlPellet.PrimalItemConsumable_OwlPellet'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雪鸮卵</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl.PrimalItemConsumable_Egg_Owl'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>受精雪鸮卵</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl_Fertilized.PrimalItemConsumable_Egg_Owl_Fertilized'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>维拉纳鳄鱼卵</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Spindles/PrimalItemConsumable_Egg_Spindles.PrimalItemConsumable_Egg_Spindles'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>受精飞龙蛋</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Spindles/PrimalItemConsumable_Egg_Spindles_Fertilized.PrimalItemConsumable_Egg_Spindles_Fertilized'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Artifact of Chaos 混沌</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_DesertKaiju.PrimalItemArtifact_Extinction_DesertKaiju'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Artifact of the Growth 生长</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_ForestKaiju.PrimalItemArtifact_Extinction_ForestKaiju'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Artifact of the Void 虚空</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_Extinction_IceKaiju.PrimalItemArtifact_Extinction_IceKaiju'" {0} {1} {2}</Command>
+    <Type>神器</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
 </ArrayOfARKCommand>

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Windows;
 
 namespace ARKcommands
@@ -49,7 +48,7 @@ namespace ARKcommands
             ARKCommand command = new ARKCommand()
             {
                 Name = txtName.Text.Trim(),
-                Command = txtCommand.Text.Trim(),
+                Command = txtCommand.Text.Trim()+" {0} {1} {2}",
                 Type = cmbType.Text,
                 Map = Transmit(cmbMap.Text),
                 Special = cmbSP.Text

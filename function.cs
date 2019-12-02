@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -53,6 +50,21 @@ namespace ARKcommands
             }
             catch { return new List<ARKCommand>(); }
         }
+
+        public static string Transmit(string Code)
+        {
+            switch (Code)
+            {
+                case "1": return "孤岛";
+                case "2": return "中心岛";
+                case "3": return "焦土";
+                case "4": return "畸变";
+                case "5": return "仙境";
+                case "6": return "灭绝";
+                case "7": return "瓦尔盖罗";
+            }
+            return "";
+        }
     }
 
     [Serializable]
@@ -69,5 +81,7 @@ namespace ARKcommands
         public string Map { get; set; }
         [XmlElement("Special")]
         public string Special { get; set; }
+
+        public override string ToString() => string.Format("{0} [{1}] [{2}] [{3}]", Name, Type, function.Transmit(Map), Special).Replace("[]", "");
     }
 }
