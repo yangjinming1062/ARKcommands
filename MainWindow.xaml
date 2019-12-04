@@ -66,6 +66,6 @@
                 <DropShadowEffect BlurRadius="10"/>
             </Button.Effect>
         </Button>
-        <ListBox x:Name="lsCommandsUI" ItemsSource="{Binding lsCommands}" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" SelectionChanged="lsCommandsUI_SelectionChanged"/>
+        <ListBox x:Name="lsCommandsUI" ItemsSource="{Binding lsCommands}" Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" SelectionChanged="lsCommandsUI_SelectionChanged" MouseDoubleClick="lsCommandsUI_MouseDoubleClick"/>
     </Grid>
 </Window>

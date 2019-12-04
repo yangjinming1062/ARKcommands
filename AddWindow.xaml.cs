@@ -14,6 +14,17 @@ namespace ARKcommands
             lsCommands = ls;
         }
 
+        public AddWindow(List<ARKCommand> ls, ARKCommand cur)
+        {
+            InitializeComponent();
+            ls.Remove(cur);
+            lsCommands = ls;
+            txtName.Text = cur.Name;
+            txtCommand.Text = cur.Command;
+            cmbType.Text = cur.Type;
+            cmbSP.Text = cur.Special;
+        }
+
         private List<ARKCommand> lsCommands;
 
         private string Transmit(string name)
