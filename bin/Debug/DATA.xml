@@ -638,21 +638,21 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>giveitemnum</Name>
+    <Name>简易手枪</Name>
     <Command>giveitemnum 1 {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>1</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>giveitemnum</Name>
+    <Name>突击步枪</Name>
     <Command>giveitemnum 2 {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>1</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>giveitemnum</Name>
+    <Name>火箭发射器</Name>
     <Command>giveitemnum 3 {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>1</Map>
@@ -864,35 +864,35 @@
   <ARKCommand>
     <Name>石镐</Name>
     <Command>giveitemnum 33 {0} {1} {2}</Command>
-    <Type>武器</Type>
+    <Type>装备</Type>
     <Map>1</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>石斧</Name>
     <Command>giveitemnum 34 {0} {1} {2}</Command>
-    <Type>武器</Type>
+    <Type>装备</Type>
     <Map>1</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>铁镐</Name>
     <Command>giveitemnum 35 {0} {1} {2}</Command>
-    <Type>武器</Type>
+    <Type>装备</Type>
     <Map>1</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>铁斧</Name>
     <Command>giveitemnum 36 {0} {1} {2}</Command>
-    <Type>武器</Type>
+    <Type>装备</Type>
     <Map>1</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>火把</Name>
     <Command>giveitemnum 37 {0} {1} {2}</Command>
-    <Type>其他</Type>
+    <Type>装备</Type>
     <Map>1</Map>
     <Special />
   </ARKCommand>
