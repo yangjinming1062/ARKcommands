@@ -48,7 +48,7 @@ namespace ARKcommands
             ARKCommand command = new ARKCommand()
             {
                 Name = txtName.Text.Trim(),
-                Command = txtCommand.Text.Trim()+" {0} {1} {2}",
+                Command = txtCommand.Text.Trim() + weizhui.Text,
                 Type = cmbType.Text,
                 Map = Transmit(cmbMap.Text),
                 Special = cmbSP.Text

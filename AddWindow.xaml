@@ -24,7 +24,12 @@
         <Label Content="    名称：" Grid.Row="0" Grid.Column="0"/>
         <TextBox x:Name="txtName" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="5"/>
         <Label Content="    指令：" Grid.Row="1" Grid.Column="0"/>
-        <TextBox x:Name="txtCommand" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5"/>
+        <ComboBox Name="weizhui" Grid.Row="1" Grid.Column="1">
+            <TextBlock Text=""/>
+            <TextBlock Text=" {0} {1} {2}"/>
+            <TextBlock Text=" {0} {1} {2} {3}"/>
+        </ComboBox>
+        <TextBox x:Name="txtCommand" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="4"/>
         <Label Content="    类型：" Grid.Row="2" Grid.Column="0"/>
         <ComboBox Grid.Row="2" Grid.Column="1" x:Name="cmbType">
             <TextBlock Text=""/>
