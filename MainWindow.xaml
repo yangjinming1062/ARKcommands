@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ARKcommands"
         mc:Ignorable="d"
-        Title="方舟：生存进化指令集" Height="520" Width="700" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+        Title="方舟：生存进化指令集" Height="500" Width="700" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="349*"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -28,20 +28,36 @@
             <TextBox Name="txtResult" VerticalAlignment="Center"/>
         </DockPanel>
         <GroupBox Header="类型" Grid.Row="1">
-            <ListBox ButtonBase.Click="rbType_Click">
-                <RadioButton x:Name="rbTypeAll" Content="全部" FontSize="18" IsChecked="True"/>
-                <RadioButton x:Name="rbDragon" Content="恐龙" FontSize="18"/>
-                <RadioButton Content="龙鞍" FontSize="18"/>
-                <RadioButton Content="武器" FontSize="18"/>
-                <RadioButton Content="装备" FontSize="18"/>
-                <RadioButton Content="弹药" FontSize="18"/>
-                <RadioButton Content="资源" FontSize="18"/>
-                <RadioButton Content="建筑" FontSize="18"/>
-                <RadioButton Content="神器" FontSize="18"/>
-                <RadioButton Content="龙蛋" FontSize="18"/>
-                <RadioButton Content="饲料" FontSize="18"/>
-                <RadioButton Content="其他" FontSize="18"/>
-            </ListBox>
+            <Grid ButtonBase.Click="rbType_Click">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <RadioButton Margin="8" Grid.Row="0" Grid.ColumnSpan="2" x:Name="rbTypeAll" Content="全部" FontSize="18" IsChecked="True" HorizontalAlignment="Center"/>
+                <RadioButton Margin="8"  Grid.Row="1" Grid.Column="0"  x:Name="rbDragon" Content="恐龙" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="1" Grid.Column="1"  Content="龙鞍" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="2" Grid.Column="0"  Content="武器" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="2" Grid.Column="1"  Content="装备" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="3" Grid.Column="0"  Content="弹药" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="3" Grid.Column="1"  Content="资源" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="4" Grid.Column="0"  Content="建筑" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="4" Grid.Column="1"  Content="神器" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="5" Grid.Column="0"  Content="龙蛋" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="5" Grid.Column="1"  Content="饲料" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="6" Grid.Column="0"  Content="种子" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="6" Grid.Column="1"  Content="染料" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="7" Grid.ColumnSpan="2"  Content="其他" FontSize="18" HorizontalAlignment="Center"/>
+            </Grid>
         </GroupBox>
         <GroupBox Header="地图" Grid.Row="1" Grid.Column="1" ButtonBase.Click="rbMap_Click">
             <ListBox>
@@ -56,14 +72,22 @@
             </ListBox>
         </GroupBox>
         <GroupBox Header="特殊" Grid.Row="2">
-            <StackPanel>
-                <RadioButton Content="全部" FontSize="18" Click="rbSpecial_Click" IsChecked="True"/>
-                <RadioButton Content="Mod" FontSize="18" Click="rbSpecial_Click"/>
-                <RadioButton Content="功能" FontSize="18" Click="rbSpecial_Click"/>
-                <RadioButton Content="自定义" FontSize="18" Click="rbSpecial_Click"/>
-            </StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <RadioButton Margin="8" Grid.Row="0" Grid.Column="0" Content="全部" FontSize="18" Click="rbSpecial_Click" IsChecked="True"/>
+                <RadioButton Margin="8" Grid.Row="0" Grid.Column="1" Content="Mod" FontSize="18" Click="rbSpecial_Click"/>
+                <RadioButton Margin="8" Grid.Row="1" Grid.Column="0" Content="功能" FontSize="18" Click="rbSpecial_Click"/>
+                <RadioButton Margin="8" Grid.Row="1" Grid.Column="1" Content="自定义" FontSize="18" Click="rbSpecial_Click"/>
+            </Grid>
         </GroupBox>
-        <Button Grid.Row="2" Grid.Column="1" Margin="15" Content="添加指令" FontSize="32" Click="BtAdd_Click">
+        <Button Grid.Row="2" Grid.Column="1" Margin="16" Content="添加指令" FontSize="32" Click="BtAdd_Click">
             <Button.Effect>
                 <DropShadowEffect BlurRadius="10"/>
             </Button.Effect>

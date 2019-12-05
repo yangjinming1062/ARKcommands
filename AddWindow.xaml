@@ -43,6 +43,8 @@
             <TextBlock Text="神器"/>
             <TextBlock Text="龙蛋"/>
             <TextBlock Text="饲料"/>
+            <TextBlock Text="种子"/>
+            <TextBlock Text="染料"/>
             <TextBlock Text="其他"/>
         </ComboBox>
         <Label Content="    地图：" Grid.Row="2" Grid.Column="2"/>
