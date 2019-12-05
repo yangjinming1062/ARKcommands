@@ -610,18 +610,32 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>Titan BOSS</Name>
-    <Command>admincheat GMSummon "DesertKaiju_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>USP45</Name>
     <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/USP/PrimalItem_WeaponHKUSP_RWW.PrimalItem_WeaponHKUSP_RWW'" {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>0</Map>
     <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>X物种子</Name>
+    <Command>giveitemnum 391 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>X物种子</Name>
+    <Command>giveitemnum 390 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Y植物种子</Name>
+    <Command>admincheat GiveItem "blueprint'/Game/ScorchedEarth/WeaponPlantSpeciesY/PrimalItemConsumable_Seed_PlantSpeciesY.PrimalItemConsumable_Seed_PlantSpeciesY'" {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>阿根廷巨鹰</Name>
@@ -722,6 +736,34 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>白色浆果种子</Name>
+    <Command>giveitemnum 274 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白色浆果种子</Name>
+    <Command>giveitemnum 239 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白色染料</Name>
+    <Command>giveitemnum 367 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>白色染料</Name>
+    <Command>giveitemnum 65 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>斑龙</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -814,23 +856,9 @@
   </ARKCommand>
   <ARKCommand>
     <Name>冰龙</Name>
-    <Command>admincheat GMSummon "IceJumper_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>冰龙</Name>
     <Command>cheat gmsummon "Ragnarok_Wyvern_Override_Ice_c" 500</Command>
     <Type>恐龙</Type>
     <Map>5</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>冰泰坦</Name>
-    <Command>admincheat GMSummon "IceKaiju_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -949,6 +977,13 @@
     <Name>超级实验肉（一个立即驯服）</Name>
     <Command>giveitemnum 183 {0} {1} {2}</Command>
     <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>橙色染料</Name>
+    <Command>giveitemnum 63 {0} {1} {2}</Command>
+    <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1072,6 +1107,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>淡黄染料</Name>
+    <Command>giveitemnum 369 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>淡蓝染料</Name>
+    <Command>giveitemnum 368 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>淡水碳龟鞍</Name>
     <Command>giveitemnum 207 {0} {1} {2}</Command>
     <Type>龙鞍</Type>
@@ -1136,14 +1185,14 @@
   </ARKCommand>
   <ARKCommand>
     <Name>帝鳄蛋</Name>
-    <Command>giveitemnum 337 {0} {1} {2}</Command>
+    <Command>giveitemnum 351 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>帝鳄蛋</Name>
-    <Command>giveitemnum 351 {0} {1} {2}</Command>
+    <Command>giveitemnum 337 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
@@ -1527,6 +1576,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>粉色染料</Name>
+    <Command>giveitemnum 365 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>风力涡轮机</Name>
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/WindTurbine/PrimalItemStructure_WindTurbine.PrimalItemStructure_WindTurbine'" {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -1576,13 +1632,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>腐化巢穴 (会出来腐化龙 不能驯服)</Name>
-    <Command>admincheat GMSummon "CorruptTumor_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>腐肉</Name>
     <Command>giveitemnum 13 {0} {1} {2}</Command>
     <Type>资源</Type>
@@ -1622,13 +1671,6 @@
     <Command>giveitemnum 333 {0} {1} {2}</Command>
     <Type>饲料</Type>
     <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>嘎查Gacha</Name>
-    <Command>admincheat GMSummon "Gacha_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -1730,13 +1772,6 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
-    <Name>管理鞍座</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle'" {0} {1} {2}</Command>
-    <Type>龙鞍</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>管理闪烁步枪</Name>
     <Command>cheat giveitem "Blueprint'/Game/Extinction/Weapon_AdminBlinkRifle/PrimalItem_WeaponAdminBlinkRifle.PrimalItem_WeaponAdminBlinkRifle'" {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -1793,9 +1828,37 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>褐色染料</Name>
+    <Command>giveitemnum 66 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>黑色浆果</Name>
     <Command>giveitemnum 121 {0} {1} {2}</Command>
     <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑色浆果种子</Name>
+    <Command>giveitemnum 273 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑色浆果种子</Name>
+    <Command>giveitemnum 238 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黑色染料</Name>
+    <Command>giveitemnum 64 {0} {1} {2}</Command>
+    <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1828,10 +1891,31 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>红色浆果种子</Name>
+    <Command>giveitemnum 272 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>红色浆果种子</Name>
+    <Command>giveitemnum 236 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>红色结晶SAP</Name>
     <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_RedSap.PrimalItemResource_RedSap'" {0} {1} {2}</Command>
     <Type>资源</Type>
     <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>红色染料</Name>
+    <Command>giveitemnum 58 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -1849,11 +1933,53 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>胡萝卜种子</Name>
+    <Command>giveitemnum 279 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>胡萝卜种子</Name>
+    <Command>giveitemnum 242 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>黄色浆果</Name>
     <Command>giveitemnum 117 {0} {1} {2}</Command>
     <Type>资源</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黄色浆果种子</Name>
+    <Command>giveitemnum 270 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黄色浆果种子</Name>
+    <Command>giveitemnum 116 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黄色染料</Name>
+    <Command>giveitemnum 61 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恢复飞行单位的耐力属性</Name>
+    <Command>AllowFlyingStaminaRecovery=true</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>回旋飞镖</Name>
@@ -1954,13 +2080,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>机甲</Name>
-    <Command>admincheat GMSummon "MegaMek_Character_BP_C" 1200</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>机枪炮塔</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretMinigun.PrimalItemStructure_TurretMinigun'" {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -2052,13 +2171,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>加特林兽</Name>
-    <Command>admincheat GMSummon "Spindles_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>甲壳</Name>
     <Command>giveitemnum 11 {0} {1} {2}</Command>
     <Type>资源</Type>
@@ -2123,15 +2235,15 @@
   </ARKCommand>
   <ARKCommand>
     <Name>甲龙蛋饲料</Name>
-    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_AnkyloEgg.PrimalItemConsumable_Kibble_AnkyloEgg'" {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Command>giveitemnum 327 {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>甲龙蛋饲料</Name>
-    <Command>giveitemnum 327 {0} {1} {2}</Command>
-    <Type>饲料</Type>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_AnkyloEgg.PrimalItemConsumable_Kibble_AnkyloEgg'" {0} {1} {2}</Command>
+    <Type>资源</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -2241,6 +2353,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>浆果种子</Name>
+    <Command>giveitemnum 49 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>降落伞</Name>
     <Command>giveitemnum 187 {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -2302,6 +2421,13 @@
     <Type>龙鞍</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>解除限制只有允许一个C4附着在恐龙身上</Name>
+    <Command>AllowMultipleAttachedC4=true</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>金属</Name>
@@ -2913,10 +3039,31 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>蓝色浆果种子</Name>
+    <Command>giveitemnum 235 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蓝色浆果种子</Name>
+    <Command>giveitemnum 271 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>蓝色结晶SAP</Name>
     <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_BlueSap.PrimalItemResource_BlueSap'" {0} {1} {2}</Command>
     <Type>资源</Type>
     <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蓝色染料</Name>
+    <Command>giveitemnum 60 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -3151,6 +3298,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>绿色染料</Name>
+    <Command>giveitemnum 363 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>绿色染料</Name>
+    <Command>giveitemnum 59 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>麻醉飞镖</Name>
     <Command>Giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_TranqDart.PrimalItemAmmo_TranqDart" {0} {1} {2}</Command>
     <Type>弹药</Type>
@@ -3179,17 +3340,17 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>玛纳加尔姆鞍</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Saddle/PrimalItemArmor_IceJumperSaddle.PrimalItemArmor_IceJumperSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>玛瑙螺</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>猫头鹰</Name>
-    <Command>admincheat GMSummon "Owl_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -3550,6 +3711,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>柠檬种子</Name>
+    <Command>giveitemnum 276 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>柠檬种子</Name>
+    <Command>giveitemnum 133 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>牛龙</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3582,13 +3757,6 @@
     <Command>giveitemnum 362 {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>爬地泰克</Name>
-    <Command>admincheat GMSummon "Enforcer_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -3704,13 +3872,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>气囊兽</Name>
-    <Command>admincheat GMSummon "GasBags_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>汽油</Name>
     <Command>giveitemnum 164 {0} {1} {2}</Command>
     <Type>资源</Type>
@@ -3774,6 +3935,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>青色染料</Name>
+    <Command>giveitemnum 67 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>轻羽鸟</Name>
     <Command>admincheat SpawnDino "Blueprint'/Game/Aberration/Dinos/LanternBird/LanternBird_Character_BP.LanternBird_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3784,6 +3952,55 @@
     <Name>全息瞄准镜</Name>
     <Command>giveitemnum 219 {0} {1} {2}</Command>
     <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 409 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 410 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 412 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 407 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 411 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 408 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>染料</Name>
+    <Command>giveitemnum 406 {0} {1} {2}</Command>
+    <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3872,13 +4089,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>森林泰坦</Name>
-    <Command>admincheat GMSummon "ForestKaiju_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>杀死所有飞人类生物（包括被驯服的动物）</Name>
     <Command>admincheat destroyallenemies</Command>
     <Type />
@@ -3931,13 +4141,6 @@
     <Name>沙漠巨人奖杯</Name>
     <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert'" {0} {1} {2}</Command>
     <Type>其他</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>沙漠泰坦</Name>
-    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/DesertKaiju/DesertKaiju_Character_BP.DesertKaiju_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
     <Map>6</Map>
     <Special />
   </ARKCommand>
@@ -4008,6 +4211,13 @@
     <Name>麝足兽</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP.Moschops_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>深黄染料</Name>
+    <Command>giveitemnum 370 {0} {1} {2}</Command>
+    <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4628,13 +4838,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>坦克</Name>
-    <Command>admincheat GMSummon "Defender_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>碳龟</Name>
     <Command>admincheat SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4775,6 +4978,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>土豆种子</Name>
+    <Command>giveitemnum 277 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>土豆种子</Name>
+    <Command>giveitemnum 240 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>团结</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_02.PrimalItemArtifact_02'" {0} {1} {2}</Command>
     <Type>神器</Type>
@@ -4834,6 +5051,13 @@
     <Name>望远镜</Name>
     <Command>giveitemnum 283 {0} {1} {2}</Command>
     <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>微黄染料</Name>
+    <Command>giveitemnum 364 {0} {1} {2}</Command>
+    <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4964,13 +5188,6 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
-    <Name>无人机</Name>
-    <Command>admincheat GMSummon "Scout_Character_BP_C" 500</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>无线电</Name>
     <Command>giveitemnum 141 {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -5077,14 +5294,14 @@
   </ARKCommand>
   <ARKCommand>
     <Name>蝎卵</Name>
-    <Command>giveitemnum 339 {0} {1} {2}</Command>
+    <Command>giveitemnum 352 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>蝎卵</Name>
-    <Command>giveitemnum 352 {0} {1} {2}</Command>
+    <Command>giveitemnum 339 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
@@ -5426,6 +5643,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>玉米种子</Name>
+    <Command>giveitemnum 241 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>玉米种子</Name>
+    <Command>giveitemnum 278 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>御寒裤</Name>
     <Command>giveitemnum 429 {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -5574,14 +5805,14 @@
   </ARKCommand>
   <ARKCommand>
     <Name>蜘蛛卵</Name>
-    <Command>giveitemnum 340 {0} {1} {2}</Command>
+    <Command>giveitemnum 353 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>蜘蛛卵</Name>
-    <Command>giveitemnum 353 {0} {1} {2}</Command>
+    <Command>giveitemnum 340 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
@@ -5867,204 +6098,22 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>自动炮塔</Name>
-    <Command>giveitemnum 197 {0} {1} {2}</Command>
-    <Type>建筑</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>X物种子</Name>
-    <Command>giveitemnum 390 {0} {1} {2}</Command>
+    <Name>紫色浆果种子</Name>
+    <Command>giveitemnum 237 {0} {1} {2}</Command>
     <Type>种子</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>X物种子</Name>
-    <Command>giveitemnum 391 {0} {1} {2}</Command>
+    <Name>紫色浆果种子</Name>
+    <Command>giveitemnum 275 {0} {1} {2}</Command>
     <Type>种子</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>Y植物种子</Name>
-    <Command>admincheat GiveItem "blueprint'/Game/ScorchedEarth/WeaponPlantSpeciesY/PrimalItemConsumable_Seed_PlantSpeciesY.PrimalItemConsumable_Seed_PlantSpeciesY'" {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>白色浆果种子</Name>
-    <Command>giveitemnum 239 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>白色浆果种子</Name>
-    <Command>giveitemnum 274 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>白色染料</Name>
-    <Command>giveitemnum 65 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>白色染料</Name>
-    <Command>giveitemnum 367 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>橙色染料</Name>
-    <Command>giveitemnum 63 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>淡黄染料</Name>
-    <Command>giveitemnum 369 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>淡蓝染料</Name>
-    <Command>giveitemnum 368 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>粉色染料</Name>
-    <Command>giveitemnum 365 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>褐色染料</Name>
-    <Command>giveitemnum 66 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>黑色染料</Name>
-    <Command>giveitemnum 64 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>红色染料</Name>
-    <Command>giveitemnum 58 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>黄色染料</Name>
-    <Command>giveitemnum 61 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>蓝色染料</Name>
-    <Command>giveitemnum 60 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>绿色染料</Name>
-    <Command>giveitemnum 59 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>绿色染料</Name>
-    <Command>giveitemnum 363 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>青色染料</Name>
-    <Command>giveitemnum 67 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>染料</Name>
-    <Command>giveitemnum 410 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>染料</Name>
-    <Command>giveitemnum 412 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>染料</Name>
-    <Command>giveitemnum 411 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>染料</Name>
-    <Command>giveitemnum 406 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>染料</Name>
-    <Command>giveitemnum 408 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>染料</Name>
-    <Command>giveitemnum 409 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>染料</Name>
-    <Command>giveitemnum 407 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>深黄染料</Name>
-    <Command>giveitemnum 370 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>微黄染料</Name>
-    <Command>giveitemnum 364 {0} {1} {2}</Command>
+    <Name>紫色染料</Name>
+    <Command>giveitemnum 62 {0} {1} {2}</Command>
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
@@ -6078,149 +6127,121 @@
   </ARKCommand>
   <ARKCommand>
     <Name>紫色染料</Name>
-    <Command>giveitemnum 62 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>紫色染料</Name>
     <Command>giveitemnum 366 {0} {1} {2}</Command>
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>黑色浆果种子</Name>
-    <Command>giveitemnum 238 {0} {1} {2}</Command>
-    <Type>种子</Type>
+    <Name>自动炮塔</Name>
+    <Command>giveitemnum 197 {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>黑色浆果种子</Name>
-    <Command>giveitemnum 273 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>执行者</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/Enforcer/Enforcer_Character_BP.Enforcer_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>红色浆果种子</Name>
-    <Command>giveitemnum 272 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>嘎查</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/Gacha/Gacha_Character_BP.Gacha_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>红色浆果种子</Name>
-    <Command>giveitemnum 236 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>气囊虫</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/GasBag/GasBags_Character_BP.GasBags_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>胡萝卜种子</Name>
-    <Command>giveitemnum 279 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>玛纳加尔姆</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>胡萝卜种子</Name>
-    <Command>giveitemnum 242 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>雪鸮</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>黄色浆果种子</Name>
-    <Command>giveitemnum 116 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>加特林兽</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>黄色浆果种子</Name>
-    <Command>giveitemnum 270 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>防御单元（抵御者）</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/Tank/Defender_Character_BP.Defender_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>浆果种子</Name>
-    <Command>giveitemnum 49 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>机甲</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/Mek/Mek_Character_BP.Mek_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>蓝色浆果种子</Name>
-    <Command>giveitemnum 235 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>力神机甲</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/Mek/MegaMek_Character_BP.MegaMek_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>蓝色浆果种子</Name>
-    <Command>giveitemnum 271 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>侦察机</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/Scout/PrimalItem_WeaponScoutRemote.PrimalItem_WeaponScoutRemote'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>柠檬种子</Name>
-    <Command>giveitemnum 276 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>沙漠泰坦</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/DesertKaiju/DesertKaiju_Character_BP.DesertKaiju_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>柠檬种子</Name>
-    <Command>giveitemnum 133 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>森林泰坦</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/ForestKaiju/ForestKaiju_Character_BP.ForestKaiju_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>土豆种子</Name>
-    <Command>giveitemnum 277 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>冰霜泰坦</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/IceKaiju/IceKaiju_Character_BP.IceKaiju_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>土豆种子</Name>
-    <Command>giveitemnum 240 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>泰坦王</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/KingKaiju/KingKaiju_Character_BP.KingKaiju_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>玉米种子</Name>
-    <Command>giveitemnum 278 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>玉米种子</Name>
-    <Command>giveitemnum 241 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>紫色浆果种子</Name>
-    <Command>giveitemnum 275 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>紫色浆果种子</Name>
-    <Command>giveitemnum 237 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
+    <Name>森林双足飞龙</Name>
+    <Command>cheat SpawnDino "Blueprint'/Game/Extinction/Dinos/ForestKaiju/Minion/Wyvern_Character_BP_Fire_Minion.Wyvern_Character_BP_Fire_Minion'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
 </ArrayOfARKCommand>

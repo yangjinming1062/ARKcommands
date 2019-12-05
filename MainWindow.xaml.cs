@@ -13,7 +13,7 @@ namespace ARKcommands
     {
         public MainWindow() => InitializeComponent();
 
-        ObservableCollection<ARKCommand> lsCommands = new ObservableCollection<ARKCommand>();
+        ObservableCollection<ARKCommand> lsCommands;
         List<ARKCommand> ALLCommands = new List<ARKCommand>();
         string fType = "全部";
         string fMap = "0";
@@ -101,14 +101,6 @@ namespace ARKcommands
             addWindow.ShowDialog();
             ALLCommands = function.XmlUnS();
             Notified();
-        }
-    }
-
-    class ARKCompare : IComparer<ARKCommand>
-    {
-        public int Compare(ARKCommand x, ARKCommand y)
-        {
-            return string.Compare(x.Name, y.Name);
         }
     }
 }
