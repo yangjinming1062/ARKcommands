@@ -56,7 +56,8 @@
                 <RadioButton Margin="8"  Grid.Row="5" Grid.Column="1"  Content="饲料" FontSize="18"/>
                 <RadioButton Margin="8"  Grid.Row="6" Grid.Column="0"  Content="种子" FontSize="18"/>
                 <RadioButton Margin="8"  Grid.Row="6" Grid.Column="1"  Content="染料" FontSize="18"/>
-                <RadioButton Margin="8"  Grid.Row="7" Grid.ColumnSpan="2"  Content="其他" FontSize="18" HorizontalAlignment="Center"/>
+                <RadioButton Margin="8"  Grid.Row="7" Grid.Column="0"  Content="消耗" FontSize="18"/>
+                <RadioButton Margin="8"  Grid.Row="7" Grid.Column="1"  Content="其他" FontSize="18"/>
             </Grid>
         </GroupBox>
         <GroupBox Header="地图" Grid.Row="1" Grid.Column="1" ButtonBase.Click="rbMap_Click">

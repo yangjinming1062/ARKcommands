@@ -1,0 +1,6 @@
+top1.realvu_pr2.setU(window,{s:'728x90',c:'E4KZ',p:'9127',lid:5016195301,unit_id:'realvu9127',sr :'d',mode:'wtf,hbid',tar:30000,wait:1
+,vbids:[{bidder:'pubmatic',params:{publisherId:"158024",adSlot:"2123067"},rv_id:'2162833'},{bidder:'smartadserver',params:{siteId:305894,pageId:1111640,formatId:81134},rv_id:'2165048'},{bidder:'openx',params:{delDomain:'durationmedia-d.openx.net',unit:"540869309"},rv_id:'2166696'}]
+,imbids:[],tags:
+[{id:2161818,st:"R", tag:"<script src='https://www.googletagservices.com/tag/js/gpt.js'>\n googletag.pubads().definePassback('/21688424927/curse/gamepedia', [[728, 90]]).set(\"page_url\", \"gamepedia.com\").display();\n</script>",s:"728x90",nr:0}
+,{id:2169153,st:"B", tag:"<script src=\"https://www.googletagservices.com/tag/js/gpt.js\"> googletag.pubads().definePassback(\"/64387298/durationmedia/gamepedia\", [[728,90]]).set(\"page_url\", \"gamepedia.com\").display();</script>",s:"728x90",pt:1,nr:0}]});
+/* t1:1 t2:1 */

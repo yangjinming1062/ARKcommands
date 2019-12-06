@@ -39,6 +39,7 @@
             <TextBlock Text="装备"/>
             <TextBlock Text="弹药"/>
             <TextBlock Text="资源"/>
+            <TextBlock Text="消耗"/>
             <TextBlock Text="建筑"/>
             <TextBlock Text="神器"/>
             <TextBlock Text="龙蛋"/>

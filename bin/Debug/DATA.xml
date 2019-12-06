@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <ArrayOfARKCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ARKCommand>
+    <Name>"Evil" Emote</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Evil.PrimalItemConsumable_UnlockEmote_Evil'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>44 Magnum</Name>
     <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/Revolver/PrimalItemAmmo_Bullet_44Mag_RWW.PrimalItemAmmo_Bullet_44Mag_RWW'" {0} {1} {2}</Command>
     <Type>弹药</Type>
@@ -64,11 +71,32 @@
     <Special>Mod</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>Absorbent Substrate</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_SubstrateAbsorbent.PrimalItemResource_SubstrateAbsorbent'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Achatina Paste</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>ACWR</Name>
     <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/AssaultWeapons/ACWR/PrimalItem_WeaponRifle_RWW_ACWR.PrimalItem_WeaponRifle_RWW_ACWR'" {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>0</Map>
     <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Adobe Fence Support</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/StructuresPlus/Structures/FenceSupports/Adobe/PrimalItemStructure_FenceSupport_Adobe.PrimalItemStructure_FenceSupport_Adobe'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>AEK12</Name>
@@ -97,6 +125,27 @@
     <Type>武器</Type>
     <Map>0</Map>
     <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Ammonite Bile</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AmmoniteBlood.PrimalItemResource_AmmoniteBlood'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Angler Gel</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_AnglerGel.PrimalItemResource_AnglerGel'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Arthropluera</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ArthroSaddle.PrimalItemArmor_ArthroSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>Artifact of Chaos 混沌</Name>
@@ -134,9 +183,128 @@
     <Special>Mod</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>Ballista Turret</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretBallista.PrimalItemStructure_TurretBallista'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Baryonyx</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BaryonyxSaddle.PrimalItemArmor_BaryonyxSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Basilosaurus</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BasiloSaddle.PrimalItemArmor_BasiloSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Bee Hive</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/Structures/BeeHive/PrimalItemStructure_BeeHive.PrimalItemStructure_BeeHive'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Beelzebufo</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ToadSaddle.PrimalItemArmor_ToadSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>C4控制器</Name>
     <Command>giveitemnum 43 {0} {1} {2}</Command>
     <Type>武器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Castoroides</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_BeaverSaddle.PrimalItemArmor_BeaverSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Chalicotherium</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ChalicoSaddle.PrimalItemArmor_ChalicoSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Crafted Element Dust</Name>
+    <Command>GiveItem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDustFromShards.PrimalItemResource_ElementDustFromShards'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Daeodon</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DaeodonSaddle.PrimalItemArmor_DaeodonSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Deinonychus</Name>
+    <Command>GiveItem "Blueprint'/Game/Valguero/Dinos/Deinonychus/PrimalItemArmor_DeinonychusSaddle.PrimalItemArmor_DeinonychusSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>7</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Diplodocus</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DiplodocusSaddle.PrimalItemArmor_DiplodocusSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Dragon Flag</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Dragon.PrimalItemStructure_Flag_Dragon'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Dunkleosteus</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DunkleosteusSaddle.PrimalItemArmor_DunkleosteusSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Element Ore</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ElementOre.PrimalItemResource_ElementOre'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Equus</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_EquusSaddle.PrimalItemArmor_EquusSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Fish Basket</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_FishBasket.PrimalItemStructure_FishBasket'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Flexible Electrical Cable</Name>
+    <Command>giveitemnum 501 {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -148,9 +316,114 @@
     <Special>Mod</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>Gallimimus</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Gallimimus.PrimalItemArmor_Gallimimus'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Gas Collector</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/GasCollector/PrimalItemStructure_GasCollector.PrimalItemStructure_GasCollector'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Giant Metal Hatchframe</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalCeilingWithTrapdoorGiant.PrimalItemStructure_MetalCeilingWithTrapdoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Giant Metal Trapdoor</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalTrapdoorGiant.PrimalItemStructure_MetalTrapdoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Giant Reinforced Trapdoor</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingDoorGiant.PrimalItemStructure_StoneCeilingDoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Giant Stone Hatchframe</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneCeilingWithTrapdoorGiant.PrimalItemStructure_StoneCeilingWithTrapdoorGiant'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Giganotosaurus</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_GigantSaddle.PrimalItemArmor_GigantSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Gorilla Flag</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Flag_Gorilla.PrimalItemStructure_Flag_Gorilla'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>GPS全球定位系统</Name>
     <Command>giveitemnum 72 {0} {1} {2}</Command>
     <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Gravestone</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_Gravestone.PrimalItemStructure_Furniture_Gravestone'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Homing Underwater Mine</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_SeaMine.PrimalItemStructure_SeaMine'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Hyaenodon</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_HyaenodonSaddle.PrimalItemArmor_HyaenodonSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Iguanodon</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_IguanodonSaddle.PrimalItemArmor_IguanodonSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kaprosuchus</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_KaprosuchusSaddle.PrimalItemArmor_KaprosuchusSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Karkinos Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Lymantria Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemArmor_MothSaddle.PrimalItemArmor_MothSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -204,11 +477,193 @@
     <Special>Mod</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>Manta Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MantaSaddle.PrimalItemArmor_MantaSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Manticore Flag</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/ManticoreFlag/PrimalItemStructure_Flag_Manticore.PrimalItemStructure_Flag_Manticore'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Mantis Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/PrimalItemArmor_MantisSaddle.PrimalItemArmor_MantisSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Megalania Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalaniaSaddle.PrimalItemArmor_MegalaniaSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Megaloceros Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_StagSaddle.PrimalItemArmor_StagSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Megalodon Tek Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalodonSaddle_Tek.PrimalItemArmor_MegalodonSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Megalosaurus</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegalosaurusSaddle.PrimalItemArmor_MegalosaurusSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Megatherium Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MegatheriumSaddle.PrimalItemArmor_MegatheriumSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Metal Fence Support</Name>
+    <Command>giveitemnum 468 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Metal Irrigation Pipe - Flexible</Name>
+    <Command>giveitemnum 477 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Metal Triangle Ceiling</Name>
+    <Command>giveitemnum 486 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Metal Triangle Foundation</Name>
+    <Command>giveitemnum 491 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Metal Triangle Roof</Name>
+    <Command>giveitemnum 497 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>MK14-EBR</Name>
     <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Snipers/MK14EBR/PrimalItem_WeaponRifle_RWW_EBR.PrimalItem_WeaponRifle_RWW_EBR'" {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>0</Map>
     <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Mosasaur Platform Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Platform.PrimalItemArmor_MosaSaddle_Platform'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Mosasaur Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle.PrimalItemArmor_MosaSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Mosasaur Tek Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_MosaSaddle_Tek.PrimalItemArmor_MosaSaddle_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Multi-Panel Flag</Name>
+    <Command>giveitemnum 280 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Pachyrhinosaurus Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PachyrhinoSaddle.PrimalItemArmor_PachyrhinoSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Pelagornis Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PelaSaddle.PrimalItemArmor_PelaSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Plesiosaur Platform Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PlesiSaddle_Platform.PrimalItemArmor_PlesiSaddle_Platform'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Procoptodon Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ProcoptodonSaddle.PrimalItemArmor_ProcoptodonSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Quetz Platform Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle_Platform.PrimalItemArmor_QuetzSaddle_Platform'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Quetz Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_QuetzSaddle.PrimalItemArmor_QuetzSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Rockwell Flag</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Trophies/PrimalItemStructure_Flag_Rockwell.PrimalItemStructure_Flag_Rockwell'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Roll Rat Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Dinos/MoleRat/PrimalItemArmor_MoleRatSaddle.PrimalItemArmor_MoleRatSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Sap</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>SCAR-L</Name>
@@ -218,11 +673,88 @@
     <Special>Mod</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>Shag Rug</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Structures/PrimalItemStructure_Furniture_Rug.PrimalItemStructure_Furniture_Rug'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Single Panel Flag</Name>
+    <Command>giveitemnum 374 {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>SKS</Name>
     <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Snipers/SKS/PrimalItem_WeaponRifle_RWW_SKS.PrimalItem_WeaponRifle_RWW_SKS'" {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>0</Map>
     <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Stone Fence Support</Name>
+    <Command>giveitemnum 469 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Stone Irrigation Pipe - Flexible</Name>
+    <Command>giveitemnum 478 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Stone Triangle Ceiling</Name>
+    <Command>giveitemnum 487 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Tapejara Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Tapejara Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TapejaraSaddle.PrimalItemArmor_TapejaraSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Tapejara Tek Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_Tapejara_Tek.PrimalItemArmor_Tapejara_Tek'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Tek Dedicated Storage</Name>
+    <Command>giveitemnum 454 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Tek Fence Support</Name>
+    <Command>giveitemnum 470 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK Hatchframe</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCeilingWithTrapdoor.PrimalItemStructure_TekCeilingWithTrapdoor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>TEK霸王龙鞍</Name>
@@ -254,6 +786,13 @@
   </ARKCommand>
   <ARKCommand>
     <Name>TEK窗</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWindow.PrimalItemStructure_TekWindow'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK窗</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWindow.PrimalItemStructure_TekWindow" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
@@ -262,6 +801,20 @@
   <ARKCommand>
     <Name>TEK窗框</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallWithWindow.PrimalItemStructure_TekWallWithWindow" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK窗框</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekWallWithWindow.PrimalItemStructure_TekWallWithWindow'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK大型墙</Name>
+    <Command>giveitemnum 475 {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -323,6 +876,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>TEK回旋楼梯</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekStairs.PrimalItemStructure_TekStairs'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK活动门</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekTrapdoor.PrimalItemStructure_TekTrapdoor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>TEK剑</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponTekSword.PrimalItem_WeaponTekSword'" {0} {1} {2}</Command>
     <Type>武器</Type>
@@ -352,7 +919,7 @@
   </ARKCommand>
   <ARKCommand>
     <Name>TEK巨兽门框</Name>
-    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe_Large.PrimalItemStructure_TekGateframe_Large" {0} {1} {2}</Command>
+    <Command>GiveItem 	"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekGateframe_Large.PrimalItemStructure_TekGateframe_Large'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -442,6 +1009,34 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>TEK桥</Name>
+    <Command>GiveItem "Blueprint'/Game/Extinction/Structures/TekBridge/PrimalItemStructure_TekBridge.PrimalItemStructure_TekBridge'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK三角地基</Name>
+    <Command>giveitemnum 493 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK三角天花板</Name>
+    <Command>giveitemnum 488 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK三角斜屋顶</Name>
+    <Command>giveitemnum 499 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>TEK手榴弹</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_TekGrenade.PrimalItem_TekGrenade'" {0} {1} {2}</Command>
     <Type>武器</Type>
@@ -452,6 +1047,20 @@
     <Name>TEK手套</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Tek/PrimalItemArmor_TekGloves.PrimalItemArmor_TekGloves" {0} {1} {2}</Command>
     <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK双开门</Name>
+    <Command>giveitemnum 459 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK双开门框</Name>
+    <Command>giveitemnum 465 {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -492,7 +1101,21 @@
   </ARKCommand>
   <ARKCommand>
     <Name>TEK梯子</Name>
+    <Command>giveitemnum 482 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK梯子</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekLadder.PrimalItemStructure_TekLadder" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK梯子</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekLadder.PrimalItemStructure_TekLadder'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -582,6 +1205,20 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>TEK栅栏地基</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekFenceFoundation.PrimalItemStructure_TekFenceFoundation'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK窄道</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCatwalk.PrimalItemStructure_TekCatwalk'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>TEK栈桥</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Tek/PrimalItemStructure_TekCatwalk.PrimalItemStructure_TekCatwalk" {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -610,11 +1247,109 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>Therizinosaurus Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TherizinosaurusSaddle.PrimalItemArmor_TherizinosaurusSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Thylacoleo Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_ThylacoSaddle.PrimalItemArmor_ThylacoSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Titanosaur Platform Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TitanSaddle_Platform.PrimalItemArmor_TitanSaddle_Platform'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Tree Sap Tap</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_TreeTap.PrimalItemStructure_TreeTap'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Trophy Wall-Mount</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TrophyWall.PrimalItemStructure_TrophyWall'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>USP45</Name>
     <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/USP/PrimalItem_WeaponHKUSP_RWW.PrimalItem_WeaponHKUSP_RWW'" {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>0</Map>
     <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Vessel</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/DesertFurnitureSet/Vessel/PrimalItemStructure_Vessel.PrimalItemStructure_Vessel'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Wood Elevator Top Switch</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorTopSwitch.PrimalItemStructure_WoodElevatorTopSwitch'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Wooden Fence Support</Name>
+    <Command>giveitemnum 471 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Woolly Rhino Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_RhinoSaddle.PrimalItemArmor_RhinoSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>X异种植物种子</Name>
+    <Command>giveitemnum 391 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>X异种植物种子</Name>
+    <Command>giveitemnum 390 {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Yutyrannus Saddle</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_YutySaddle.PrimalItemArmor_YutySaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Y异种植物陷阱</Name>
+    <Command>admincheat GiveItem "blueprint'/Game/ScorchedEarth/WeaponPlantSpeciesY/PrimalItemStructure_PlantSpeciesYTrap.PrimalItemStructure_PlantSpeciesYTrap'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Y异种植物种子</Name>
+    <Command>admincheat GiveItem "blueprint'/Game/ScorchedEarth/WeaponPlantSpeciesY/PrimalItemConsumable_Seed_PlantSpeciesY.PrimalItemConsumable_Seed_PlantSpeciesY'" {0} {1} {2}</Command>
+    <Type>种子</Type>
+    <Map>0</Map>
+    <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>阿根廷巨鹰</Name>
@@ -668,9 +1403,16 @@
   <ARKCommand>
     <Name>暗影煎牛排</Name>
     <Command>giveitemnum 255 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>把我传送到Eva身边</Name>
+    <Command>TeleportToPlayerName Eva</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>霸王龙</Name>
@@ -701,16 +1443,16 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>白旗</Name>
-    <Command>giveitemnum 374 {0} {1} {2}</Command>
-    <Type>其他</Type>
+    <Name>白色浆果</Name>
+    <Command>giveitemnum 122 {0} {1} {2}</Command>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>白色浆果</Name>
-    <Command>giveitemnum 122 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Name>白色浆果种子</Name>
+    <Command>giveitemnum 239 {0} {1} {2}</Command>
+    <Type>种子</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -782,6 +1524,13 @@
     <Command>admincheat GiveItem "blueprint'/Game/ScorchedEarth/WeaponWhip/PrimalItem_WeaponWhip.PrimalItem_WeaponWhip'" {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>便携式绳梯</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/PortableRopeLadder/PrimalItemStructure_PortableLadder.PrimalItemStructure_PortableLadder'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -890,6 +1639,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>部落重命名</Name>
+    <Command>RenameTribe "{0}" {1}</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>采血器</Name>
     <Command>giveitemnum 44 {0} {1} {2}</Command>
     <Type>其他</Type>
@@ -939,6 +1695,13 @@
     <Special>Mod</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>藏青染料</Name>
+    <Command>giveitemnum 410 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>超级实验肉（一个立即驯服）</Name>
     <Command>giveitemnum 183 {0} {1} {2}</Command>
     <Type>其他</Type>
@@ -950,6 +1713,13 @@
     <Command>giveitemnum 63 {0} {1} {2}</Command>
     <Type>染料</Type>
     <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>充电电池</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/WeaponGlowStickCharge/PrimalItem_ChargeBattery.PrimalItem_ChargeBattery'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>4</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -1016,16 +1786,16 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>大角鹿</Name>
-    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
+    <Name>大地色染料</Name>
+    <Command>giveitemnum 408 {0} {1} {2}</Command>
+    <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>大烤炉</Name>
-    <Command>giveitemnum 360 {0} {1} {2}</Command>
-    <Type>建筑</Type>
+    <Name>大角鹿</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1044,8 +1814,43 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>大型电梯平台</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatformLarge.PrimalItemStructure_ElevatorPlatformLarge'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大型金属墙</Name>
+    <Command>giveitemnum 473 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大型木制电梯平台</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Large.PrimalItemStructure_WoodElevatorPlatform_Large'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大型石头墙</Name>
+    <Command>giveitemnum 474 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>大型种植田</Name>
     <Command>giveitemnum 249 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大型砖制墙</Name>
+    <Command>giveitemnum 472 {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -1093,6 +1898,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>弹射器炮塔</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretCatapult.PrimalItemStructure_TurretCatapult'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>盗首螈</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP.Diplocaulus_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1121,6 +1933,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>地图</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WarMap.PrimalItemStructure_WarMap'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>帝鳄</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1138,6 +1957,13 @@
     <Name>帝鳄蛋</Name>
     <Command>giveitemnum 351 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>帝鳄蛋饲料</Name>
+    <Command>giveitemnum 337 {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1198,6 +2024,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>电梯轨道</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorTrackBase.PrimalItemStructure_ElevatorTrackBase'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>电源插座</Name>
     <Command>giveitemnum 190 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -1209,6 +2042,20 @@
     <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'" {0} {1} {2}</Command>
     <Type>其他</Type>
     <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>钓鱼竿</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponFishingRod.PrimalItem_WeaponFishingRod'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>定位器</Name>
+    <Command>giveitemnum 372 {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -1373,6 +2220,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>防爆盾牌</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_TransparentRiotShield.PrimalItemArmor_TransparentRiotShield'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>防爆护手</Name>
     <Command>giveitemnum 448 {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -1443,6 +2297,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>防毒面罩</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_GasMask.PrimalItemArmor_GasMask'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>防护裤</Name>
     <Command>cheat giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Armor/HazardSuit/PrimalItemArmor_HazardSuitPants.PrimalItemArmor_HazardSuitPants'" {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -1485,6 +2346,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>放大镜</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/Test/PrimalItem_WeaponMagnifyingGlass.PrimalItem_WeaponMagnifyingGlass'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>飞行模式</Name>
     <Command>admincheat fly</Command>
     <Type />
@@ -1496,6 +2364,13 @@
     <Command>giveitemnum 50 {0} {1} {2}</Command>
     <Type>资源</Type>
     <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>废金属</Name>
+    <Command>GiveItem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetal.PrimalItemResource_ScrapMetal'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -1541,13 +2416,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>风神翼龙蛋</Name>
-    <Command>giveitemnum 464 {0} {1} {2}</Command>
-    <Type>龙蛋</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>风神翼龙蛋饲料</Name>
     <Command>giveitemnum 465 {0} {1} {2}</Command>
     <Type>饲料</Type>
@@ -1557,7 +2425,7 @@
   <ARKCommand>
     <Name>弗里亚咖喱</Name>
     <Command>giveitemnum 230 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1578,7 +2446,7 @@
   <ARKCommand>
     <Name>腐肉</Name>
     <Command>giveitemnum 13 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1625,6 +2493,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>嘎查水晶</Name>
+    <Command>giveitem "Blueprint'/Game/Extinction/Dinos/Gacha/PrimalItemConsumable_GachaPod.PrimalItemConsumable_GachaPod'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>橄榄色染料</Name>
+    <Command>giveitemnum 411 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>高级步枪子弹</Name>
     <Command>giveitemnum 246 {0} {1} {2}</Command>
     <Type>弹药</Type>
@@ -1653,8 +2535,29 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>工作台</Name>
-    <Command>giveitemnum 126 {0} {1} {2}</Command>
+    <Name>工业大锅</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialCookingPot.PrimalItemStructure_IndustrialCookingPot'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>工业精炼炉</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_IndustrialForge.PrimalItemStructure_IndustrialForge'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>工业烤箱</Name>
+    <Command>giveitemnum 360 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>工业研磨机</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Grinder.PrimalItemStructure_Grinder'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -1723,6 +2626,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>管理员状态（等于God, InfiniteStats, EnemyInvisible true）</Name>
+    <Command>GMBuff</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>广翅鲎</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Eurypterid/Euryp_Character.Euryp_Character'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1765,6 +2675,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>骇鸟鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TerrorBirdSaddle.PrimalItemArmor_TerrorBirdSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>骇鸟蛋饲料</Name>
     <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TerrorBirdEgg.PrimalItemConsumable_Kibble_TerrorBirdEgg'" {0} {1} {2}</Command>
     <Type>资源</Type>
@@ -1774,7 +2691,7 @@
   <ARKCommand>
     <Name>黑色浆果</Name>
     <Command>giveitemnum 121 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1814,9 +2731,16 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>红色宝石</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Element.PrimalItemResource_Gem_Element'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>红色浆果</Name>
     <Command>giveitemnum 119 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1851,7 +2775,7 @@
   <ARKCommand>
     <Name>胡萝卜</Name>
     <Command>giveitemnum 234 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1863,9 +2787,23 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>化学工作台</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_ChemBench.PrimalItemStructure_ChemBench'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>皇家色染料</Name>
+    <Command>giveitemnum 366 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>黄色浆果</Name>
     <Command>giveitemnum 117 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -1947,6 +2885,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>火箭炮台</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TurretRocket.PrimalItemStructure_TurretRocket'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>火箭制导导弹</Name>
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponHomingMissile/PrimalItemAmmo_RocketHomingMissile.PrimalItemAmmo_RocketHomingMissile'" {0} {1} {2}</Command>
     <Type>弹药</Type>
@@ -2010,6 +2955,41 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>吉利护腿</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhilliePants.PrimalItemArmor_GhilliePants'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>吉利手套</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieGloves.PrimalItemArmor_GhillieGloves'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>吉利头盔</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieHelmet.PrimalItemArmor_GhillieHelmet'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>吉利鞋</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieBoots.PrimalItemArmor_GhillieBoots'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>吉利衣服</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Ghillie/PrimalItemArmor_GhillieShirt.PrimalItemArmor_GhillieShirt'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>棘背龙</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2059,6 +3039,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>脊背龙蛋饲料</Name>
+    <Command>giveitemnum 341 {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>脊背龙脊背</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'" {0} {1} {2}</Command>
     <Type>神器</Type>
@@ -2069,6 +3056,34 @@
     <Name>脊龙鞍</Name>
     <Command>giveitemnum 303 {0} {1} {2}</Command>
     <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>加固木制门</Name>
+    <Command>giveitemnum 317 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>加固双开门框</Name>
+    <Command>giveitemnum 458 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>加固天窗门</Name>
+    <Command>giveitemnum 358 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>加农炮</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Cannon.PrimalItemStructure_Cannon'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -2157,6 +3172,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>剪刀</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponScissors.PrimalItem_WeaponScissors'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>简单子弹</Name>
     <Command>giveitemnum 4 {0} {1} {2}</Command>
     <Type>弹药</Type>
@@ -2234,6 +3256,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>剑龙蛋饲料</Name>
+    <Command>giveitemnum 342 {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>渐新象</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Phiomia/Phiomia_Character_BP.Phiomia_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2246,6 +3275,20 @@
     <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>将Eva传送到我身边</Name>
+    <Command>TeleportPlayerNameToMe Eva</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>将玩家角色立即移动到指定位置（数量：纬度，品质：经度，手动修改海拔）</Name>
+    <Command>SetPlayerPos {0} {1} {2}</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>浆果种子</Name>
@@ -2325,6 +3368,13 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>解锁全部TEK蓝图</Name>
+    <Command>cheat GiveEngramsTekOnly</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>金属</Name>
     <Command>giveitemnum 9 {0} {1} {2}</Command>
     <Type>资源</Type>
@@ -2360,8 +3410,22 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>金属盾牌</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_MetalShield.PrimalItemArmor_MetalShield'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>金属告示牌</Name>
     <Command>giveitemnum 243 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属回旋楼梯</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalStairs.PrimalItemStructure_MetalStairs'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -2423,6 +3487,48 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>金属树屋平台</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_TreePlatform_Metal.PrimalItemStructure_TreePlatform_Metal'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属双开门</Name>
+    <Command>giveitemnum 457 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属双开门框</Name>
+    <Command>giveitemnum 463 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属水管龙头</Name>
+    <Command>giveitemnum 203 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属水管引水</Name>
+    <Command>giveitemnum 200 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属梯子</Name>
+    <Command>giveitemnum 480 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>金属梯子</Name>
     <Command>giveitemnum 175 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -2472,8 +3578,22 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>金属悬崖平台</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/CliffPlatforms/Metal_CliffPlatform/PrimalItemStructure_Metal_CliffPlatform.PrimalItemStructure_Metal_CliffPlatform'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>金属右墙</Name>
     <Command>giveitemnum 405 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>金属栅栏</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Metal/PrimalItemStructure_MetalRailing.PrimalItemStructure_MetalRailing'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -2505,6 +3625,13 @@
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>进入观察者模式</Name>
+    <Command>cheat EnableSpectator</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>精炼炉</Name>
@@ -2654,9 +3781,30 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>巨蜥平台鞍</Name>
+    <Command>giveitemnum 423 {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>巨蝎</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨蝎蛋</Name>
+    <Command>giveitemnum 352 {0} {1} {2}</Command>
+    <Type>龙蛋</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨蝎蛋饲料</Name>
+    <Command>giveitemnum 339 {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -2782,20 +3930,41 @@
   <ARKCommand>
     <Name>聚神辣椒</Name>
     <Command>giveitemnum 231 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>咖啡色染料</Name>
+    <Command>giveitemnum 409 {0} {1} {2}</Command>
+    <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>卡里安清新汤</Name>
     <Command>giveitemnum 229 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>开/关 停止世界中除玩家外其他的行动</Name>
+    <Command>cheat PlayersOnly</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>开/关 无限弹药</Name>
     <Command>admincheat ToggleInfiniteAmmo</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>开/关 武器无限弹药</Name>
+    <Command>cheat ToggleInfiniteAmmo</Command>
     <Type />
     <Map>0</Map>
     <Special>功能</Special>
@@ -2857,6 +4026,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>恐龙骨头</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ARKBone.PrimalItemResource_ARKBone'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>恐龙老花镜（皮肤）</Name>
     <Command>giveitemnum 308 {0} {1} {2}</Command>
     <Type>其他</Type>
@@ -2878,6 +4054,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>恐熊鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_DireBearSaddle.PrimalItemArmor_DireBearSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>矿工帽</Name>
     <Command>giveitemnum 305 {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -2885,23 +4068,23 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>扩充桶</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special_EX.PrimalItemConsumable_Kibble_Base_Special_EX'" {0} {1} {2}</Command>
-    <Type>资源</Type>
-    <Map>6</Map>
+    <Name>拉撒路杂烩</Name>
+    <Command>giveitemnum 228 {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>拉撒路杂烩</Name>
-    <Command>giveitemnum 228 {0} {1} {2}</Command>
+    <Name>蓝宝石</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_BioLum.PrimalItemResource_Gem_BioLum'" {0} {1} {2}</Command>
     <Type>资源</Type>
-    <Map>0</Map>
+    <Map>4</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>蓝色浆果</Name>
     <Command>giveitemnum 118 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -2927,13 +4110,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>蓝图柜</Name>
-    <Command>giveitemnum 309 {0} {1} {2}</Command>
-    <Type>建筑</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>雷龙</Name>
     <Command>admincheat SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2955,6 +4131,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>雷龙蛋饲料</Name>
+    <Command>giveitemnum 338 {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>雷龙的脊椎</Name>
     <Command>giveitemnum 161 {0} {1} {2}</Command>
     <Type>神器</Type>
@@ -2969,10 +4152,24 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>冷冻冰箱</Name>
+    <Command>GiveItem "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItemStructure_CryoFridge.PrimalItemStructure_CryoFridge'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>冷冻脊</Name>
     <Command>cheat giveitem "Blueprint'/Game/Extinction/Structures/Cryofridge/CryoFridge.CryoFridge'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>冷凝气球</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gas.PrimalItemResource_Gas'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>4</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -2990,6 +4187,27 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>立即孵化蛋</Name>
+    <Command>HatchEgg</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>立即杀死目标（毁尸灭迹）</Name>
+    <Command>cheat DestroyMyTarget</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>立即杀死目标（留尸体）</Name>
+    <Command>Kill</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>立式火把</Name>
     <Command>giveitemnum 40 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -3001,13 +4219,6 @@
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Leedsichthys_Character_BP.Leedsichthys_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>3</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>例外扩充桶</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge_EX.PrimalItemConsumable_Kibble_Base_XLarge_EX'" {0} {1} {2}</Command>
-    <Type>资源</Type>
-    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -3158,6 +4369,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>绿宝石</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Fertile.PrimalItemResource_Gem_Fertile'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>绿色染料</Name>
     <Command>giveitemnum 59 {0} {1} {2}</Command>
     <Type>染料</Type>
@@ -3182,6 +4400,13 @@
     <Name>麻醉箭</Name>
     <Command>giveitemnum 70 {0} {1} {2}</Command>
     <Type>弹药</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>马桶</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Pipes/PrimalItemStructure_Toilet.PrimalItemStructure_Toilet'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3216,6 +4441,13 @@
   <ARKCommand>
     <Name>毛皮</Name>
     <Command>giveitemnum 424 {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毛皮、头发或羊毛</Name>
+    <Command>cheat GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_PeltOrHair.PrimalItemResource_PeltOrHair'" {0} {1} {2}</Command>
     <Type>资源</Type>
     <Map>0</Map>
     <Special />
@@ -3277,6 +4509,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>每种染料100个（数量100可手动修改）</Name>
+    <Command>GiveColors 100</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>美颌龙</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3322,6 +4561,13 @@
     <Name>灭世</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_03.PrimalItemArtifactSE_03'" {0} {1} {2}</Command>
     <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>摩托艇</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/Items/Raft/PrimalItemMotorboat.PrimalItemMotorboat'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3410,6 +4656,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>木头桌子</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodTable.PrimalItemStructure_Furniture_WoodTable'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>木右墙</Name>
     <Command>giveitemnum 399 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -3431,8 +4684,57 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>木制大型墙</Name>
+    <Command>giveitemnum 476 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制电梯轨道</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorTrack.PrimalItemStructure_WoodElevatorTrack'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制盾牌</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Shields/PrimalItemArmor_WoodShield.PrimalItemArmor_WoodShield'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>木制告示牌</Name>
     <Command>giveitemnum 221 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制工作台</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodBench.PrimalItemStructure_Furniture_WoodBench'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制回旋楼梯</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodStairs.PrimalItemStructure_WoodStairs'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制牢笼</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodCage.PrimalItemStructure_WoodCage'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制楼梯</Name>
+    <Command>giveitemnum 483 {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -3455,6 +4757,48 @@
     <Name>木制球棒</Name>
     <Command>giveitemnum 434 {0} {1} {2}</Command>
     <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制三角地基</Name>
+    <Command>GiveItemnum 494 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制三角天花板</Name>
+    <Command>GiveItemnum 489 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制三角斜屋顶</Name>
+    <Command>GiveItemnum 500 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制树屋平台</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_TreePlatform_Wood.PrimalItemStructure_TreePlatform_Wood'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制双开门</Name>
+    <Command>giveitemnum 460 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制双开门框</Name>
+    <Command>giveitemnum 466 {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3482,6 +4826,20 @@
   <ARKCommand>
     <Name>木制小道</Name>
     <Command>giveitemnum 84 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制椅子</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Furniture_WoodChair.PrimalItemStructure_Furniture_WoodChair'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>木制栅栏</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_WoodRailing.PrimalItemStructure_WoodRailing'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -3517,14 +4875,7 @@
   <ARKCommand>
     <Name>耐力炖汤</Name>
     <Command>giveitemnum 227 {0} {1} {2}</Command>
-    <Type>资源</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>南方巨龙兽蛋</Name>
-    <Command>giveitemnum 493 {0} {1} {2}</Command>
-    <Type>龙蛋</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3552,7 +4903,7 @@
   <ARKCommand>
     <Name>能量药水</Name>
     <Command>giveitemnum 53 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3566,7 +4917,14 @@
   <ARKCommand>
     <Name>柠檬</Name>
     <Command>giveitemnum 99 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>柠檬种子</Name>
+    <Command>giveitemnum 133 {0} {1} {2}</Command>
+    <Type>种子</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3676,10 +5034,31 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>啤酒桶</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_BeerBarrel.PrimalItemStructure_BeerBarrel'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>品红染料</Name>
+    <Command>giveitemnum 406 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>破片手榴弹</Name>
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/WeaponClusterGrenade/PrimalItem_WeaponClusterGrenade.PrimalItem_WeaponClusterGrenade'" {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>破碎的绿宝石</Name>
+    <Command>GiveItem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_FracturedGem.PrimalItemResource_FracturedGem'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -3690,16 +5069,9 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>旗帜</Name>
-    <Command>giveitemnum 280 {0} {1} {2}</Command>
-    <Type>其他</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>启蒙肉汤</Name>
     <Command>giveitemnum 453 {0} {1} {2}</Command>
-    <Type>其他</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3746,6 +5118,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>潜水紧身裤</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_ScubaPants.PrimalItemArmor_ScubaPants'" {0} {1} {2}</Command>
+    <Type>装备</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>潜水眼镜</Name>
     <Command>giveitemnum 388 {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -3757,13 +5136,6 @@
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Pegomastax/Pegomastax_Character_BP.Pegomastax_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>强化桶</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large_EX.PrimalItemConsumable_Kibble_Base_Large_EX'" {0} {1} {2}</Command>
-    <Type>资源</Type>
-    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -3816,6 +5188,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>人类毛发</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hair.PrimalItemResource_Hair'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>容器</Name>
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/DesertFurnitureSet/Vessel/PrimalItemStructure_Vessel.PrimalItemStructure_Vessel'" {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -3832,7 +5211,7 @@
   <ARKCommand>
     <Name>肉干</Name>
     <Command>giveitemnum 297 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3854,6 +5233,13 @@
     <Name>三角龙蛋</Name>
     <Command>giveitemnum 292 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>三角龙蛋饲料</Name>
+    <Command>giveitemnum 343 {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -3883,6 +5269,13 @@
     <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Forest.PrimalItemTrophy_Kaiju_Forest'" {0} {1} {2}</Command>
     <Type>其他</Type>
     <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>森林色染料</Name>
+    <Command>giveitemnum 363 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -4033,6 +5426,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>深蓝灰色染料</Name>
+    <Command>giveitemnum 412 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>深渊</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactAB.PrimalItemArtifactAB'" {0} {1} {2}</Command>
     <Type>神器</Type>
@@ -4040,16 +5440,30 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>神器展示座</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_TrophyBase.PrimalItemStructure_TrophyBase'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>生大腿肉</Name>
     <Command>giveitemnum 252 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>生肉</Name>
     <Command>giveitemnum 12 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>绳梯</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_RopeLadder.PrimalItemStructure_RopeLadder'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4070,6 +5484,13 @@
   <ARKCommand>
     <Name>十字金属管道</Name>
     <Command>giveitemnum 201 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石壁炉</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Fireplace.PrimalItemStructure_Fireplace'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -4187,13 +5608,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>石门</Name>
-    <Command>giveitemnum 317 {0} {1} {2}</Command>
-    <Type>建筑</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>石门框</Name>
     <Command>giveitemnum 322 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -4243,6 +5657,62 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>石制回旋楼梯</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneStairs.PrimalItemStructure_StoneStairs'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石制楼梯</Name>
+    <Command>giveitemnum 481 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石制三角地基</Name>
+    <Command>giveitemnum 492 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石制三角斜屋顶</Name>
+    <Command>giveitemnum 498 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石制双开门框</Name>
+    <Command>giveitemnum 464 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石制天窗框</Name>
+    <Command>giveitemnum 316 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石制悬崖平台</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/CliffPlatforms/Stone_CliffPlatform/PrimalItemStructure_Stone_CliffPlatform.PrimalItemStructure_Stone_CliffPlatform'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>石制栅栏</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Stone/PrimalItemStructure_StoneRailing.PrimalItemStructure_StoneRailing'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>石柱</Name>
     <Command>giveitemnum 321 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -4280,7 +5750,7 @@
   <ARKCommand>
     <Name>似鸡龙蛋饲料</Name>
     <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_GalliEgg.PrimalItemConsumable_Kibble_GalliEgg'" {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4320,6 +5790,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>受精的刺面龙蛋</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Spindles/PrimalItemConsumable_Egg_Spindles_Fertilized.PrimalItemConsumable_Egg_Spindles_Fertilized'" {0} {1} {2}</Command>
+    <Type>龙蛋</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>受精的雪鸮卵</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl_Fertilized.PrimalItemConsumable_Egg_Owl_Fertilized'" {0} {1} {2}</Command>
+    <Type>龙蛋</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>兽皮</Name>
     <Command>giveitemnum 10 {0} {1} {2}</Command>
     <Type>资源</Type>
@@ -4334,16 +5818,30 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>书架</Name>
+    <Command>giveitemnum 309 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>熟大腿肉</Name>
     <Command>giveitemnum 253 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>熟肉</Name>
     <Command>giveitemnum 14 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双层床</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_Bed_Modern.PrimalItemStructure_Bed_Modern'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4351,13 +5849,6 @@
     <Name>双齿翼龙蛋</Name>
     <Command>giveitemnum 425 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>双齿翼龙饲料</Name>
-    <Command>giveitemnum 427 {0} {1} {2}</Command>
-    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4420,14 +5911,14 @@
   <ARKCommand>
     <Name>水袋</Name>
     <Command>giveitemnum 47 {0} {1} {2}</Command>
-    <Type>装备</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>水袋（满）</Name>
     <Command>giveitemnum 48 {0} {1} {2}</Command>
-    <Type>装备</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4469,7 +5960,7 @@
   <ARKCommand>
     <Name>水龙蛋饲料</Name>
     <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LystroEgg.PrimalItemConsumable_Kibble_LystroEgg'" {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4490,14 +5981,28 @@
   <ARKCommand>
     <Name>水瓶</Name>
     <Command>giveitemnum 15 {0} {1} {2}</Command>
-    <Type>装备</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>水瓶（满）</Name>
     <Command>giveitemnum 16 {0} {1} {2}</Command>
-    <Type>装备</Type>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水蛭血</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_LeechBlood.PrimalItemResource_LeechBlood'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水蛭血或角</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResourceGeneric_Curing.PrimalItemResourceGeneric_Curing'" {0} {1} {2}</Command>
+    <Type>资源</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4534,6 +6039,41 @@
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/Dinos/Deathworm/PrimalItemResource_KeratinSpike.PrimalItemResource_KeratinSpike'" {0} {1} {2}</Command>
     <Type>神器</Type>
     <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料（Exceptional Augmented Kibble）</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge_EX.PrimalItemConsumable_Kibble_Base_XLarge_EX'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料（Extraordinary Augmented Kibble）</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special_EX.PrimalItemConsumable_Kibble_Base_Special_EX'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料（Regular Augmented Kibble）</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium_EX.PrimalItemConsumable_Kibble_Base_Medium_EX'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料（Simple Augmented Kibble）</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small_EX.PrimalItemConsumable_Kibble_Base_Small_EX'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>饲料（Superior Augmented Kibble）</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large_EX.PrimalItemConsumable_Kibble_Base_Large_EX'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -4663,6 +6203,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>天空色染料</Name>
+    <Command>giveitemnum 368 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>天主</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_06.PrimalItemArtifact_06'" {0} {1} {2}</Command>
     <Type>神器</Type>
@@ -4674,6 +6221,13 @@
     <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Jerboa_Character_BP.Jerboa_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>贴壁火把</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_WallTorch.PrimalItemStructure_WallTorch'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -4712,6 +6266,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>铁匠台</Name>
+    <Command>giveitemnum 126 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>铁矛</Name>
     <Command>giveitemnum 140 {0} {1} {2}</Command>
     <Type>武器</Type>
@@ -4724,6 +6285,13 @@
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>停止观察者模式</Name>
+    <Command>StopSpectating</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>投递箱</Name>
@@ -4763,7 +6331,7 @@
   <ARKCommand>
     <Name>土豆</Name>
     <Command>giveitemnum 232 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4791,7 +6359,7 @@
   <ARKCommand>
     <Name>腿肉干</Name>
     <Command>giveitemnum 298 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4806,6 +6374,13 @@
     <Name>托斯特巨鱿</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>托斯特巨鱿鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_TusoSaddle.PrimalItemArmor_TusoSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -4873,6 +6448,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>未组装的执行者</Name>
+    <Command>giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItem_Spawner_Enforcer.PrimalItem_Spawner_Enforcer'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>温室窗</Name>
     <Command>giveitemnum 445 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -4896,6 +6478,34 @@
   <ARKCommand>
     <Name>温室墙</Name>
     <Command>giveitemnum 438 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室三角天花板</Name>
+    <Command>giveitemnum 485 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室三角屋顶</Name>
+    <Command>giveitemnum 496 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室双开门</Name>
+    <Command>giveitemnum 456 {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>温室双开门框</Name>
+    <Command>giveitemnum 462 {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
@@ -5008,7 +6618,7 @@
   <ARKCommand>
     <Name>洗点水</Name>
     <Command>giveitemnum 413 {0} {1} {2}</Command>
-    <Type>其他</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5041,6 +6651,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>相机</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/Test/PrimalItem_Camera.PrimalItem_Camera'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>消音器</Name>
     <Command>giveitemnum 206 {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -5066,6 +6683,20 @@
     <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItemStructure_TaxidermyBase_Small.PrimalItemStructure_TaxidermyBase_Small'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>小型电梯平台</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatformSmall.PrimalItemStructure_ElevatorPlatformSmall'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>小型木制电梯平台</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Small.PrimalItemStructure_WoodElevatorPlatform_Small'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -5202,9 +6833,30 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>雪鸮蛋</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl.PrimalItemConsumable_Egg_Owl'" {0} {1} {2}</Command>
+    <Type>龙蛋</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雪鸮食团</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/Pellet/PrimalItemConsumable_OwlPellet.PrimalItemConsumable_OwlPellet'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>血包</Name>
     <Command>giveitemnum 45 {0} {1} {2}</Command>
     <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>训练假人</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Halloween/PrimalItemStructure_TrainingDummy.PrimalItemStructure_TrainingDummy'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5226,6 +6878,13 @@
     <Name>迅猛龙蛋</Name>
     <Command>giveitemnum 290 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>迅猛龙蛋饲料</Name>
+    <Command>giveitemnum 335 {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5286,6 +6945,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>羊毛</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Wool.PrimalItemResource_Wool'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>羊毛状犀牛角</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Horn.PrimalItemResource_Horn'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>氧气瓶</Name>
     <Command>giveitemnum 387 {0} {1} {2}</Command>
     <Type>装备</Type>
@@ -5314,16 +6987,37 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>医疗药水</Name>
-    <Command>giveitemnum 52 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Name>夜视仪</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/SCUBA/PrimalItemArmor_NightVisionGoggles.PrimalItemArmor_NightVisionGoggles'" {0} {1} {2}</Command>
+    <Type>装备</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>医疗药水</Name>
+    <Command>giveitemnum 52 {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>移动到指定的GPS位置（数量：纬度，品质：经度，海拔手动改）</Name>
+    <Command>TPCoords {0} {1} {2}</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>异齿龙</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP.Dimetro_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>异齿龙蛋饲料</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimetroEgg.PrimalItemConsumable_Kibble_DimetroEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5335,9 +7029,30 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>异特龙鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_AlloSaddle.PrimalItemArmor_AlloSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>异特龙大脑</Name>
     <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'" {0} {1} {2}</Command>
     <Type>神器</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>银色染料</Name>
+    <Command>giveitemnum 367 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>油（托斯特）</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/PrimalItemResource_SquidOil.PrimalItemResource_SquidOil'" {0} {1} {2}</Command>
+    <Type>资源</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5359,6 +7074,13 @@
     <Name>油画画布</Name>
     <Command>giveitemnum 421 {0} {1} {2}</Command>
     <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>有机聚合物</Name>
+    <Command>cheat GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic'" {0} {1} {2}</Command>
+    <Type>资源</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5386,7 +7108,7 @@
   <ARKCommand>
     <Name>玉米</Name>
     <Command>giveitemnum 233 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5461,13 +7183,6 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>远古企鹅蛋饲料</Name>
-    <Command>giveitemnum 499 {0} {1} {2}</Command>
-    <Type>饲料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>远古水母</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP.Cnidaria_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -5475,11 +7190,11 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>增强桶</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium_EX.PrimalItemConsumable_Kibble_Base_Medium_EX'" {0} {1} {2}</Command>
-    <Type>资源</Type>
-    <Map>6</Map>
-    <Special />
+    <Name>允许作弊（联机用，非管理员执行）</Name>
+    <Command>EnableCheats</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>粘土</Name>
@@ -5491,7 +7206,14 @@
   <ARKCommand>
     <Name>战斗神丸</Name>
     <Command>giveitemnum 254 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>战鼓</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Wooden/PrimalItemStructure_Wardrums.PrimalItemStructure_Wardrums'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5545,9 +7267,44 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>真菌木材</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>真皮</Name>
+    <Command>GiveItem "Blueprint'/Game/Extinction/CoreBlueprints/Items/PrimalItem_TaxidermyDermis.PrimalItem_TaxidermyDermis'" {0} {1} {2}</Command>
+    <Type>资源</Type>
+    <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>蜘蛛</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP.SpiderS_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蜘蛛鞍</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_SpiderSaddle.PrimalItemArmor_SpiderSaddle'" {0} {1} {2}</Command>
+    <Type>龙鞍</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蜘蛛蛋</Name>
+    <Command>giveitemnum 353 {0} {1} {2}</Command>
+    <Type>龙蛋</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蜘蛛蛋饲料</Name>
+    <Command>giveitemnum 340 {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5608,10 +7365,24 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>中型电梯平台</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/BuildingBases/PrimalItemStructure_ElevatorPlatfromMedium.PrimalItemStructure_ElevatorPlatfromMedium'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>中型恐龙粪便</Name>
     <Command>giveitemnum 286 {0} {1} {2}</Command>
     <Type>资源</Type>
     <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>中型木制电梯平台</Name>
+    <Command>GiveItem "Blueprint'/Game/Aberration/Structures/PrimitiveElevator/PrimalItemStructure_WoodElevatorPlatform_Medium.PrimalItemStructure_WoodElevatorPlatform_Medium'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>4</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -5643,10 +7414,24 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>肿头龙蛋饲料</Name>
+    <Command>giveitemnum 419 {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>重力手榴弹</Name>
     <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponTekGravityGrenade.PrimalItem_WeaponTekGravityGrenade'" {0} {1} {2}</Command>
     <Type>武器</Type>
     <Map>6</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>重型自动炮塔</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Structures/Misc/PrimalItemStructure_HeavyTurret.PrimalItemStructure_HeavyTurret'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -5664,8 +7449,29 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>砖色染料</Name>
+    <Command>giveitemnum 407 {0} {1} {2}</Command>
+    <Type>染料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制窗</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWindow.PrimalItemStructure_AdobeWindow'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>砖制窗框</Name>
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWallWithWindow.PrimalItemStructure_AdobeWallWithWindow'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制窗框</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeWallWithWindow.PrimalItemStructure_AdobeWallWithWindow'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>3</Map>
     <Special />
@@ -5680,6 +7486,34 @@
   <ARKCommand>
     <Name>砖制地基</Name>
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFloor.PrimalItemStructure_AdobeFloor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制地基</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeFloor.PrimalItemStructure_AdobeFloor'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制回旋楼梯</Name>
+    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeStaircase.PrimalItemStructure_AdobeStaircase'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制巨型恐龙大门</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateDoor_Large.PrimalItemStructure_AdobeGateDoor_Large'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制巨型恐龙大门门框</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeGateframe_Large.PrimalItemStructure_AdobeGateframe_Large'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>3</Map>
     <Special />
@@ -5707,7 +7541,7 @@
   </ARKCommand>
   <ARKCommand>
     <Name>砖制楼梯</Name>
-    <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeStaircase.PrimalItemStructure_AdobeStaircase'" {0} {1} {2}</Command>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/StructuresPlus/Structures/Ramps/Adobe/PrimalItemStructure_Ramp_Adobe.PrimalItemStructure_Ramp_Adobe'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>3</Map>
     <Special />
@@ -5755,6 +7589,41 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>砖制三角屋顶</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/StructuresPlus/Structures/Roofs_Tri/Adobe/PrimalItemStructure_TriRoof_Adobe.PrimalItemStructure_TriRoof_Adobe'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制三角形地基</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/StructuresPlus/Structures/Foundations/Triangle/Adobe/PrimalItemStructure_TriFoundation_Adobe.PrimalItemStructure_TriFoundation_Adobe'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制三角形天花板</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/StructuresPlus/Structures/Ceilings/Triangle/Adobe/PrimalItemStructure_TriCeiling_Adobe.PrimalItemStructure_TriCeiling_Adobe'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制双开门</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/StructuresPlus/Doors/Doors_Double/Adobe/PrimalItemStructure_DoubleDoor_Adobe.PrimalItemStructure_DoubleDoor_Adobe'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制双开门框</Name>
+    <Command>GiveItem "Blueprint'/Game/PrimalEarth/StructuresPlus/Structures/Doorframes_Double/Adobe/PrimalItemStructure_DoubleDoorframe_Adobe.PrimalItemStructure_DoubleDoorframe_Adobe'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>砖制梯子</Name>
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeLader.PrimalItemStructure_AdobeLader'" {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -5791,7 +7660,28 @@
   </ARKCommand>
   <ARKCommand>
     <Name>砖制斜坡</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRamp.PrimalItemStructure_AdobeRamp'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制斜坡</Name>
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRamp.PrimalItemStructure_AdobeRamp'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制栅栏</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobeRailing.PrimalItemStructure_AdobeRailing'" {0} {1} {2}</Command>
+    <Type>建筑</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>砖制支柱</Name>
+    <Command>GiveItem "Blueprint'/Game/ScorchedEarth/Structures/Adobe/Blueprints/PrimalItemStructure_AdobePillar.PrimalItemStructure_AdobePillar'" {0} {1} {2}</Command>
     <Type>建筑</Type>
     <Map>3</Map>
     <Special />
@@ -5820,7 +7710,7 @@
   <ARKCommand>
     <Name>紫色浆果</Name>
     <Command>giveitemnum 120 {0} {1} {2}</Command>
-    <Type>资源</Type>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5853,51 +7743,9 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>X异种植物种子</Name>
-    <Command>giveitemnum 391 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>X异种植物种子</Name>
-    <Command>giveitemnum 390 {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>Y异种植物种子</Name>
-    <Command>admincheat GiveItem "blueprint'/Game/ScorchedEarth/WeaponPlantSpeciesY/PrimalItemConsumable_Seed_PlantSpeciesY.PrimalItemConsumable_Seed_PlantSpeciesY'" {0} {1} {2}</Command>
-    <Type>种子</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>银色染料</Name>
-    <Command>giveitemnum 367 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
     <Name>棕褐色染料</Name>
     <Command>giveitemnum 369 {0} {1} {2}</Command>
     <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>天空色染料</Name>
-    <Command>giveitemnum 368 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>帝鳄蛋饲料</Name>
-    <Command>giveitemnum 337 {0} {1} {2}</Command>
-    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -5909,233 +7757,436 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>脊背龙蛋饲料</Name>
-    <Command>giveitemnum 341 {0} {1} {2}</Command>
+    <Name>饲料（Basic Augmented Kibble）</Name>
+    <Command>giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall_EX.PrimalItemConsumable_Kibble_Base_XSmall_EX'" {0} {1} {2}</Command>
     <Type>饲料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>剑龙蛋饲料</Name>
-    <Command>giveitemnum 342 {0} {1} {2}</Command>
-    <Type>饲料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>金属水管龙头</Name>
-    <Command>giveitemnum 203 {0} {1} {2}</Command>
-    <Type>建筑</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>金属水管引水</Name>
-    <Command>giveitemnum 200 {0} {1} {2}</Command>
-    <Type>建筑</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨蜥平台鞍</Name>
-    <Command>giveitemnum 423 {0} {1} {2}</Command>
-    <Type>龙鞍</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>定位器</Name>
-    <Command>giveitemnum 372 {0} {1} {2}</Command>
-    <Type>装备</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>雷龙蛋饲料</Name>
-    <Command>giveitemnum 338 {0} {1} {2}</Command>
-    <Type>饲料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>森林色染料</Name>
-    <Command>giveitemnum 363 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>品红染料</Name>
-    <Command>giveitemnum 406 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>大地色染料</Name>
-    <Command>giveitemnum 408 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>橄榄色染料</Name>
-    <Command>giveitemnum 411 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>咖啡色染料</Name>
-    <Command>giveitemnum 409 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>深蓝灰色染料</Name>
-    <Command>giveitemnum 412 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>藏青染料</Name>
-    <Command>giveitemnum 410 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>砖色染料</Name>
-    <Command>giveitemnum 407 {0} {1} {2}</Command>
-    <Type>染料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>三角龙蛋饲料</Name>
-    <Command>giveitemnum 343 {0} {1} {2}</Command>
-    <Type>饲料</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>石制天窗框</Name>
-    <Command>giveitemnum 316 {0} {1} {2}</Command>
-    <Type>建筑</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>加固天窗门</Name>
-    <Command>giveitemnum 358 {0} {1} {2}</Command>
-    <Type>建筑</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>受精的刺面龙蛋</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Spindles/PrimalItemConsumable_Egg_Spindles_Fertilized.PrimalItemConsumable_Egg_Spindles_Fertilized'" {0} {1} {2}</Command>
-    <Type>龙蛋</Type>
     <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>受精的雪鸮卵</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl_Fertilized.PrimalItemConsumable_Egg_Owl_Fertilized'" {0} {1} {2}</Command>
-    <Type>龙蛋</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨蝎蛋饲料</Name>
-    <Command>giveitemnum 339 {0} {1} {2}</Command>
+    <Name>（Extraordinary Kibble）</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special'" {0} {1} {2}</Command>
     <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>巨蝎蛋</Name>
-    <Command>giveitemnum 352 {0} {1} {2}</Command>
-    <Type>龙蛋</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>雪鸮食团</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/Pellet/PrimalItemConsumable_OwlPellet.PrimalItemConsumable_OwlPellet'" {0} {1} {2}</Command>
-    <Type>资源</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>雪鸮蛋</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/Dinos/Owl/PrimalItemConsumable_Egg_Owl.PrimalItemConsumable_Egg_Owl'" {0} {1} {2}</Command>
-    <Type>龙蛋</Type>
-    <Map>6</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>迅猛龙蛋饲料</Name>
-    <Command>giveitemnum 335 {0} {1} {2}</Command>
+    <Name>（Exceptional Kibble）</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge.PrimalItemConsumable_Kibble_Base_XLarge'" {0} {1} {2}</Command>
     <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>异齿龙蛋饲料</Name>
-    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimetroEgg.PrimalItemConsumable_Kibble_DimetroEgg'" {0} {1} {2}</Command>
+    <Name>（Superior Kibble）</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large'" {0} {1} {2}</Command>
     <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>蜘蛛蛋饲料</Name>
-    <Command>giveitemnum 340 {0} {1} {2}</Command>
+    <Name>（Regular Kibble）</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium'" {0} {1} {2}</Command>
     <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>蜘蛛蛋</Name>
-    <Command>giveitemnum 353 {0} {1} {2}</Command>
-    <Type>龙蛋</Type>
+    <Name>（Simple Kibble）</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small.PrimalItemConsumable_Kibble_Base_Small'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>Y异种植物陷阱</Name>
-    <Command>admincheat GiveItem "blueprint'/Game/ScorchedEarth/WeaponPlantSpeciesY/PrimalItemStructure_PlantSpeciesYTrap.PrimalItemStructure_PlantSpeciesYTrap'" {0} {1} {2}</Command>
-    <Type>建筑</Type>
+    <Name>（Basic Kibble）</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Troodon Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TroodonEgg.PrimalItemConsumable_Kibble_TroodonEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Therizinosaurus Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TherizinoEgg.PrimalItemConsumable_Kibble_TherizinoEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Tapejara Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_TapejaraEgg.PrimalItemConsumable_Kibble_TapejaraEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Rock Drake Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_RockDrakeEgg.PrimalItemConsumable_Kibble_RockDrakeEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Quetzal Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_QuetzEgg.PrimalItemConsumable_Kibble_QuetzEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Pelagornis Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Pela.PrimalItemConsumable_Kibble_Pela'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Pegomastax Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PegomastaxEgg.PrimalItemConsumable_Kibble_PegomastaxEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Pachyrhino Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_PachyRhinoEgg.PrimalItemConsumable_Kibble_PachyRhinoEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Oviraptor Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_OviraptorEgg.PrimalItemConsumable_Kibble_OviraptorEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Moth Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/ScorchedEarth/Dinos/Moth/PrimalItemConsumable_Kibble_Moth.PrimalItemConsumable_Kibble_Moth'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>3</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>肿头龙蛋饲料</Name>
-    <Command>giveitemnum 419 {0} {1} {2}</Command>
+    <Name>Kibble (Moschops Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MoschopsEgg.PrimalItemConsumable_Kibble_MoschopsEgg'" {0} {1} {2}</Command>
     <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>皇家色染料</Name>
-    <Command>giveitemnum 366 {0} {1} {2}</Command>
-    <Type>染料</Type>
+    <Name>Kibble (Microraptor Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MicroraptorEgg.PrimalItemConsumable_Kibble_MicroraptorEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>白色浆果种子</Name>
-    <Command>giveitemnum 239 {0} {1} {2}</Command>
-    <Type>种子</Type>
+    <Name>Kibble (Megalosaurus Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_MegalosaurusEgg.PrimalItemConsumable_Kibble_MegalosaurusEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>柠檬种子</Name>
-    <Command>giveitemnum 133 {0} {1} {2}</Command>
-    <Type>种子</Type>
+    <Name>Kibble (Megalania Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Megalania.PrimalItemConsumable_Kibble_Megalania'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Kentrosaurus Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KentroEgg.PrimalItemConsumable_Kibble_KentroEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Kaprosuchus Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KaproEgg.PrimalItemConsumable_Kibble_KaproEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Kairuku Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_KairukuEgg.PrimalItemConsumable_Kibble_KairukuEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Iguanodon Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_IguanodonEgg.PrimalItemConsumable_Kibble_IguanodonEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Ichthyornis Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_IchthyornisEgg.PrimalItemConsumable_Kibble_IchthyornisEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Glowtail Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LanternLizardEgg.PrimalItemConsumable_Kibble_LanternLizardEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Featherlight Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_LanternBirdEgg.PrimalItemConsumable_Kibble_LanternBirdEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Diplo Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DiploEgg.PrimalItemConsumable_Kibble_DiploEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Dimorph Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_DimorphEgg.PrimalItemConsumable_Kibble_DimorphEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Compy Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Compy.PrimalItemConsumable_Kibble_Compy'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Baryonyx Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_BaryonyxEgg.PrimalItemConsumable_Kibble_BaryonyxEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Archaeopteryx Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_ArchaEgg.PrimalItemConsumable_Kibble_ArchaEgg'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Kibble (Allosaurus Egg)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Allo.PrimalItemConsumable_Kibble_Allo'" {0} {1} {2}</Command>
+    <Type>饲料</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Giant Bee Honey</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Sweet Vegetable Cake</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Soap</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableSoap.PrimalItemConsumableSoap'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Lesser Antidote</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_CureLow.PrimalItemConsumable_CureLow'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Cactus Broth</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CactusBuffSoup.PrimalItemConsumable_CactusBuffSoup'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Bug Repellant</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BugRepellant.PrimalItemConsumable_BugRepellant'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Bio Toxin</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_JellyVenom.PrimalItemConsumable_JellyVenom'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Beer Jar (alt)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Beer Jar</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Beer Liquid</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Beer.PrimalItemResource_Beer'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Iced Canteen (Full)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_IcedCanteenRefill.PrimalItemConsumable_IcedCanteenRefill'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Iced Canteen (Empty)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_IcedCanteen.PrimalItemConsumable_IcedCanteen'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Iced Water Jar (Full</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_IcedWaterJarRefill.PrimalItemConsumable_IcedWaterJarRefill'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Iced Water Jar (Empty)</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_IcedWaterJar.PrimalItemConsumable_IcedWaterJar'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Mushroom Brew</Name>
+    <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_MushroomSoup.PrimalItemConsumable_Soup_MushroomSoup'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Auric Mushroom</Name>
+    <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Auric.PrimalItemConsumable_Mushroom_Auric'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Ascerbic Mushroom</Name>
+    <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Ascerbic.PrimalItemConsumable_Mushroom_Ascerbic'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Aquatic Mushroom</Name>
+    <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Mushroom_Aquatic.PrimalItemConsumable_Mushroom_Aquatic'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Aggeravic Mushroom</Name>
+    <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Items/Consumables/PrimalItemResource_CommonMushroom.PrimalItemResource_CommonMushroom'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Cactus Sap</Name>
+    <Command>giveitem "Blueprint'/Game/ScorchedEarth/CoreBlueprints/Consumables/PrimalItemConsumable_CactusSap.PrimalItemConsumable_CactusSap'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Wyvern Milk</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Filled Fish Basket</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/PrimalItem_FishBasketFilled.PrimalItem_FishBasketFilled'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Cooked Lamb Chop</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedLambChop.PrimalItemConsumable_CookedLambChop'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Raw Mutton</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMutton.PrimalItemConsumable_RawMutton'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Cooked Prime Fish Meat</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedPrimeMeat_Fish.PrimalItemConsumable_CookedPrimeMeat_Fish'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Raw Prime Fish Meat</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat_Fish.PrimalItemConsumable_RawPrimeMeat_Fish'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Cooked Fish Meat</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat_Fish.PrimalItemConsumable_CookedMeat_Fish'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>Raw Fish Meat</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat_Fish.PrimalItemConsumable_RawMeat_Fish'" {0} {1} {2}</Command>
+    <Type>消耗</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
