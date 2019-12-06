@@ -22,7 +22,7 @@ namespace ARKcommands
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            ALLCommands = function.XmlUnS();
+            ALLCommands = function.DatUnS();
             ALLCommands.Sort(new ARKCompare());
             lsCommands = new ObservableCollection<ARKCommand>(ALLCommands);
             lsCommandsUI.ItemsSource = lsCommands;
@@ -30,10 +30,10 @@ namespace ARKcommands
 
         private void BtAdd_Click(object sender, RoutedEventArgs e)
         {
-            AddWindow addWindow = new AddWindow(ALLCommands);
+            AddWindow addWindow = new AddWindow();
             addWindow.Owner = Application.Current.MainWindow;
             addWindow.ShowDialog();
-            ALLCommands = function.XmlUnS();
+            ALLCommands = function.DatUnS();
             Notified();
         }
 
@@ -96,10 +96,10 @@ namespace ARKcommands
         {
             if (lsCommandsUI.SelectedItem == null)
                 return;
-            AddWindow addWindow = new AddWindow(ALLCommands, lsCommandsUI.SelectedItem as ARKCommand);
+            AddWindow addWindow = new AddWindow(lsCommandsUI.SelectedItem as ARKCommand);
             addWindow.Owner = Application.Current.MainWindow;
             addWindow.ShowDialog();
-            ALLCommands = function.XmlUnS();
+            ALLCommands = function.DatUnS();
             Notified();
         }
     }

@@ -11,26 +11,41 @@ namespace ARKcommands
     {
         public static void DatS(List<ARKCommand> oData)
         {
-            using (FileStream stream = new FileStream(@"DATA.dat", FileMode.Create))
+            if (File.Exists("DATA.dat"))
             {
-                BinaryFormatter bFormat = new BinaryFormatter();
-                bFormat.Serialize(stream, oData);
+                using (FileStream stream = new FileStream(@"DATA.dat", FileMode.Create))
+                {
+                    BinaryFormatter bFormat = new BinaryFormatter();
+                    bFormat.Serialize(stream, oData);
+                }
+            }
+            else
+            {
+                XmlS(oData);
             }
         }
         public static List<ARKCommand> DatUnS()
         {
             try
             {
-                FileStream stream = new FileStream(@"DATA.dat", FileMode.Open);
-                BinaryFormatter bFormat = new BinaryFormatter();
-                List<ARKCommand> ls = (List<ARKCommand>)bFormat.Deserialize(stream);
-                stream.Close();
+                List<ARKCommand> ls;
+                if (File.Exists("DATA.dat"))
+                {
+                    FileStream stream = new FileStream(@"DATA.dat", FileMode.Open);
+                    BinaryFormatter bFormat = new BinaryFormatter();
+                    ls = (List<ARKCommand>)bFormat.Deserialize(stream);
+                    stream.Close();
+                }
+                else
+                {
+                    ls = XmlUnS();
+                }
                 return ls;
             }
             catch { return new List<ARKCommand>(); }
         }
 
-        public static void XmlS(List<ARKCommand> oData)
+        private static void XmlS(List<ARKCommand> oData)
         {
             using (FileStream stream = new FileStream(@"DATA.xml", FileMode.Create))
             {
@@ -38,7 +53,7 @@ namespace ARKcommands
                 xmlserilize.Serialize(stream, oData);
             }
         }
-        public static List<ARKCommand> XmlUnS()
+        private static List<ARKCommand> XmlUnS()
         {
             try
             {
@@ -64,6 +79,22 @@ namespace ARKcommands
                 case "7": return "瓦尔盖罗";
             }
             return "";
+        }
+
+        public static string UnTransmit(string name)
+        {
+            switch (name)
+            {
+                case "通用": return "0";
+                case "孤岛": return "1";
+                case "中心岛": return "2";
+                case "焦土": return "3";
+                case "畸变": return "4";
+                case "仙境": return "5";
+                case "灭绝": return "6";
+                case "瓦尔盖罗": return "7";
+            }
+            return "0";
         }
     }
 
