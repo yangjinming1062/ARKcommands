@@ -11,15 +11,12 @@ namespace ARKcommands
     {
         public static void DatS(List<ARKCommand> oData)
         {
-            if (File.Exists("DATA.dat"))
+            using (FileStream stream = new FileStream(@"DATA.dat", FileMode.Create))
             {
-                using (FileStream stream = new FileStream(@"DATA.dat", FileMode.Create))
-                {
-                    BinaryFormatter bFormat = new BinaryFormatter();
-                    bFormat.Serialize(stream, oData);
-                }
+                BinaryFormatter bFormat = new BinaryFormatter();
+                bFormat.Serialize(stream, oData);
             }
-            else
+            if (File.Exists("DATA.xml"))
             {
                 XmlS(oData);
             }

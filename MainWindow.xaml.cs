@@ -30,7 +30,7 @@ namespace ARKcommands
 
         private void BtAdd_Click(object sender, RoutedEventArgs e)
         {
-            AddWindow addWindow = new AddWindow();
+            AddWindow addWindow = new AddWindow(ALLCommands);
             addWindow.Owner = Application.Current.MainWindow;
             addWindow.ShowDialog();
             ALLCommands = function.DatUnS();
@@ -86,6 +86,8 @@ namespace ARKcommands
                     command = string.Format(command, txtQuality.Text, "0", "0", txtNum.Text);
                 else if (command.Contains("{2}"))
                     command = string.Format(command, txtNum.Text, txtQuality.Text, (bool)IsBlue.IsChecked ? "1" : "0");
+                else if (command.Contains("{0}"))
+                    command = string.Format(command, txtNum.Text);
             }
             catch { }
             txtResult.Text = command;
@@ -96,7 +98,7 @@ namespace ARKcommands
         {
             if (lsCommandsUI.SelectedItem == null)
                 return;
-            AddWindow addWindow = new AddWindow(lsCommandsUI.SelectedItem as ARKCommand);
+            AddWindow addWindow = new AddWindow(ALLCommands, lsCommandsUI.SelectedItem as ARKCommand);
             addWindow.Owner = Application.Current.MainWindow;
             addWindow.ShowDialog();
             ALLCommands = function.DatUnS();
