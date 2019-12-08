@@ -344,6 +344,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>Deinonychus（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Deinonychus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>7</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>Deinonychus【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Uberraptor/Deinonychus_Character_BP.Deinonychus_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -575,6 +582,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>TEK霸王龙（驯服召唤）【Tek Creatures】</Name>
+    <Command>Gmsummon "BionicRex_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>TEK霸王龙【Tek Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -666,6 +680,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>TEK风神翼龙（驯服召唤）【Tek Creatures】</Name>
+    <Command>Gmsummon "BionicQuetz_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>TEK风神翼龙【Tek Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -678,6 +699,13 @@
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK副栉龙（驯服召唤）【Tek Creatures】</Name>
+    <Command>Gmsummon "BionicPara_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>TEK副栉龙【Tek Creatures】</Name>
@@ -713,6 +741,13 @@
     <Type>武器</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>TEK剑龙（驯服召唤）【Tek Creatures】</Name>
+    <Command>Gmsummon "BionicStego_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>TEK剑龙【Tek Creatures】</Name>
@@ -995,6 +1030,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>TEK迅猛龙（驯服召唤）【Tek Creatures】</Name>
+    <Command>Gmsummon "BionicRaptor_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>TEK迅猛龙【Tek Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Raptor/BionicRaptor_Character_BP.BionicRaptor_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1142,6 +1184,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>阿根廷巨鹰（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Argent_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>阿根廷巨鹰【Birds】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1177,6 +1226,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>鮟鱇鱼（驯服召唤）【Fish】</Name>
+    <Command>Gmsummon "Angler_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>鮟鱇鱼【Fish】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1196,6 +1252,13 @@
     <Type />
     <Map>0</Map>
     <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>霸王龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Rex_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>霸王龙【Dinosaurs】</Name>
@@ -1245,6 +1308,13 @@
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>斑龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Megalosaurus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>斑龙【Dinosaurs】</Name>
@@ -1373,6 +1443,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>冰原泰坦（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "IceKaiju_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>冰原泰坦【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/Extinction/Dinos/IceKaiju/IceKaiju_Character_BP.IceKaiju_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1443,6 +1520,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>部落重命名</Name>
+    <Command>RenameTribe {0} {1}</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>采血器</Name>
     <Command>giveitemnum 44 {0} {1} {2}</Command>
     <Type>其他</Type>
@@ -1462,6 +1546,13 @@
     <Type>资源</Type>
     <Map>3</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沧龙（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Mosa_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>沧龙【Reptiles】</Name>
@@ -1548,6 +1639,13 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>传送至你当前面对地点</Name>
+    <Command>admincheat teleport</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>垂直电缆</Name>
     <Command>giveitemnum 194 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -1560,6 +1658,13 @@
     <Type>消耗</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>刺面龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Spindles_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>刺面龙【Fantasy Creatures】</Name>
@@ -1583,6 +1688,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>大地懒（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Megatherium_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>大地懒【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1602,6 +1714,13 @@
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>大角鹿（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Stag_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>大角鹿【Mammals】</Name>
@@ -1695,6 +1814,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>袋狮（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Thylacoleo_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>袋狮【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1721,6 +1847,13 @@
     <Type>其他</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>淡水碳龟（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Turtle_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>淡水碳龟【Reptiles】</Name>
@@ -1751,11 +1884,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>盗首螈（驯服召唤）【Amphibians】</Name>
+    <Command>Gmsummon "Diplocaulus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>盗首螈【Amphibians】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP.Diplocaulus_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>灯泡犬（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "LanternPug_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>灯泡犬【Fantasy Creatures】</Name>
@@ -1770,6 +1917,13 @@
     <Type>装备</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>邓氏鱼（驯服召唤）【Fish】</Name>
+    <Command>Gmsummon "Dunkle_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>邓氏鱼【Fish】</Name>
@@ -1791,6 +1945,13 @@
     <Type>建筑</Type>
     <Map>6</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>帝鳄（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Sarco_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>帝鳄【Reptiles】</Name>
@@ -1856,6 +2017,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>电鳗（驯服召唤）【Fish】</Name>
+    <Command>Gmsummon "Eel_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>电鳗【Fish】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Eel/Eel_Character_BP.Eel_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -1919,6 +2087,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>毒蜥（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Basilisk_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>毒蜥【Fantasy Creatures】</Name>
+    <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>毒蜥鞍</Name>
     <Command>cheat giveitem "Blueprint'/Game/Aberration/Dinos/Basilisk/PrimalItemArmor_BasiliskSaddle.PrimalItemArmor_BasiliskSaddle'" {0} {1} {2}</Command>
     <Type>龙鞍</Type>
@@ -1940,11 +2122,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>独角兽（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Equus_Character_BP_Unicorn_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>独角兽【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Unicorn.Equus_Character_BP_Unicorn'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渡渡霸王龙（驯服召唤）【Event Creatures】</Name>
+    <Command>Gmsummon "DodoRex_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>渡渡霸王龙【Event Creatures】</Name>
@@ -1966,6 +2162,13 @@
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渡渡鸟（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Dodo_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>渡渡鸟【Birds】</Name>
@@ -2001,6 +2204,13 @@
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>翻滚鼠（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "MoleRat_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>翻滚鼠【Fantasy Creatures】</Name>
@@ -2164,6 +2374,13 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>飞龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Wyvern_Character_BP_Base_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>飞龙【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2241,6 +2458,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>风神翼龙（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Quetz_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>风神翼龙【Reptiles】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2269,11 +2493,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>凤凰（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Phoenix_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>凤凰【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>3</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蝠鲼（驯服召唤）【Fish】</Name>
+    <Command>Gmsummon "Manta_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>蝠鲼【Fish】</Name>
@@ -2430,6 +2668,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>副栉龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Para_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>副栉龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2456,6 +2701,13 @@
     <Type>恐龙</Type>
     <Map>6</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>嘎查（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Gacha_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>嘎查【Fantasy Creatures】</Name>
@@ -2549,6 +2801,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>古巨蜥（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Megalania_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>古巨蜥【Reptiles】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP.Megalania_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2577,6 +2836,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>古马陆（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Arthro_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>古马陆【Invertebrates】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2589,6 +2855,13 @@
     <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>古神翼龙（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Tapejara_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>古神翼龙【Reptiles】</Name>
@@ -2745,6 +3018,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>骇鸟（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "TerrorBird_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>骇鸟【Birds】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2771,6 +3051,13 @@
     <Type>资源</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>寒冰飞龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Ragnarok_Wyvern_Override_Ice_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>5</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>寒冰飞龙【Fantasy Creatures】</Name>
@@ -2850,6 +3137,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>厚鼻龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Pachyrhino_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>厚鼻龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2892,6 +3186,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>滑齿龙（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Liopleurodon_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>滑齿龙【Reptiles】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Liopleurodon/Liopleurodon_Character_BP.Liopleurodon_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -2932,6 +3233,13 @@
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>黄昏鸟（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Hesperornis_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>黄昏鸟【Birds】</Name>
@@ -2990,6 +3298,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>火鸡（驯服召唤）【Event Creatures】</Name>
+    <Command>Gmsummon "TurkeyBase_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>火鸡【Event Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dodo/TurkeyBase_Character_BP.TurkeyBase_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3001,13 +3316,6 @@
     <Command>GiveItem "blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_ArrowFlame.PrimalItemAmmo_ArrowFlame'" {0} {1} {2}</Command>
     <Type>弹药</Type>
     <Map>3</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>火箭弹仓</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_RocketPod.PrimalItemAmmo_RocketPod'" {0} {1} {2}</Command>
-    <Type>装备</Type>
-    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -3044,6 +3352,13 @@
     <Type>弹药</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>火焰飞龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Wyvern_Character_BP_Fire_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>火焰飞龙【Fantasy Creatures】</Name>
@@ -3093,6 +3408,13 @@
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>机甲（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Mek_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>机甲【Fantasy Creatures】</Name>
@@ -3151,11 +3473,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变安康鱼（驯服召唤）【Fish】</Name>
+    <Command>Gmsummon "Angler_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变安康鱼【Fish】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP_Aberrant.Angler_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变斑龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Megalosaurus_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变斑龙【Dinosaurs】</Name>
@@ -3165,11 +3501,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变淡水碳龟（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Turtle_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变淡水碳龟【Reptiles】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP_Aberrant.Turtle_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变盗首螈（驯服召唤）【Amphibians】</Name>
+    <Command>Gmsummon "Diplocaulus_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变盗首螈【Amphibians】</Name>
@@ -3179,11 +3529,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变帝鳄（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Sarco_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变帝鳄【Reptiles】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP_Aberrant.Sarco_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变电鳗（驯服召唤）【Fish】</Name>
+    <Command>Gmsummon "Eel_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变电鳗【Fish】</Name>
@@ -3193,11 +3557,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变渡渡鸟（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Dodo_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变渡渡鸟【Birds】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Aberrant.Dodo_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变蝠鲼（驯服召唤）【Fish】</Name>
+    <Command>Gmsummon "Manta_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变蝠鲼【Fish】</Name>
@@ -3207,6 +3585,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变副栉龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Para_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变副栉龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP_Aberrant.Para_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3214,11 +3599,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变古巨蜥（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Megalania_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变古巨蜥【Reptiles】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP_Aberrant.Megalania_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变古马陆（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Arthro_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变古马陆【Invertebrates】</Name>
@@ -3235,6 +3634,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变脊背龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Spino_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变脊背龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP_Aberrant.Spino_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3242,11 +3648,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变甲龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Ankylo_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变甲龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP_Aberrant.Ankylo_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变剑龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Stego_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变剑龙【Dinosaurs】</Name>
@@ -3263,11 +3683,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变巨犀（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Paracer_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变巨犀【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP_Aberrant.Paracer_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变巨蝎（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Scorpion_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变巨蝎【Invertebrates】</Name>
@@ -3277,11 +3711,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变巨猿（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Bigfoot_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变巨猿【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP_Aberrant.Bigfoot_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变恐熊（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Direbear_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变恐熊【Mammals】</Name>
@@ -3291,11 +3739,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变梁龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Diplodocus_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变梁龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP_Aberrant.Diplodocus_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变玛瑙螺（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Achatina_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变玛瑙螺【Invertebrates】</Name>
@@ -3305,11 +3767,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变绵羊（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Sheep_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变绵羊【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Sheep/Sheep_Character_BP_Aberrant.Sheep_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变魔鬼娃（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Toad_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变魔鬼娃【Reptiles】</Name>
@@ -3319,11 +3795,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变牛龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Carno_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变牛龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP_Aberrant.Carno_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变庞马（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Equus_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变庞马【Mammals】</Name>
@@ -3340,6 +3830,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变蜣螂（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "DungBeetle_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变蜣螂【Invertebrates】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3347,11 +3844,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变禽龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Iguanodon_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变禽龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP_Aberrant.Iguanodon_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变三角龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Trike_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变三角龙【Dinosaurs】</Name>
@@ -3368,6 +3879,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变麝足兽（驯服召唤）【Synapsids】</Name>
+    <Command>Gmsummon "Moschops_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变麝足兽【Synapsids】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP_Aberrant.Moschops_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3382,11 +3900,39 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变兽头兽（驯服召唤）【Synapsids】</Name>
+    <Command>Gmsummon "Purlovia_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变兽头兽【Synapsids】</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP_Aberrant.Purlovia_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变双型齿翼龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Dimorph_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变双型齿翼龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP_Aberrant.Dimorph_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变水龙兽（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Lystro_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变水龙兽【Dinosaurs】</Name>
@@ -3403,11 +3949,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变水獭（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Otter_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变水獭【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Otter/Otter_Character_BP_Aberrant.Otter_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变泰坦巨蟒（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "BoaFrill_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变泰坦巨蟒【Reptiles】</Name>
@@ -3417,11 +3977,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变星尾兽（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Doed_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变星尾兽【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP_Aberrant.Doed_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变迅猛龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Raptor_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变迅猛龙【Dinosaurs】</Name>
@@ -3431,6 +4005,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变异齿龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Dimetro_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变异齿龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP_Aberrant.Dimetro_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3438,11 +4019,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>畸变蜘蛛（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "SpiderS_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>畸变蜘蛛【Invertebrates】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Spider-Small/SpiderS_Character_BP_Aberrant.SpiderS_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>畸变重爪龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Baryonyx_Character_BP_Aberrant_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>畸变重爪龙【Dinosaurs】</Name>
@@ -3494,6 +4089,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>棘背龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Spino_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>棘背龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3513,6 +4115,13 @@
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>棘蜥（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "SpineyLizard_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>棘蜥【Reptiles】</Name>
@@ -3655,6 +4264,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>甲龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Ankylo_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>甲龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3746,6 +4362,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>剑齿虎（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Saber_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>剑齿虎【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -3758,6 +4381,13 @@
     <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>剑龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Stego_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>剑龙【Dinosaurs】</Name>
@@ -3779,6 +4409,13 @@
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>渐新象（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Phiomia_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>渐新象【Mammals】</Name>
@@ -3816,11 +4453,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>僵尸渡渡鸟（驯服召唤）【Event Creatures】</Name>
+    <Command>Gmsummon "ZombieDodo_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>僵尸渡渡鸟【Event Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dodo/ZombieDodo_Character_BP.ZombieDodo_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>僵尸火焰飞龙（驯服召唤）【Event Creatures】</Name>
+    <Command>Gmsummon "Wyvern_Character_BP_ZombieFire_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>僵尸火焰飞龙【Event Creatures】</Name>
@@ -3830,11 +4481,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>僵尸剧毒飞龙（驯服召唤）【Event Creatures】</Name>
+    <Command>Gmsummon "Wyvern_Character_BP_ZombiePoison_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>僵尸剧毒飞龙【Event Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>3</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>僵尸闪电飞龙（驯服召唤）【Event Creatures】</Name>
+    <Command>Gmsummon "Wyvern_Character_BP_ZombieLightning_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>僵尸闪电飞龙【Event Creatures】</Name>
@@ -3884,6 +4549,13 @@
     <Type>资源</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>劫掠者（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "CaveWolf_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>劫掠者【Fantasy Creatures】</Name>
@@ -4264,11 +4936,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>精英TEK霸王龙（驯服召唤）【Alpha Creatures】</Name>
+    <Command>Gmsummon "MegaRex_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>精英TEK霸王龙【Alpha Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英霸王龙（驯服召唤）【Alpha Creatures】</Name>
+    <Command>Gmsummon "MegaRex_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>精英霸王龙【Alpha Creatures】</Name>
@@ -4285,6 +4971,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>精英沧龙（驯服召唤）【Alpha Creatures】</Name>
+    <Command>Gmsummon "Mosa_Character_BP_Mega_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>精英沧龙【Alpha Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP_Mega.Mosa_Character_BP_Mega'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4299,11 +4992,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>精英火焰飞龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "MegaWyvern_Character_BP_Fire_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>精英火焰飞龙【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/MegaWyvern_Character_BP_Fire.MegaWyvern_Character_BP_Fire'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>3</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英巨齿鲨（驯服召唤）【Alpha Creatures】</Name>
+    <Command>Gmsummon "MegaMegalodon_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>精英巨齿鲨【Alpha Creatures】</Name>
@@ -4339,6 +5046,13 @@
     <Type>神器</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英牛龙（驯服召唤）【Alpha Creatures】</Name>
+    <Command>Gmsummon "MegaCarno_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>精英牛龙【Alpha Creatures】</Name>
@@ -4381,6 +5095,13 @@
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>精英迅猛龙（驯服召唤）【Alpha Creatures】</Name>
+    <Command>Gmsummon "MegaRaptor_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>精英迅猛龙【Alpha Creatures】</Name>
@@ -4439,6 +5160,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>巨齿鲨（驯服召唤）【Fish】</Name>
+    <Command>Gmsummon "Megalodon_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>巨齿鲨【Fish】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4465,6 +5193,13 @@
     <Type>神器</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨河狸（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Beaver_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>巨河狸【Mammals】</Name>
@@ -4495,6 +5230,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>巨犀（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Paracer_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>巨犀【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4516,6 +5258,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>巨蝎（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Scorpion_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>巨蝎【Invertebrates】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4530,6 +5279,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>巨蟹怪（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Crab_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>巨蟹怪【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4541,6 +5297,20 @@
     <Command>GiveItem "Blueprint'/Game/Aberration/Dinos/Crab/PrimalItemArmor_CrabSaddle.PrimalItemArmor_CrabSaddle'" {0} {1} {2}</Command>
     <Type>龙鞍</Type>
     <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型袋鼠（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Procoptodon_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型袋鼠【Mammals】</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -4600,6 +5370,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>巨型蜜蜂（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Bee_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>巨型蜜蜂【Invertebrates】</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Character_BP.Bee_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>巨型蜜蜂蜂蜜</Name>
     <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Honey.PrimalItemConsumable_Honey'" {0} {1} {2}</Command>
     <Type>消耗</Type>
@@ -4642,11 +5426,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>巨猿（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Bigfoot_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>巨猿【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>剧毒飞龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Wyvern_Character_BP_Poison_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>剧毒飞龙【Fantasy Creatures】</Name>
@@ -4726,6 +5524,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>肯氏龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Kentro_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>肯氏龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4752,6 +5557,13 @@
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>恐狼（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Direwolf_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>恐狼【Mammals】</Name>
@@ -4831,6 +5643,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>恐熊（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Direbear_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>恐熊【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4894,6 +5713,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>雷龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Sauropod_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>雷龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -4948,6 +5774,13 @@
     <Type>资源</Type>
     <Map>6</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>力神机甲（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "MegaMek_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>力神机甲【Fantasy Creatures】</Name>
@@ -5006,6 +5839,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>镰刀龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Therizino_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>镰刀龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -5034,6 +5874,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>梁龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Diplodocus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>梁龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -5060,6 +5907,13 @@
     <Type>其他</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>鬣齿兽（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Hyaenodon_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>鬣齿兽【Mammals】</Name>
@@ -5094,6 +5948,20 @@
     <Command>GiveItem "blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'" {0} {1} {2}</Command>
     <Type>资源</Type>
     <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>龙王鲸（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Basilosaurus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>龙王鲸【Mammals】</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -5258,6 +6126,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>玛纳加尔姆（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "IceJumper_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>玛纳加尔姆【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -5270,6 +6145,13 @@
     <Type>龙鞍</Type>
     <Map>6</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>玛瑙螺（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Achatina_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>玛瑙螺【Invertebrates】</Name>
@@ -5370,6 +6252,13 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>美颌龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Compy_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>美颌龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -5384,6 +6273,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>猛犸象（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Mammoth_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>猛犸象【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -5396,6 +6292,13 @@
     <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>绵羊（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Sheep_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>绵羊【Mammals】</Name>
@@ -5424,6 +6327,13 @@
     <Type>消耗</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>魔鬼蛙（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Toad_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>魔鬼蛙【Reptiles】</Name>
@@ -5769,6 +6679,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>南方巨龙兽（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Gigant_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>南方巨龙兽【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -5816,6 +6733,13 @@
     <Type>种子</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>牛龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Carno_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>牛龙【Dinosaurs】</Name>
@@ -5867,6 +6791,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>庞马（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Equus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>庞马【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP.Equus_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -5907,6 +6838,13 @@
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>披毛犀（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Rhino_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>披毛犀【Mammals】</Name>
@@ -5963,6 +6901,13 @@
     <Type>龙鞍</Type>
     <Map>6</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>气囊虫（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "GasBags_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>气囊虫【Fantasy Creatures】</Name>
@@ -6028,6 +6973,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>蜣螂（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "DungBeetle_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>蜣螂【Invertebrates】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -6056,6 +7008,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>窃蛋龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Oviraptor_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>窃蛋龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Oviraptor/Oviraptor_Character_BP.Oviraptor_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -6068,6 +7027,13 @@
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>禽龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Iguanodon_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>禽龙【Dinosaurs】</Name>
@@ -6103,6 +7069,13 @@
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>轻羽鸟（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "LanternBird_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>轻羽鸟【Fantasy Creatures】</Name>
@@ -6161,6 +7134,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>三角龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Trike_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>三角龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -6203,6 +7183,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>森林飞龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Wyvern_Character_BP_Fire_Minion_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>森林飞龙【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/Extinction/Dinos/ForestKaiju/Minion/Wyvern_Character_BP_Fire_Minion.Wyvern_Character_BP_Fire_Minion'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -6215,6 +7202,13 @@
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>森林泰坦（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "ForestKaiju_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>森林泰坦【Fantasy Creatures】</Name>
@@ -6231,6 +7225,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>杀死所有非人类生物（包括被驯服的动物）</Name>
+    <Command>admincheat destroyallenemies</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>杀死所有野生动物</Name>
     <Command>admincheat DestroyWildDinos</Command>
     <Type />
@@ -6243,6 +7244,13 @@
     <Type>资源</Type>
     <Map>3</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙蛾（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Moth_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>沙蛾【Invertebrates】</Name>
@@ -6287,11 +7295,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>沙漠泰坦（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "DesertKaiju_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>沙漠泰坦【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/Extinction/Dinos/DesertKaiju/DesertKaiju_Character_BP.DesertKaiju_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>6</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>沙漠泰坦兽群（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "DesertKaiju_FirstFlockChar_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>沙漠泰坦兽群【Fantasy Creatures】</Name>
@@ -6315,6 +7337,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>砂犷兽（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Chalico_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>砂犷兽【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -6327,6 +7356,13 @@
     <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>闪电飞龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Wyvern_Character_BP_Lightning_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>闪电飞龙【Fantasy Creatures】</Name>
@@ -6343,11 +7379,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>闪角兽（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "LanternGoat_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>闪角兽【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>伤齿龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Troodon_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>伤齿龙【Dinosaurs】</Name>
@@ -6371,6 +7421,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>蛇颈龙（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Plesiosaur_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>蛇颈龙【Reptiles】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -6390,6 +7447,13 @@
     <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>麝足兽（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Moschops_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>麝足兽【Dinosaurs】</Name>
@@ -6467,6 +7531,13 @@
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>狮鹫（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Griffin_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>5</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>狮鹫【Fantasy Creatures】</Name>
@@ -6749,6 +7820,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>始祖鸟（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Archa_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>始祖鸟【Birds】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -6768,6 +7846,13 @@
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>似鸡龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Galli_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>似鸡龙【Dinosaurs】</Name>
@@ -6875,6 +7960,20 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>兽头兽（驯服召唤）【Synapsids】</Name>
+    <Command>Gmsummon "Purlovia_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>兽头兽【Synapsids】</Name>
+    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP.Purlovia_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>书架</Name>
     <Command>giveitemnum 309 {0} {1} {2}</Command>
     <Type>建筑</Type>
@@ -6938,11 +8037,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>双脊龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Dilo_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>双脊龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dilo/Dilo_Character_BP.Dilo_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双坚颌龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Pegomastax_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>双坚颌龙【Dinosaurs】</Name>
@@ -6957,6 +8070,13 @@
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>双型齿翼龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Dimorph_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>双型齿翼龙【Dinosaurs】</Name>
@@ -7050,6 +8170,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>水龙兽（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Lystro_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>水龙兽【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP.Lystro_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -7090,6 +8217,13 @@
     <Type>消耗</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>水獭（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Otter_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>水獭【Mammals】</Name>
@@ -7139,6 +8273,13 @@
     <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>死神国王（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Xenomorph_Character_BP_Male_Tamed_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>死神国王倒钩</Name>
@@ -7582,11 +8723,25 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>泰坦巨龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Titanosaur_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>泰坦巨龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>泰坦巨蟒（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "BoaFrill_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>泰坦巨蟒【Reptiles】</Name>
@@ -7618,14 +8773,14 @@
   </ARKCommand>
   <ARKCommand>
     <Name>泰坦王旗帜</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaiju.PrimalItemStructure_Flag_KingKaiju'" {0} {1} {2}</Command>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaijuMecha.PrimalItemStructure_Flag_KingKaijuMecha'" {0} {1} {2}</Command>
     <Type>其他</Type>
     <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>泰坦王旗帜</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaijuMecha.PrimalItemStructure_Flag_KingKaijuMecha'" {0} {1} {2}</Command>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaiju.PrimalItemStructure_Flag_KingKaiju'" {0} {1} {2}</Command>
     <Type>其他</Type>
     <Map>6</Map>
     <Special />
@@ -7643,6 +8798,13 @@
     <Type>装备</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>螳螂（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Mantis_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>螳螂【Invertebrates】</Name>
@@ -7685,6 +8847,13 @@
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>跳鼠（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Jerboa_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>跳鼠【Mammals】</Name>
@@ -7743,6 +8912,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>秃鹫（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Vulture_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>秃鹫【Birds】</Name>
     <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/Vulture_Character_BP.Vulture_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -7785,6 +8961,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>托斯特巨鱿（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "Tusoteuthis_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>托斯特巨鱿【Invertebrates】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -7797,6 +8980,13 @@
     <Type>龙鞍</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>驼峰兽（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "camelsaurus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>驼峰兽【Dinosaurs】</Name>
@@ -7839,6 +9029,13 @@
     <Type>龙蛋</Type>
     <Map>6</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>伪齿鸟（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Pela_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>伪齿鸟【Birds】</Name>
@@ -7960,6 +9157,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>无齿翼龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Ptero_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>无齿翼龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -7988,9 +9192,23 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>无名怪【Fantasy Creatures】</Name>
+    <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/ChupaCabra/ChupaCabra_Character_BP.ChupaCabra_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>无名怪毒液</Name>
     <Command>giveitem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'" {0} {1} {2}</Command>
     <Type>神器</Type>
+    <Map>4</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>无名怪女王【Fantasy Creatures】</Name>
+    <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP.Xenomorph_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
     <Map>4</Map>
     <Special />
   </ARKCommand>
@@ -8086,6 +9304,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>小盗龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Microraptor_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>小盗龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Microraptor/Microraptor_Character_BP.Microraptor_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8163,6 +9388,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>星尾兽（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Doed_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>星尾兽【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8191,6 +9423,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>凶齿豨（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Daeodon_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>凶齿豨【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8210,6 +9449,13 @@
     <Type>恐龙</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>雪鸮（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Owl_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>雪鸮【Birds】</Name>
@@ -8254,6 +9500,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>迅猛龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Raptor_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>迅猛龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8289,6 +9542,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>岩龙（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "RockDrake_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>岩龙【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8322,6 +9582,13 @@
     <Type>神器</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>岩石巨人（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "RockGolem_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>岩石巨人【Fantasy Creatures】</Name>
@@ -8380,6 +9647,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>耀尾兽（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "LanternLizard_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>4</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>耀尾兽【Fantasy Creatures】</Name>
     <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/LanternLizard/LanternLizard_Character_BP.LanternLizard_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8408,6 +9682,20 @@
     <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
+    <Name>遗迹傀儡【Fantasy Creatures】</Name>
+    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RubbleGolem_Character_BP.RubbleGolem_Character_BP'" {0} {1} {2} {3}</Command>
+    <Type>恐龙</Type>
+    <Map>3</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>异齿龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Dimetro_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>异齿龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP.Dimetro_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8420,6 +9708,13 @@
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>异特龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Allo_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>异特龙【Dinosaurs】</Name>
@@ -8462,6 +9757,13 @@
     <Type>资源</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>隐身（被所有生物忽略）</Name>
+    <Command>admincheat EnemyInvisible true</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>功能</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>荧光棒</Name>
@@ -8576,6 +9878,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>鱼龙（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Dolphin_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>鱼龙【Reptiles】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8590,6 +9899,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>鱼鸟（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Ichthyornis_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>鱼鸟【Birds】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Ichthyornis/Ichthyornis_Character_BP.Ichthyornis_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -8602,6 +9918,13 @@
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>羽暴龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Yutyrannus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>羽暴龙【Dinosaurs】</Name>
@@ -8700,6 +10023,13 @@
     <Type>资源</Type>
     <Map>4</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>远古企鹅（驯服召唤）【Birds】</Name>
+    <Command>Gmsummon "Kairuku_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>远古企鹅【Birds】</Name>
@@ -9003,6 +10333,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>爪蝠（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Bat_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>爪蝠【Mammals】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Bat/Bat_Character_BP.Bat_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -9039,16 +10376,16 @@
   </ARKCommand>
   <ARKCommand>
     <Name>真菌木头</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedWood.PrimalItemResource_CorruptedWood'" {0} {1} {2}</Command>
+    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood'" {0} {1} {2}</Command>
     <Type>资源</Type>
-    <Map>6</Map>
+    <Map>4</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>真菌木头</Name>
-    <Command>GiveItem "Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood'" {0} {1} {2}</Command>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedWood.PrimalItemResource_CorruptedWood'" {0} {1} {2}</Command>
     <Type>资源</Type>
-    <Map>4</Map>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
@@ -9057,6 +10394,13 @@
     <Type>资源</Type>
     <Map>6</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>蜘蛛（驯服召唤）【Invertebrates】</Name>
+    <Command>Gmsummon "SpiderS_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>蜘蛛【Invertebrates】</Name>
@@ -9085,6 +10429,13 @@
     <Type>建筑</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>执行者（驯服召唤）【Fantasy Creatures】</Name>
+    <Command>Gmsummon "Enforcer_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>6</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>执行者【Fantasy Creatures】</Name>
@@ -9120,6 +10471,13 @@
     <Type>武器</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>中猴（驯服召唤）【Mammals】</Name>
+    <Command>Gmsummon "Monkey_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>中猴【Mammals】</Name>
@@ -9164,6 +10522,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>肿头龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Pachy_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>肿头龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Pachy/Pachy_Character_BP.Pachy_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -9192,6 +10557,13 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
+    <Name>重爪龙（驯服召唤）【Dinosaurs】</Name>
+    <Command>Gmsummon "Baryonyx_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
+  </ARKCommand>
+  <ARKCommand>
     <Name>重爪龙【Dinosaurs】</Name>
     <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP'" {0} {1} {2} {3}</Command>
     <Type>恐龙</Type>
@@ -9211,6 +10583,13 @@
     <Type>龙蛋</Type>
     <Map>0</Map>
     <Special />
+  </ARKCommand>
+  <ARKCommand>
+    <Name>猪鳄（驯服召唤）【Reptiles】</Name>
+    <Command>Gmsummon "Kaprosuchus_Character_BP_C" {0}</Command>
+    <Type>恐龙</Type>
+    <Map>0</Map>
+    <Special>自定义</Special>
   </ARKCommand>
   <ARKCommand>
     <Name>猪鳄【Reptiles】</Name>
@@ -9339,1389 +10718,31 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>部落重命名</Name>
-    <Command>RenameTribe {0} {1}</Command>
-    <Type />
-    <Map>0</Map>
-    <Special>功能</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>传送至你当前面对地点</Name>
-    <Command>admincheat teleport</Command>
-    <Type />
-    <Map>0</Map>
-    <Special>功能</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>杀死所有非人类生物（包括被驯服的动物）</Name>
-    <Command>admincheat destroyallenemies</Command>
-    <Type />
-    <Map>0</Map>
-    <Special>功能</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>毒蜥【Fantasy Creatures】</Name>
-    <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
+    <Name>火箭弹仓</Name>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItemAmmo_RocketPod.PrimalItemAmmo_RocketPod'" {0} {1} {2}</Command>
+    <Type>弹药</Type>
+    <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>Deinonychus（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Deinonychus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>7</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>TEK霸王龙（驯服召唤）【Tek Creatures】</Name>
-    <Command>Gmsummon "BionicRex_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>无名怪【Fantasy Creatures】</Name>
-    <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/ChupaCabra/ChupaCabra_Character_BP.ChupaCabra_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>无名怪女王【Fantasy Creatures】</Name>
-    <Command>SpawnDino "Blueprint'/Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP.Xenomorph_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>隐身（被所有生物忽略）</Name>
-    <Command>admincheat EnemyInvisible true</Command>
-    <Type />
-    <Map>0</Map>
-    <Special>功能</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>TEK风神翼龙（驯服召唤）【Tek Creatures】</Name>
-    <Command>Gmsummon "BionicQuetz_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>TEK副栉龙（驯服召唤）【Tek Creatures】</Name>
-    <Command>Gmsummon "BionicPara_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>TEK剑龙（驯服召唤）【Tek Creatures】</Name>
-    <Command>Gmsummon "BionicStego_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>TEK迅猛龙（驯服召唤）【Tek Creatures】</Name>
-    <Command>Gmsummon "BionicRaptor_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>阿根廷巨鹰（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Argent_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>鮟鱇鱼（驯服召唤）【Fish】</Name>
-    <Command>Gmsummon "Angler_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>霸王龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Rex_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>斑龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Megalosaurus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>龙王鲸（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Basilosaurus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>龙王鲸【Mammals】</Name>
-    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>冰原泰坦（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "IceKaiju_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>沧龙（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Mosa_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>刺面龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Spindles_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>大地懒（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Megatherium_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>大角鹿（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Stag_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>袋狮（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Thylacoleo_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>淡水碳龟（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Turtle_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>盗首螈（驯服召唤）【Amphibians】</Name>
-    <Command>Gmsummon "Diplocaulus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>灯泡犬（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "LanternPug_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>邓氏鱼（驯服召唤）【Fish】</Name>
-    <Command>Gmsummon "Dunkle_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>帝鳄（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Sarco_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>电鳗（驯服召唤）【Fish】</Name>
-    <Command>Gmsummon "Eel_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>毒蜥（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Basilisk_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>独角兽（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Equus_Character_BP_Unicorn_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>渡渡霸王龙（驯服召唤）【Event Creatures】</Name>
-    <Command>Gmsummon "DodoRex_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>渡渡鸟（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Dodo_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>翻滚鼠（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "MoleRat_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>飞龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Wyvern_Character_BP_Base_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>遗迹傀儡【Fantasy Creatures】</Name>
-    <Command>SpawnDino "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RubbleGolem_Character_BP.RubbleGolem_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>风神翼龙（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Quetz_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>凤凰（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Phoenix_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>蝠鲼（驯服召唤）【Fish】</Name>
-    <Command>Gmsummon "Manta_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>副栉龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Para_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>嘎查（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Gacha_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>古巨蜥（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Megalania_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>古马陆（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Arthro_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>古神翼龙（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Tapejara_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>骇鸟（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "TerrorBird_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>寒冰飞龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Ragnarok_Wyvern_Override_Ice_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>5</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>厚鼻龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Pachyrhino_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>滑齿龙（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Liopleurodon_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>黄昏鸟（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Hesperornis_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>火鸡（驯服召唤）【Event Creatures】</Name>
-    <Command>Gmsummon "TurkeyBase_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>火焰飞龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Wyvern_Character_BP_Fire_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>机甲（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Mek_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变安康鱼（驯服召唤）【Fish】</Name>
-    <Command>Gmsummon "Angler_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变斑龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Megalosaurus_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变淡水碳龟（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Turtle_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变盗首螈（驯服召唤）【Amphibians】</Name>
-    <Command>Gmsummon "Diplocaulus_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变帝鳄（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Sarco_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变电鳗（驯服召唤）【Fish】</Name>
-    <Command>Gmsummon "Eel_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变渡渡鸟（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Dodo_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变蝠鲼（驯服召唤）【Fish】</Name>
-    <Command>Gmsummon "Manta_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变副栉龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Para_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变古巨蜥（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Megalania_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变古马陆（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Arthro_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变脊背龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Spino_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变甲龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Ankylo_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变剑龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Stego_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变巨犀（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Paracer_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变巨蝎（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Scorpion_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变巨猿（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Bigfoot_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变恐熊（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Direbear_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变梁龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Diplodocus_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变玛瑙螺（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Achatina_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变绵羊（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Sheep_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变魔鬼娃（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Toad_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变牛龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Carno_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变庞马（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Equus_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变蜣螂（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "DungBeetle_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变禽龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Iguanodon_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变三角龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Trike_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变麝足兽（驯服召唤）【Synapsids】</Name>
-    <Command>Gmsummon "Moschops_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变兽头兽（驯服召唤）【Synapsids】</Name>
-    <Command>Gmsummon "Purlovia_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变兽头兽【Synapsids】</Name>
-    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP_Aberrant.Purlovia_Character_BP_Aberrant'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>兽头兽【Synapsids】</Name>
-    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP.Purlovia_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>兽头兽（驯服召唤）【Synapsids】</Name>
-    <Command>Gmsummon "Purlovia_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变双型齿翼龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Dimorph_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变水龙兽（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Lystro_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变水獭（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Otter_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变泰坦巨蟒（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "BoaFrill_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变星尾兽（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Doed_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变迅猛龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Raptor_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变异齿龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Dimetro_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变蜘蛛（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "SpiderS_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>畸变重爪龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Baryonyx_Character_BP_Aberrant_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>棘背龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Spino_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>棘蜥（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "SpineyLizard_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>甲龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Ankylo_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>剑齿虎（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Saber_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>剑龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Stego_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>渐新象（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Phiomia_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>僵尸渡渡鸟（驯服召唤）【Event Creatures】</Name>
-    <Command>Gmsummon "ZombieDodo_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>僵尸火焰飞龙（驯服召唤）【Event Creatures】</Name>
-    <Command>Gmsummon "Wyvern_Character_BP_ZombieFire_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>僵尸剧毒飞龙（驯服召唤）【Event Creatures】</Name>
-    <Command>Gmsummon "Wyvern_Character_BP_ZombiePoison_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>僵尸闪电飞龙（驯服召唤）【Event Creatures】</Name>
-    <Command>Gmsummon "Wyvern_Character_BP_ZombieLightning_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>劫掠者（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "CaveWolf_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>精英TEK霸王龙（驯服召唤）【Alpha Creatures】</Name>
-    <Command>Gmsummon "MegaRex_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>精英霸王龙（驯服召唤）【Alpha Creatures】</Name>
-    <Command>Gmsummon "MegaRex_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>精英沧龙（驯服召唤）【Alpha Creatures】</Name>
-    <Command>Gmsummon "Mosa_Character_BP_Mega_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>精英火焰飞龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "MegaWyvern_Character_BP_Fire_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>精英巨齿鲨（驯服召唤）【Alpha Creatures】</Name>
-    <Command>Gmsummon "MegaMegalodon_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>精英牛龙（驯服召唤）【Alpha Creatures】</Name>
-    <Command>Gmsummon "MegaCarno_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>精英迅猛龙（驯服召唤）【Alpha Creatures】</Name>
-    <Command>Gmsummon "MegaRaptor_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨齿鲨（驯服召唤）【Fish】</Name>
-    <Command>Gmsummon "Megalodon_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨河狸（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Beaver_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨蟹怪（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Crab_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨犀（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Paracer_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨蝎（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Scorpion_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨猿（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Bigfoot_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>剧毒飞龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Wyvern_Character_BP_Poison_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>肯氏龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Kentro_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>恐狼（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Direwolf_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>恐熊（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Direbear_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>雷龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Sauropod_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>力神机甲（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "MegaMek_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>镰刀龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Therizino_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>梁龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Diplodocus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>鬣齿兽（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Hyaenodon_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>玛纳加尔姆（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "IceJumper_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>玛瑙螺（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Achatina_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>美颌龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Compy_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>猛犸象（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Mammoth_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>绵羊（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Sheep_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>魔鬼蛙（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Toad_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>牛龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Carno_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>南方巨龙兽（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Gigant_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>庞马（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Equus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>披毛犀（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Rhino_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>气囊虫（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "GasBags_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>蜣螂（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "DungBeetle_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>窃蛋龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Oviraptor_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>禽龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Iguanodon_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>轻羽鸟（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "LanternBird_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>三角龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Trike_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>猪鳄（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Kaprosuchus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>重爪龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Baryonyx_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>森林飞龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Wyvern_Character_BP_Fire_Minion_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>森林泰坦（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "ForestKaiju_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>沙蛾（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Moth_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>沙漠泰坦（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "DesertKaiju_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>沙漠泰坦兽群（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "DesertKaiju_FirstFlockChar_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>砂犷兽（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Chalico_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>闪电飞龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Wyvern_Character_BP_Lightning_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>闪角兽（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "LanternGoat_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>伤齿龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Troodon_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>蛇颈龙（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Plesiosaur_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>麝足兽（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Moschops_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>狮鹫（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Griffin_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>5</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>始祖鸟（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Archa_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>似鸡龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Galli_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>双脊龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Dilo_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>双坚颌龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Pegomastax_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>双型齿翼龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Dimorph_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>水龙兽（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Lystro_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>水獭（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Otter_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>死神国王（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Xenomorph_Character_BP_Male_Tamed_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>泰坦巨蟒（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "BoaFrill_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>螳螂（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Mantis_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>异齿龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Dimetro_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>异特龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Allo_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>肿头龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Pachy_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>泰坦巨龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Titanosaur_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>跳鼠（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Jerboa_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>秃鹫（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Vulture_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>托斯特巨鱿（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Tusoteuthis_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>驼峰兽（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "camelsaurus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>伪齿鸟（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Pela_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>无齿翼龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Ptero_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>小盗龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Microraptor_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>星尾兽（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Doed_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>凶齿豨（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Daeodon_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>雪鸮（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Owl_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>迅猛龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Raptor_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨型蜜蜂（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "Bee_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨型蜜蜂【Invertebrates】</Name>
-    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Bee/Bee_Character_BP.Bee_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>岩龙（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "RockDrake_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>岩石巨人（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "RockGolem_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>3</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>耀尾兽（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "LanternLizard_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>4</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>鱼龙（驯服召唤）【Reptiles】</Name>
-    <Command>Gmsummon "Dolphin_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>鱼鸟（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Ichthyornis_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>羽暴龙（驯服召唤）【Dinosaurs】</Name>
-    <Command>Gmsummon "Yutyrannus_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨型袋鼠（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Procoptodon_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>巨型袋鼠【Mammals】</Name>
-    <Command>SpawnDino "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'" {0} {1} {2} {3}</Command>
-    <Type>恐龙</Type>
+    <Name>AwesomeTeleporter</Name>
+    <Command>gfi AwesomeTeleporter {0} {1} {2}</Command>
+    <Type>其他</Type>
     <Map>0</Map>
-    <Special />
+    <Special>Mod</Special>
   </ARKCommand>
   <ARKCommand>
-    <Name>远古企鹅（驯服召唤）【Birds】</Name>
-    <Command>Gmsummon "Kairuku_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
+    <Name>AwesomeTeleporterRemote</Name>
+    <Command>gfi AwesomeTeleporterRemote {0} {1} {2}</Command>
+    <Type>其他</Type>
     <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>爪蝠（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Bat_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>蜘蛛（驯服召唤）【Invertebrates】</Name>
-    <Command>Gmsummon "SpiderS_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>0</Map>
-    <Special>自定义</Special>
-  </ARKCommand>
-  <ARKCommand>
-    <Name>执行者（驯服召唤）【Fantasy Creatures】</Name>
-    <Command>Gmsummon "Enforcer_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
-    <Map>6</Map>
-    <Special>自定义</Special>
+    <Special>Mod</Special>
   </ARKCommand>
   <ARKCommand>
-    <Name>中猴（驯服召唤）【Mammals】</Name>
-    <Command>Gmsummon "Monkey_Character_BP_C" {0}</Command>
-    <Type>恐龙</Type>
+    <Name>AwesomeDinoTracker</Name>
+    <Command>gfi AwesomeDinoTracker {0} {1} {2}</Command>
+    <Type>其他</Type>
     <Map>0</Map>
-    <Special>自定义</Special>
+    <Special>Mod</Special>
   </ARKCommand>
 </ArrayOfARKCommand>
