@@ -13,7 +13,6 @@ namespace ARKcommands
     {
         public MainWindow() => InitializeComponent();
 
-        ObservableCollection<ARKCommand> lsCommands;
         List<ARKCommand> ALLCommands = new List<ARKCommand>();
         string fType = "全部";
         string fMap = "0";
@@ -24,52 +23,80 @@ namespace ARKcommands
         {
             ALLCommands = function.DatUnS();
             ALLCommands.Sort(new ARKCompare());
-            lsCommands = new ObservableCollection<ARKCommand>(ALLCommands);
-            lsCommandsUI.ItemsSource = lsCommands;
+            lsCommandsUI.ItemsSource = new ObservableCollection<ARKCommand>(ALLCommands);
         }
 
         private void BtAdd_Click(object sender, RoutedEventArgs e)
         {
-            AddWindow addWindow = new AddWindow(ALLCommands);
+            AddWindow addWindow = new AddWindow();
             addWindow.Owner = Application.Current.MainWindow;
             addWindow.ShowDialog();
             ALLCommands = function.DatUnS();
             Notified();
         }
 
-        private void Notified()
+        private void Notified(List<ARKCommand> ls = null)
         {
-            List<ARKCommand> ls = ALLCommands.Where(x => (fType == "全部" || x.Type == fType) &&
-                    (fMap == "0" || x.Map == fMap) && (fSP == "全部" || x.Special == fSP) && (fSearch == "" || x.Name.Contains(fSearch))).ToList();
-            ls.Sort(new ARKCompare());
-            lsCommands = new ObservableCollection<ARKCommand>(ls);
-            lsCommandsUI.ItemsSource = lsCommands;
+            ls = ALLCommands.Where(x => (fType == "全部" || x.Type == fType) && (fMap == "0" || x.Map == fMap)
+                && (fSP == "全部" || x.Special == fSP)).ToList();
+            lsCommandsUI.ItemsSource = new ObservableCollection<ARKCommand>(ls);
         }
 
         private void rbType_Click(object sender, RoutedEventArgs e)
         {
+            if (rbSP_Func.IsChecked.HasValue && rbSP_Func.IsChecked.Value)
+            {
+                rbSP_All.IsChecked = true;
+                fSP = "全部";
+            }
             lbNum.Content = rbDragon.IsChecked.Value ? "等级" : "数量";
             lbQuality.Content = rbDragon.IsChecked.Value ? "距离" : "品质";
+            IsBlue.Visibility = rbDragon.IsChecked.Value ? Visibility.Visible : Visibility.Hidden;
             fType = (e.OriginalSource as RadioButton).Content.ToString();
-            Notified();
+            if (string.IsNullOrEmpty(txtSearch.Text))
+                Notified();
+            else
+                txtSearch.Text = "";
         }
 
         private void rbMap_Click(object sender, RoutedEventArgs e)
         {
             fMap = (e.OriginalSource as RadioButton).Tag.ToString();
-            Notified();
+            if (string.IsNullOrEmpty(txtSearch.Text))
+                Notified();
+            else
+                txtSearch.Text = "";
         }
 
         private void rbSpecial_Click(object sender, RoutedEventArgs e)
         {
             fSP = (e.OriginalSource as RadioButton).Content.ToString();
-            Notified();
+            if(rbSP_Func.IsChecked.Value)
+            {
+                rbType_All.IsChecked = true;
+                rbMap_All.IsChecked = true;
+                fType = "全部";
+                fMap = "0";
+            }
+            if (string.IsNullOrEmpty(txtSearch.Text))
+                Notified();
+            else
+                txtSearch.Text = "";
         }
 
         private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
-            fSearch = txtSearch.Text;
-            Notified();
+            fSearch = txtSearch.Text.ToLower();
+            List<ARKCommand> ls = ALLCommands.Where(x => (x.Name.ToLower().Contains(fSearch) && IsSearchName.IsChecked.Value)
+                || (x.Command.ToLower().Contains(fSearch) && IsSearchCommand.IsChecked.Value)).ToList();
+            if (IsSearchAll.IsChecked.Value)
+            {
+                lsCommandsUI.ItemsSource = new ObservableCollection<ARKCommand>(ls);
+            }
+            else
+            {
+                Notified(ls);
+            }
         }
 
         private void lsCommandsUI_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -104,5 +131,7 @@ namespace ARKcommands
             ALLCommands = function.DatUnS();
             Notified();
         }
+
+        private void SearchCB_Click(object sender, RoutedEventArgs e) => txtSearch_TextChanged(null, null);
     }
 }

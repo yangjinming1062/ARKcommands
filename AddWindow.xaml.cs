@@ -8,10 +8,10 @@ namespace ARKcommands
     /// </summary>
     public partial class AddWindow : Window
     {
-        public AddWindow(List<ARKCommand> ls)
+        public AddWindow()
         {
             InitializeComponent();
-            lsCommands = ls;
+            lsCommands = function.DatUnS();
         }
 
         public AddWindow(List<ARKCommand> ls, ARKCommand cur)
@@ -30,7 +30,7 @@ namespace ARKcommands
 
         private void CLear()
         {
-            //txtName.Text = "";
+            txtName.Text = "";
             txtCommand.Text = "";
             //cmbType.SelectedItem = null;
             //cmbMap.SelectedItem = null;
@@ -44,7 +44,7 @@ namespace ARKcommands
             ARKCommand command = new ARKCommand()
             {
                 Name = txtName.Text.Trim(),
-                Command = txtCommand.Text.Trim() + weizhui.Text,//"SpawnDino " + 
+                Command = txtCommand.Text.Trim() + weizhui.Text,
                 Type = cmbType.Text,
                 Map = function.UnTransmit(cmbMap.Text),
                 Special = cmbSP.Text

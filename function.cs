@@ -21,11 +21,12 @@ namespace ARKcommands
                 XmlS(oData);
             }
         }
+
         public static List<ARKCommand> DatUnS()
         {
             try
             {
-                List<ARKCommand> ls;
+                List<ARKCommand> ls = new List<ARKCommand>();
                 if (File.Exists("DATA.dat"))
                 {
                     FileStream stream = new FileStream(@"DATA.dat", FileMode.Open);
@@ -50,6 +51,7 @@ namespace ARKcommands
                 xmlserilize.Serialize(stream, oData);
             }
         }
+
         private static List<ARKCommand> XmlUnS()
         {
             try
@@ -63,36 +65,9 @@ namespace ARKcommands
             catch { return new List<ARKCommand>(); }
         }
 
-        public static string Transmit(string Code)
-        {
-            switch (Code)
-            {
-                case "1": return "孤岛";
-                case "2": return "中心岛";
-                case "3": return "焦土";
-                case "4": return "畸变";
-                case "5": return "仙境";
-                case "6": return "灭绝";
-                case "7": return "瓦尔盖罗";
-            }
-            return "";
-        }
+        public static string Transmit(string num) => ((MapEnum)int.Parse(num)).ToString();
 
-        public static string UnTransmit(string name)
-        {
-            switch (name)
-            {
-                case "通用": return "0";
-                case "孤岛": return "1";
-                case "中心岛": return "2";
-                case "焦土": return "3";
-                case "畸变": return "4";
-                case "仙境": return "5";
-                case "灭绝": return "6";
-                case "瓦尔盖罗": return "7";
-            }
-            return "0";
-        }
+        public static string UnTransmit(string name) => ((int)Enum.Parse(typeof(MapEnum), name)).ToString();
     }
 
     [Serializable]
@@ -111,5 +86,22 @@ namespace ARKcommands
         public string Special { get; set; }
 
         public override string ToString() => string.Format("{0} [{1}] [{2}] [{3}]", Name, Type, function.Transmit(Map), Special).Replace("[]", "");
+    }
+
+    public enum MapEnum
+    {
+        通用,
+        孤岛,
+        中心岛,
+        焦土,
+        畸变,
+        仙境,
+        灭绝,
+        瓦尔盖罗
+    }
+
+    class ARKCompare : IComparer<ARKCommand>
+    {
+        public int Compare(ARKCommand x, ARKCommand y) => string.Compare(x.Name, y.Name);
     }
 }
