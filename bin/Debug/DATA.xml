@@ -10745,4 +10745,11 @@
     <Map>0</Map>
     <Special />
   </ARKCommand>
+  <ARKCommand>
+    <Name>ACM</Name>
+    <Command>scriptcommand acm scan me</Command>
+    <Type />
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
 </ArrayOfARKCommand>
