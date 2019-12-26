@@ -67,7 +67,7 @@ namespace ARKcommands
 
         public static string Transmit(string num) => ((MapEnum)int.Parse(num)).ToString();
 
-        public static string UnTransmit(string name) => ((int)Enum.Parse(typeof(MapEnum), name)).ToString();
+        public static string UnTransmit(string name) => ((int)Enum.Parse(typeof(MapEnum), string.IsNullOrEmpty(name) ? "通用" : name)).ToString();
     }
 
     [Serializable]
