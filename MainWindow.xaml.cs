@@ -32,31 +32,46 @@ namespace ARKcommands
             addWindow.Owner = Application.Current.MainWindow;
             addWindow.ShowDialog();
             ALLCommands = function.DatUnS();
+            ALLCommands.Sort(new ARKCompare());
             Notified();
         }
 
         private void Notified(List<ARKCommand> ls = null)
         {
-            ls = ALLCommands.Where(x => (fType == "全部" || x.Type == fType) && (fMap == "0" || x.Map == fMap)
-                && (fSP == "全部" || x.Special == fSP)).ToList();
+            if (ls == null)
+                ls = ALLCommands.Where(x => (fType == "全部" || x.Type == fType) && (fMap == "0" || x.Map == fMap)
+                    && (fSP == "全部" || x.Special == fSP)).ToList();
+            else
+                ls = ls.Where(x => (fType == "全部" || x.Type == fType) && (fMap == "0" || x.Map == fMap)
+                    && (fSP == "全部" || x.Special == fSP)).ToList();
             lsCommandsUI.ItemsSource = new ObservableCollection<ARKCommand>(ls);
+        }
+
+        private void RadioFind()
+        {
+            bool SearchAll = IsSearchAll.IsChecked.Value;
+            IsSearchAll.IsChecked = false;
+            txtSearch.Text = "";
+            IsSearchAll.IsChecked = SearchAll;
+        }
+
+        private void Dragon(bool IsDragon)
+        {
+            lbNum.Content = IsDragon ? "等级" : "数量";
+            lbQuality.Content = IsDragon ? "距离" : "品质";
+            IsBlue.Visibility = IsDragon ? Visibility.Visible : Visibility.Hidden;
         }
 
         private void rbType_Click(object sender, RoutedEventArgs e)
         {
-            if (rbSP_Func.IsChecked.HasValue && rbSP_Func.IsChecked.Value)
-            {
-                rbSP_All.IsChecked = true;
-                fSP = "全部";
-            }
-            lbNum.Content = rbDragon.IsChecked.Value ? "等级" : "数量";
-            lbQuality.Content = rbDragon.IsChecked.Value ? "距离" : "品质";
-            IsBlue.Visibility = rbDragon.IsChecked.Value ? Visibility.Visible : Visibility.Hidden;
+            rbSP_All.IsChecked = true;
+            fSP = "全部";
+            Dragon(rbDragon.IsChecked.Value);
             fType = (e.OriginalSource as RadioButton).Content.ToString();
             if (string.IsNullOrEmpty(txtSearch.Text))
                 Notified();
             else
-                txtSearch.Text = "";
+                RadioFind();
         }
 
         private void rbMap_Click(object sender, RoutedEventArgs e)
@@ -65,7 +80,7 @@ namespace ARKcommands
             if (string.IsNullOrEmpty(txtSearch.Text))
                 Notified();
             else
-                txtSearch.Text = "";
+                RadioFind();
         }
 
         private void rbSpecial_Click(object sender, RoutedEventArgs e)
@@ -81,7 +96,7 @@ namespace ARKcommands
             if (string.IsNullOrEmpty(txtSearch.Text))
                 Notified();
             else
-                txtSearch.Text = "";
+                RadioFind();
         }
 
         private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
