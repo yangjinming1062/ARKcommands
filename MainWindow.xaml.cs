@@ -59,7 +59,7 @@ namespace ARKcommands
         {
             lbNum.Content = IsDragon ? "等级" : "数量";
             lbQuality.Content = IsDragon ? "距离" : "品质";
-            IsBlue.Visibility = IsDragon ? Visibility.Visible : Visibility.Hidden;
+            IsBlue.Visibility = IsDragon ? Visibility.Hidden : Visibility.Visible;
         }
 
         private void rbType_Click(object sender, RoutedEventArgs e)
