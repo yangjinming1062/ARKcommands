@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <ArrayOfARKCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ARKCommand>
+    <Name>"邪恶" 表情</Name>
+    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Evil.PrimalItemConsumable_UnlockEmote_Evil'" {0} {1} {2}</Command>
+    <Type>其他</Type>
+    <Map>0</Map>
+    <Special />
+  </ARKCommand>
+  <ARKCommand>
     <Name>44 Magnum</Name>
     <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Pistols/Revolver/PrimalItemAmmo_Bullet_44Mag_RWW.PrimalItemAmmo_Bullet_44Mag_RWW'" {0} {1} {2}</Command>
     <Type>弹药</Type>
@@ -60,6 +67,13 @@
     <Name>9x39</Name>
     <Command>cheat giveitem "Blueprint'/Game/Mods/RealWorldWeapons/Snipers/ASVAL/PrimalItemAmmo_AssualtRifleBullet_BaseRWW_9x39.PrimalItemAmmo_AssualtRifleBullet_BaseRWW_9x39'" {0} {1} {2}</Command>
     <Type>弹药</Type>
+    <Map>0</Map>
+    <Special>Mod</Special>
+  </ARKCommand>
+  <ARKCommand>
+    <Name>ACM</Name>
+    <Command>scriptcommand acm scan me</Command>
+    <Type />
     <Map>0</Map>
     <Special>Mod</Special>
   </ARKCommand>
@@ -1164,14 +1178,14 @@
   </ARKCommand>
   <ARKCommand>
     <Name>X异种植物种子</Name>
-    <Command>giveitemnum 391 {0} {1} {2}</Command>
+    <Command>giveitemnum 390 {0} {1} {2}</Command>
     <Type>种子</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>X异种植物种子</Name>
-    <Command>giveitemnum 390 {0} {1} {2}</Command>
+    <Command>giveitemnum 391 {0} {1} {2}</Command>
     <Type>种子</Type>
     <Map>0</Map>
     <Special />
@@ -1376,13 +1390,6 @@
     <Name>暴龙蛋</Name>
     <Command>giveitemnum 291 {0} {1} {2}</Command>
     <Type>龙蛋</Type>
-    <Map>0</Map>
-    <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>暴龙的爪</Name>
-    <Command>giveitemnum 160 {0} {1} {2}</Command>
-    <Type>神器</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
@@ -8794,14 +8801,14 @@
   </ARKCommand>
   <ARKCommand>
     <Name>泰坦王旗帜</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaijuMecha.PrimalItemStructure_Flag_KingKaijuMecha'" {0} {1} {2}</Command>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaiju.PrimalItemStructure_Flag_KingKaiju'" {0} {1} {2}</Command>
     <Type>其他</Type>
     <Map>6</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>泰坦王旗帜</Name>
-    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaiju.PrimalItemStructure_Flag_KingKaiju'" {0} {1} {2}</Command>
+    <Command>cheat giveitem "Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemStructure_Flag_KingKaijuMecha.PrimalItemStructure_Flag_KingKaijuMecha'" {0} {1} {2}</Command>
     <Type>其他</Type>
     <Map>6</Map>
     <Special />
@@ -10691,14 +10698,14 @@
   </ARKCommand>
   <ARKCommand>
     <Name>紫色染料</Name>
-    <Command>giveitemnum 62 {0} {1} {2}</Command>
+    <Command>giveitemnum 68 {0} {1} {2}</Command>
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
   </ARKCommand>
   <ARKCommand>
     <Name>紫色染料</Name>
-    <Command>giveitemnum 68 {0} {1} {2}</Command>
+    <Command>giveitemnum 62 {0} {1} {2}</Command>
     <Type>染料</Type>
     <Map>0</Map>
     <Special />
@@ -10739,17 +10746,10 @@
     <Special />
   </ARKCommand>
   <ARKCommand>
-    <Name>"邪恶" 表情</Name>
-    <Command>giveitem "Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_UnlockEmote_Evil.PrimalItemConsumable_UnlockEmote_Evil'" {0} {1} {2}</Command>
-    <Type>其他</Type>
+    <Name>霸王龙手臂</Name>
+    <Command>giveitemnum 160 {0} {1} {2}</Command>
+    <Type>神器</Type>
     <Map>0</Map>
     <Special />
-  </ARKCommand>
-  <ARKCommand>
-    <Name>ACM</Name>
-    <Command>scriptcommand acm scan me</Command>
-    <Type />
-    <Map>0</Map>
-    <Special>Mod</Special>
   </ARKCommand>
 </ArrayOfARKCommand>
